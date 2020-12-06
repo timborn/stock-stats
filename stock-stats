@@ -29,19 +29,22 @@ def is_tool(name):
     return which(name) is not None
 
 
+##########
+### MAIN 
+##########
+
 # make sure we have the cache folder
-# TODO: create if not there?
 if not os.path.isdir( CACHE ) :
 	os.mkdir( CACHE )
 
 # do we have a file with the name of the symbol we are looking for?
+# check the last modication time.  Is it less than a day old?
 FILE= CACHE + "/" + SYMBOL 
-if os.path.exists( FILE ):
+if os.path.exists( FILE ) and not is_file_older_than_x_days( FILE, 1):
 
-	# check the last modication time.  Is it less than a day old?
-	if not is_file_older_than_x_days( FILE, 1):
-		# return cached copy
-		os.system("cat " + FILE)
+	# return cached copy
+	print("RETURNING CACHED COPY")
+	os.system("cat " + FILE)
 
 # ELSE (all the stuff below gets folded together)
 # ... if too old, fetch & cache (same as if file not found)
