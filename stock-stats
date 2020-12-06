@@ -1,0 +1,42 @@
+#!/usr/local/bin/python3
+# import pyplot as plt
+import os
+import os.path as path
+import time
+
+CACHE = os.path.expanduser("~/.stock-stats-cache")
+SYMBOL = "T"
+
+
+# https://stackoverflow.com/questions/8258145/\
+# in-python-check-if-file-modification-time-is-older-than-a-specific-datetime
+def is_file_older_than_x_days(file, days=1): 
+    file_time = path.getmtime(file) 
+    # Check against 24 hours 
+    return ((time.time() - file_time) / 3600 > 24*days)
+
+# os.path.exists( CACHE )
+
+# make sure we have the cache folder
+# TODO: create if not there?
+if not os.path.isdir( CACHE ) :
+	print('I did not see $HOME/.stock-stats-cache folder')
+	exit(2)
+
+# do we have a file with the name of the symbol we are looking for?
+FILE= CACHE + "/" + SYMBOL 
+if os.path.exists( FILE ):
+	# print("Hooray!  Cache file exists")
+
+	# check the last modication time.  Is it less than a day old?
+	if not is_file_older_than_x_days( FILE, 1):
+		# print("FILE is less than a day old")
+		# return cached copy
+		os.system("cat " + FILE)
+
+# ELSE (all the stuff below gets folded together)
+# ... if too old, fetch & cache (same as if file not found)
+# ... if no file found, fetch data and cache a copy
+else:
+	os.system("stock-stats-nocache " + SYMBOL + ">" + FILE)
+	os.system("cat " + FILE)
