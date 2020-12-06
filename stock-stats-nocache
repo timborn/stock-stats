@@ -9,7 +9,6 @@
 # Example: filtering out one field.  jq is the answer.
 # ./stock-stats  T | jq '."Oper. Margin"'
 #
-# TODO: add caching so we only hit internet at most once per day
 
 import finviz,sys
 
