@@ -1,4 +1,10 @@
 #!/usr/local/bin/python3
+# 
+# If you start getting errors that look like this:
+# parse error: Invalid numeric literal 
+# that appears to be caused by values in the returned JSON that look like "-"
+# Not harmful, but annoying.
+
 import os
 import os.path as path
 import time
