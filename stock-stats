@@ -2,12 +2,14 @@
 import os
 import os.path as path
 import time
+import sys
 
 CACHE = os.path.expanduser("~/.stock-stats-cache")
-SYMBOL = "T"
 
-# TODO: really need to gather stock symbol from command line
-# TODO: add error handling when cmdline empty
+if len(sys.argv) != 2 :
+	print("USAGE: ", sys.argv[0], " <stockSymbol>")
+	sys.exit(2)
+SYMBOL = sys.argv[1]
 
 # https://stackoverflow.com/questions/8258145/\
 # in-python-check-if-file-modification-time-is-older-than-a-specific-datetime
