@@ -62,4 +62,4 @@ else:
 		os.system("cat " + FILE)
 	else:
 		print("ERROR: I need stock-stats-nocache on $PATH")
-		exit(2)
+		exit(3)
