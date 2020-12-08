@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# self test stock-stats
+
 source $HOME/bin/assert.sh
 
 CACHE=$HOME/.stock-stats-cache
@@ -18,18 +20,23 @@ eval set `stat -s $CACHE/T`
 AFTER=$st_mtimespec
 assert_eq $BEFORE $AFTER "FAIL: should uses cache when available"
 
-
-
-
-# TODO: test error case - how to test when stock-stats-nocache not on path?
+### TODO: test error case - how to test when stock-stats-nocache not on path?
 
 ### expect usage when no arg presented
 echo -n "usage msg when no args: "
 stock-stats > /dev/null
 [ $? -eq 2 ] && echo PASS || echo FAIL
 
-# TODO: test that cache is refilled when data is old
-# touch -t 12042046 /Users/timborn/.stock-stats-cache/T
+### refill cache when data is old`
+# warning: this depends on $CACHE/T exists and is current
+
+eval set `stat -s $CACHE/T`
+BEFORE=$st_mtimespec
+touch -t 12042046 $CACHE/T
+stock-stats > /dev/null
+eval set `stat -s $CACHE/T`
+AFTER=$st_mtimespec
+assert_not_eq $BEFORE $AFTER "FAIL: should refill cache when too old"
 
 # what a hack!
 # eval set `stat -s $CACHE/T`
