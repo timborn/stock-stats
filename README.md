@@ -9,3 +9,6 @@ Leveraging finviz website, finviz python module and a bit of python.
 ## To Install (mac):
 - brew install python3
 - pip3 install finviz
+
+## Examples
+$ stock-stats T | jq .
