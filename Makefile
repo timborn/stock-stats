@@ -4,6 +4,7 @@ default:
 	@echo test
 
 install:
+	@pip3 install finviz
 	@cp stock-stats stock-stats-nocache ${HOME}/bin/.
 	@[ ! -e ${HOME}/bin/assert.sh ] && ( mkdir -p ${HOME}/bash; cd ${HOME/bash}; git clone git@github.com:torokmark/assert.sh.git; cp assert.sh/assert.sh ${HOME}/bin ) || :
 	@type brew >/dev/null 2>&1 || { echo you want to install brew; exit 1; }
