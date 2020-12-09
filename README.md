@@ -12,3 +12,13 @@ Leveraging finviz website, finviz python module and a bit of python.
 
 ## Examples
 $ stock-stats T | jq .
+
+# extra a subset and augment, using a variable for the stock symbol
+$ SYM=T
+$ stock-stats $SYM | jq '{ symbol: "'$SYM'", price: .Price, dividend: .Dividend, dividendPct: ."Dividend %" }' 2>/dev/null
+{
+  "symbol": "T",
+  "price": "30.81",
+  "dividend": "2.08",
+  "dividendPct": "6.75%"
+}
