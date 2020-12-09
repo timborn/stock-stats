@@ -4,6 +4,9 @@
 # parse error: Invalid numeric literal 
 # that appears to be caused by values in the returned JSON that look like "-"
 # Not harmful, but annoying.
+#
+# Helpful Translations:
+# "Earnings": "Oct 30 BMO",    <-- Before Market Opened
 
 import os
 import os.path as path
