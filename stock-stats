@@ -52,7 +52,6 @@ FILE= CACHE + "/" + SYMBOL
 if os.path.exists( FILE ) and not is_file_older_than_x_days( FILE, 1):
 
 	# return cached copy
-	print("RETURNING CACHED COPY")
 	os.system("cat " + FILE)
 
 # ELSE (all the stuff below gets folded together)
