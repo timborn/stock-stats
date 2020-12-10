@@ -11,7 +11,7 @@ ERROR: unknown stock symbol:  CBSH
 Ditto FMCB on OTC
 -----
 
-TODO: BUG: sometimes the cached file is EMPTY. How does this happen and how to recover?
+DONE: BUG: sometimes the cached file is EMPTY. How does this happen and how to recover?
 
 -----
 
