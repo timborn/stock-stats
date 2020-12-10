@@ -22,3 +22,5 @@ $ stock-stats $SYM | jq '{ symbol: "'$SYM'", price: .Price, dividend: .Dividend,
   "dividend": "2.08",
   "dividendPct": "6.75%"
 }
+
+$ ./aristo.sh | ./filter-out-losses | ./sort-by-targetGain  

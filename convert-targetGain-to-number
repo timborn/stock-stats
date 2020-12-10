@@ -1,0 +1,14 @@
+#/usr/bin/env bash
+# given a stream of JSON on stdin 
+# convert the STRING value for targetGain key to a number
+# https://stackoverflow.com/questions/48887711/how-to-convert-a-string-to-an-integer-in-a-json-file-using-jq
+
+# TODO: I want this to only update one key/value and pass the rest of the object through.  HOW?
+jq -c '. | { targetGain: (.targetGain)|tonumber ,
+	symbol: (.symbol),
+	price:  (.price),
+	dividend: (.dividend),
+	dividendPct: (.dividendPct)
+	}'
+
+# {"symbol":"ABBV","price":"108.67","dividend":"5.20","dividendPct":"4.79%","targetGain":"3.38"}

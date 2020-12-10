@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# given a stream of json objects, sort them by value of targetGain
+# NB this is in ascending order, and NaN appears at the end
+
+# cat /tmp/p | jq -s -c 'sort_by(.targetGain)[]'
+# -s will treat a stream of json objects AS IF it were an array
+# see https://github.com/stedolan/jq/issues/1447
+
+# -c produces the "compact" (one line) output
+jq -s -c 'sort_by(.targetGain)[]'
