@@ -28,6 +28,9 @@ except:
 # TODO: how to test for type in python?  curious to know what finviz returns
 import re
 bar = re.sub(r"'",r'"',str(foo))
+# can I assign to myself like this?  mangled apostrophes
+# baz = re.sub(r'"s',r"'s"',str(bar))	
+baz = re.sub(r'"s',r"'s",bar)
 
 # print(foo)
-print(bar)
+print(baz)

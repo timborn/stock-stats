@@ -23,4 +23,4 @@ ended up with things like this:
 
 Oops!  How to fix this?
 
-TODO: fix blind quoting to be "smarter"
+DONE: fix blind quoting to be "smarter"
