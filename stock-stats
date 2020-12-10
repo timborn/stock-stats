@@ -8,10 +8,13 @@
 # Helpful Translations:
 # "Earnings": "Oct 30 BMO",    <-- Before Market Opened
 
+# TODO: when -nocache indicates unknown stock symbol, stop looping 
+
 import os
 import os.path as path
 import time
 import sys
+import time
 
 CACHE = os.path.expanduser("~/.stock-stats-cache")
 
@@ -48,8 +51,9 @@ if not os.path.isdir( CACHE ) :
 
 # do we have a file with the name of the symbol we are looking for?
 # check the last modication time.  Is it less than a day old?
+# if file size is zero, something screwy happened, so refresh cache
 FILE= CACHE + "/" + SYMBOL 
-if os.path.exists( FILE ) and not is_file_older_than_x_days( FILE, 1):
+if os.path.exists( FILE ) and not is_file_older_than_x_days( FILE, 1) and (os.path.getsize( FILE ) != 0) :
 
 	# return cached copy
 	os.system("cat " + FILE)
@@ -60,8 +64,23 @@ if os.path.exists( FILE ) and not is_file_older_than_x_days( FILE, 1):
 else:
 	# can we access related program?
 	if is_tool("stock-stats-nocache"):
-		os.system("stock-stats-nocache " + SYMBOL + ">" + FILE)
-		os.system("cat " + FILE)
+		if ( os.system("stock-stats-nocache " + SYMBOL + ">" + FILE) == 0 ):
+			os.system("cat " + FILE)
+		else: 
+			os.system("rm " + FILE)
+			delay = 3
+			while (delay < 15):
+				time.sleep(delay)
+				delay += 3
+				if ( os.system("stock-stats-nocache " + SYMBOL + ">" + FILE) == 0 ):
+					os.system("cat " + FILE)
+					exit(0)
+				else:
+					os.system("rm " + FILE)
+
+			print("ERROR: unable to obtain stock data for " + SYMBOL, file=sys.stderr)
+			exit(4)
+				
 	else:
-		print("ERROR: I need stock-stats-nocache on $PATH")
+		print("ERROR: I need stock-stats-nocache on $PATH", file=sys.stderr)
 		exit(3)

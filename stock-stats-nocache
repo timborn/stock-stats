@@ -14,14 +14,14 @@ import finviz,sys
 
 if len(sys.argv) != 2 :
 	print("USAGE: ", sys.argv[0], " <stockSymbol>")
-	sys.exit(2)
+	exit(2)
 SYM = sys.argv[1]
 
 try:
 	foo = finviz.get_stock(SYM)
 except:
-	print('ERROR: unknown stock symbol: ', SYM)
-	sys.exit(3)
+	print('ERROR: unknown stock symbol: ', SYM, file=sys.stderr)
+	exit(3)
 
 # canonical JSON uses double quotes; finviz returns single quotes
 # needed to force return from finviz to a string for some reason
