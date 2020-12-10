@@ -1,0 +1,16 @@
+Thu Dec 10 07:38:42 MST 2020
+----------------------------
+
+Rules of thumb
+
+- the point is to build a diversified collection of stable, continuously growing 
+  companies that throw off a reliable stream of cash (retiree issue)
+- if you start with dividend aristocrats or kings, you have a higher expectation of 
+-- aristocrat: 25+ years of continuous dividend increases (S&P500 index only)
+-- king: 50+ years on continuous dividend increases
+  continued dividend _increases_
+- a price at or below midpoint of price span during past year is (probably) "fair"
+  (admitedly not a lot of thinking in this one!)
+- if the dividend + div growth looks like > 8% (reinvested) at 10 yrs: GOOD
+- if the dividend + div growth looks like > 10% (reinvested) at 10 yrs: GREAT
+- free cash flow should "well cover" dividends (TODO: quantify)
