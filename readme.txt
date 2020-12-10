@@ -7,8 +7,11 @@ Removed from dividend-aristocrats.csv
 
 R2D2:stock-stats timborn$ ./stock-stats CBSH
 ERROR: unknown stock symbol:  CBSH
+201210 - as of this morning CBSH is showing up.  No clue why
 
 Ditto FMCB on OTC
+ERROR: unknown stock symbol:  FMCB
+
 -----
 
 DONE: BUG: sometimes the cached file is EMPTY. How does this happen and how to recover?
