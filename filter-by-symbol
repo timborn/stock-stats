@@ -1,0 +1,10 @@
+#/usr/bin/env bash
+# time to learn a little jq-fu
+# given a stream of JSON on stdin and a stock symbol on cmdline
+# only pass through JSON records with corresponding stock symbol
+
+# SYM="TGT"
+# cat /tmp/p | jq -c 'select( .symbol == "'$SYM'" )'
+# {"symbol":"TGT","price":"174.07","dividend":"2.72","dividendPct":"1.56%","targetGain":"7.94"}
+
+jq -c 'select( .symbol == "'$1'" )'
