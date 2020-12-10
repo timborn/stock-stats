@@ -7,3 +7,20 @@ Removed from dividend-aristocrats.csv
 
 R2D2:stock-stats timborn$ ./stock-stats CBSH
 ERROR: unknown stock symbol:  CBSH
+
+Ditto FMCB on OTC
+-----
+
+TODO: BUG: sometimes the cached file is EMPTY. How does this happen and how to recover?
+
+-----
+
+I translate single quotes to double quotes to make results JSON compliant, but in the process I 
+ended up with things like this:
+
+"People"s United Financial, Inc."
+"Lowe"s Companies, Inc."
+
+Oops!  How to fix this?
+
+TODO: fix blind quoting to be "smarter"
