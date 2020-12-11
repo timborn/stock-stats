@@ -1,4 +1,4 @@
-Thu Dec 10 07:38:42 MST 2020
+Fri Dec 11 15:40:54 MST 2020
 ----------------------------
 
 Rules of thumb
@@ -14,3 +14,4 @@ Rules of thumb
 - if the dividend + div growth looks like > 8% (reinvested) at 10 yrs: GOOD
 - if the dividend + div growth looks like > 10% (reinvested) at 10 yrs: GREAT
 - free cash flow should "well cover" dividends (TODO: quantify)
+- TODO: how to find the dividend growth rate over some reasonable period (5 yrs or more)?
