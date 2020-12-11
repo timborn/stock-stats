@@ -5,7 +5,9 @@ for i in `cat aristocrats`; do
 	stock-stats $i | jq '{ symbol: "'$i'", 
 		price: .Price, 
 		target: ."Target Price",
+		range: ."52W Range",
 		dividend: .Dividend, 
 		dividendPct: ."Dividend %" }' 2>/dev/null |
-	./calculate-target-gains.js
+	./calculate-target-gains.js |
+	./midprice.js
 done
