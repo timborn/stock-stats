@@ -19,12 +19,12 @@ function parse(str) {
   if (match = range.match(/^(\d+\.\d+\s+)-(.*)$/)) {
 	first = parseFloat(+match[1]);			// float
 	second = parseFloat(match[2]);			// float
-        mid = ((second + first)/2.0).toFixed(2);	// back to string
+        mid = parseFloat(((second + first)/2.0).toFixed(2));	// back to string to get 2 decimal places, then back to a number
   	// console.log(JSON.stringify(first));
   	// console.log(JSON.stringify(second));
   	// console.log(JSON.stringify(mid));
 	delete json["range"];
-	json["midprice"] = mid;
+	json["midPrice"] = mid;
   } 
   console.log(JSON.stringify(json));
 }

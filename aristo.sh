@@ -3,7 +3,7 @@
 
 for i in `cat aristocrats`; do
 	stock-stats $i | jq '{ symbol: "'$i'", 
-		price: .Price, 
+		price: (.Price) | tonumber, 
 		target: ."Target Price",
 		range: ."52W Range",
 		dividend: .Dividend, 

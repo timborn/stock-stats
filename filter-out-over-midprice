@@ -1,0 +1,9 @@
+#/usr/bin/env bash
+# given a stream of JSON on stdin 
+# IF the JSON has keys 'price' and 'midPrice'
+# THEN IF price <= midPrice pass
+#      ELSE toss
+# ELSE (ignore JSON and let it pass)
+
+# NB this depends on having both .price and .midPrice be numbers rather than strings
+jq '. | select(.price <= .midPrice)' 
