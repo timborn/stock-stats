@@ -26,4 +26,10 @@ $ stock-stats $SYM | jq '{ symbol: "'$SYM'", price: .Price, dividend: .Dividend,
 $ ./aristo.sh | ./filter-out-losses | ./sort-by-targetGain  
 
 # which aristocrats are selling at or below past years price range midpoint?
-$ ./aristo.sh | ./filter-out-over-midprice  | pq -c
+$ ./aristo.sh | ./filter-out-over-midprice  | jq -c
+
+# which sectors are in the aristocrat list?
+$ ./sectors.sh
+
+# aristcrats selling at or below midPrice, sorted by dividendPct, highest first
+$ ./sort-by-dividendPct.sh 
