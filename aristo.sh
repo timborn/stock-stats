@@ -6,6 +6,7 @@ for i in `cat aristocrats`; do
 		price: (.Price) | tonumber, 
 		target: ."Target Price",
 		range: ."52W Range",
+		payout: ."Payout",
 		dividend: .Dividend, 
 		dividendPct: ."Dividend %" }' 2>/dev/null |
 	./calculate-target-gains.js |

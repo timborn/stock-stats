@@ -9,6 +9,7 @@ Rules of thumb
 -- aristocrat: 25+ years of continuous dividend increases (S&P500 index only)
 -- king: 50+ years on continuous dividend increases
   continued dividend _increases_
+- payout ratio (dividends / net income) should be "low" (subjective).  50-75%. 
 - a price at or below midpoint of price span during past year is (probably) "fair"
   (admitedly not a lot of thinking in this one!)
 - if the dividend + div growth looks like > 8% (reinvested) at 10 yrs: GOOD
