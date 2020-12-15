@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# given a stream of json objects, sort them by $1
+# NB this is in ascending order, and NaN appears at the end
+# TODO: BUG: if the field is a number but shows as a string sorting doesn't work
+
+if [ $# -ne 1 ] ; then 
+	echo "USAGE: $0 <fieldName>" >&2
+	exit 2
+fi
+
+
+# -c produces the "compact" (one line) output
+# -s SLURPS the stream into an (implicit) array
+# don't forget to UN-array it
+# jq -s -c 'sort_by(.targetGain)[]'
+# jq -s -c 'sort_by(.'$1')[] '
+jq -s 'sort_by(.'$1') | reverse ' | jq -c '.[]'
