@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# NB this is often the first in the pipe as it selects which stocks
+# to consider and filters the fields we care about.  Basically all the
+# other scripts depend on that field selection.
+
 # OPTIONAL: name of a file to use instead of aristocrats
 # the file is just a list of stock symbols, one per line
 FN="aristocrats"
