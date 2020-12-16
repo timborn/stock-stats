@@ -22,5 +22,6 @@ for i in `cat $FN`; do
 		dividend: .Dividend, 
 		dividendPct: ."Dividend %" }' 2>/dev/null |
 	./calculate-target-gains.js |
-	./midprice.js
+	./midprice.js |
+	./filter-out-payout.js
 done
