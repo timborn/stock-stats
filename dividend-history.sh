@@ -31,6 +31,7 @@ function fileTooOld() {
     [ $DEBUG ] && echo "DEBUG: we believe $SYM is LESS THAN max age (remember: fileTooOld, therefore we return 1 --> false/fail)"
     return 1
   }
+
   [ $DEBUG ] && "fileTooOld falling off the bottom, returning 0 (true/success)"
   return 0
 }
