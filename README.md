@@ -36,4 +36,7 @@ $ ./sort-by-dividendPct.sh
 
 # want to slice & dice in LibreCalc?
 # (that middle step turns it into one large well-formed json for in2csv to parse)
-# aristo.sh | jq -sc | in2csv -f json > arisocrats.csv
+$ aristo.sh | jq -sc | in2csv -f json > arisocrats.csv
+
+# let's look at 5 yrs of dividend history for a stock in LibreCalc
+$ ./dividend-history.sh  BAC | jq '.[] | { paymentDate: .paymentDate, amount: .amount } ' | jq -sc | in2csv -f json > BAC.csv
