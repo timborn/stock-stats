@@ -1,3 +1,12 @@
+Thu Dec 24 11:27:03 MST 2020
+----------------------------
+
+5-yr-div-cagr.sh --> 5-yr-div-history.sh --> dividend-history.sh
+25-yr-div-cagr.sh --> 25-yr-div-history.sh --> dividend-history2.sh
+
+A bit of a misnomer.  The "25 yr" div data is highly variable, 
+but generally more than 5 years.
+
 Wed Dec  9 11:39:33 MST 2020
 ----------------------------
 
