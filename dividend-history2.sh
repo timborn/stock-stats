@@ -1,4 +1,4 @@
-#
+#!/usr/bin/env bash
 # TODO: cache these!
 
 if [ "$POLYGONTOKEN"X = "X" ] ; then
