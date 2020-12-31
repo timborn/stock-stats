@@ -23,7 +23,8 @@ HD
 V
 DHR
 ACN
-DGEAF 
+# cannot seem to find this stock symbol
+# DGEAF 
 DE
 CB
 LMT

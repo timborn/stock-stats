@@ -5,6 +5,8 @@
 # other scripts depend on that field selection.
 # HA!  payout is the inverse of divCover.  Didn't think this through and added divCover, but really not needed
 # Sometimes we do not want to filter things out, in which case -n flag is useful.
+#
+# DONE: allow #comments in my input files
 
 USAGE="USAGE: $0 [-n] [file]"
 NOFILT=0
@@ -30,7 +32,11 @@ if [ $# -eq 1 ]; then
 	fi
 fi
 
-for i in `cat $FN`; do
+# read line by line
+# https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/
+while IFS= read -r i
+do
+	if [[ "$i" =~ ^\#.*$ ]] ; then continue; fi	# skip comments
 	stock-stats $i | jq '{ symbol: "'$i'", 
 		price: (.Price) | tonumber, 
 		target: ."Target Price",
@@ -43,4 +49,4 @@ for i in `cat $FN`; do
 	./calculate-div-cover.js |
 	./midprice.js |
 	if [ $NOFILT -eq 0 ] ; then ./filter-out-payout.js; else cat ; fi	# toss anything where payout ratio >= 100% 
-done
+done < $FN
