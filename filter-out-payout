@@ -1,0 +1,10 @@
+#/usr/bin/env bash
+# given a stream of JSON on stdin and a stock symbol on cmdline
+# only pass through JSON records that have payout < 100%
+# TODO: we need to consider payout as a number, not a string
+
+# first we remove all the NaN
+# then we convert the targetGain STRING to a number
+# finally we can filter (sorted order might be nice)
+# ./filter-out-NaN | ./convert-targetGain-to-number | jq -c 'select( .targetGain >= 0 )'
+jq -c 'select( (.payout|tonumber) <= 100 )'
