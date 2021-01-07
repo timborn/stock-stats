@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # NB set TOKEN before running
 # SYM=MMM
 # DEBUG=1		# when DEBUG is unset, it is turned off
