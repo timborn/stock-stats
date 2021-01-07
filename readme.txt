@@ -1,3 +1,9 @@
+Thu Jan  7 07:24:14 MST 2021
+----------------------------
+BRK-B.csv - I found monthly price data for BRK.B going back to 1996.
+Interesting to analyze.
+
+
 Thu Jan  7 07:08:39 MST 2021
 ----------------------------
 I had a google sheet that extracted data from e.g. https://finviz.com/quote.ashx?t=ABBV 
