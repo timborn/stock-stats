@@ -1,3 +1,23 @@
+Thu Jan  7 07:08:39 MST 2021
+----------------------------
+I had a google sheet that extracted data from e.g. https://finviz.com/quote.ashx?t=ABBV 
+They changed the layout of the website (it moved from table 9 to table 8) but it was 
+broken more than it worked.  GSheets seemed to be constantly refreshing (slow!) so the 
+site must have been getting bombarded.
+
+I found that LibreCalc allows you to import data from an external source, including a URL.
+When presented with that site, I got a list of the tables to pick from.  Quick & easy.
+
+
+Started working on external-data-experiment.ods.  This imports the data, but not I'm extending
+it programatically using macros (functions and subroutines).  If I can figure out a few 
+things, setting up a large spreadsheet and making massive changes will become tractable.
+
+LibreCalc appears to be set to *offer* to refresh when I open the sheet, so the number
+of refreshes will go way down.
+
+
+
 Thu Dec 24 11:27:03 MST 2020
 ----------------------------
 
