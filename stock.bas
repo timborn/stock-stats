@@ -1,17 +1,22 @@
 REM  *****  BASIC  *****
 
 Sub Main
-
+  
 End Sub
 
 function stock(ticker as string, datum as string)
-  ' MsgBox("stock(ticker=" & ticker & ", datum=" & datum & ")"
-  'mylookup = "hello world"
+  ' I'm getting an error when I enable macros
+  ' BASIC runtime error. Object variable not set
+  ' I *assume* it refers to the document object 
   dim document as object
   document = ThisComponent
-  ' TODO: offer to make missing tabs
+  
+  if IsNull( document ) then
+    MsgBox("stock function could not get a live document to work on")
+  end if
+  
   if not document.Sheets.hasByName(ticker) then
-    position = 0	' insert on the far left
+    position = 0	' insert on the left
     document.sheets.insertNewByName(ticker, position)
     populateSheet( ticker )
     ' MsgBox("The tab for " & ticker & " is missing.")
@@ -39,8 +44,13 @@ function stock(ticker as string, datum as string)
     col = 0
     row = row + 1
   loop
+  ' return some error value here
+  ' MsgBox("FOUND NO MATCH IN STOCK")
   stock = "not found"
-
+  ' $L$12 --> 11,11.  Go figure.
+  ' NB stuff is zero based; ROW, COLUMN; numberic, not a letter
+  ' MsgBox(sheet.getCellByPosition(11,11).String)
+  ' stock = sheet.getCellByPosition(11,11).String
 end function
 
 ' to populate sheets for each of the aristocrats, put your cursor
@@ -83,6 +93,13 @@ sub populateSheet(ticker as string)
   document   = ThisComponent.CurrentController.Frame
   dispatcher = createUnoService("com.sun.star.frame.DispatchHelper")
 
+  if IsNull( document ) then
+    MsgBox("populateSheet sub could not get a live document to work on")
+  end if
+  if IsNull( dispatcer ) then
+    MsgBox("populateSheet sub could not get a live dispatcher to work on")
+  end if
+  
   ' must get focus on correct sheet
   sheets = ThisComponent.Sheets
   sheet = sheets.getByName(ticker)
