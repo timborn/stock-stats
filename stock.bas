@@ -9,9 +9,13 @@ function stock(ticker as string, datum as string)
   'mylookup = "hello world"
   dim document as object
   document = ThisComponent
+  ' TODO: offer to make missing tabs
   if not document.Sheets.hasByName(ticker) then
-    MsgBox("The tab for " & ticker & " is missing.")
-    stock = "no ticker found"
+    position = 0	' insert on the far left
+    document.sheets.insertNewByName(ticker, position)
+    populateSheet( ticker )
+    ' MsgBox("The tab for " & ticker & " is missing.")
+    ' stock = "no ticker found"
     exit function
   end if
   sheet = document.Sheets.getByName(ticker)
@@ -35,13 +39,8 @@ function stock(ticker as string, datum as string)
     col = 0
     row = row + 1
   loop
-  ' return some error value here
-  ' MsgBox("FOUND NO MATCH IN STOCK")
   stock = "not found"
-  ' $L$12 --> 11,11.  Go figure.
-  ' NB stuff is zero based; ROW, COLUMN; numberic, not a letter
-  ' MsgBox(sheet.getCellByPosition(11,11).String)
-  ' stock = sheet.getCellByPosition(11,11).String
+
 end function
 
 ' to populate sheets for each of the aristocrats, put your cursor
