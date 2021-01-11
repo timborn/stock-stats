@@ -1,37 +1,49 @@
 REM  *****  BASIC  *****
 
 Sub Main
-  
+  MsgBox("Module1 attached to your spreadsheet has loaded")
 End Sub
 
-function stock(ticker as string, datum as string)
-  ' I'm getting an error when I enable macros
-  ' BASIC runtime error. Object variable not set
-  ' I *assume* it refers to the document object 
+sub myTest
   dim document as object
   document = ThisComponent
+  if IsNull( document ) then
+    MsgBox("myTest could not get a live document to work on")
+  end if
+  ' MsgBox( document.isProtected() )
   
+  ' are any of my cells protected??
+  sheet = document.Sheets.getByName("Dividend Watch List")
+'  oCells = sheet.getCellRangeByName("A1:N100")  
+  oCells = sheet.getCellRangeByName("A12")  
+  MsgBox( oCells.CellProtection.IsLocked )
+end sub
+
+function stock(ticker as string, datum as string)
+  dim document as object
+  document = ThisComponent
+  ticker = Trim( ticker )	' avoid 'WMT ' problem
+  
+  ' I'm getting an error when I enable macros
+  ' BASIC runtime error. Object variable not set
+  ' I *assume* it refers to the document object  
   if IsNull( document ) then
     MsgBox("stock function could not get a live document to work on")
   end if
   
-  if not document.Sheets.hasByName(ticker) then
+  if not document.Sheets.hasByName( ticker) then
     position = 0	' insert on the left
     document.sheets.insertNewByName(ticker, position)
     populateSheet( ticker )
-    ' MsgBox("The tab for " & ticker & " is missing.")
-    ' stock = "no ticker found"
     exit function
   end if
   sheet = document.Sheets.getByName(ticker)
   row = 0 
   col = 0
-  ' getCellByPosition(col, row)
-  ' document.sheets("my macros").getCellByPosition(0, 22).String = "DEBUG"
 
+  ' grind through the whole table looking for the datum
   do while row <= 12
     do while col <= 10
-    ' document.sheets("my macros").getCellByPosition(0, 22).String = "" & row & "," & col  ' DEBUG
 
       if sheet.getCellByPosition(col,row).String = datum then
         col = col + 1
@@ -44,13 +56,7 @@ function stock(ticker as string, datum as string)
     col = 0
     row = row + 1
   loop
-  ' return some error value here
-  ' MsgBox("FOUND NO MATCH IN STOCK")
   stock = "not found"
-  ' $L$12 --> 11,11.  Go figure.
-  ' NB stuff is zero based; ROW, COLUMN; numberic, not a letter
-  ' MsgBox(sheet.getCellByPosition(11,11).String)
-  ' stock = sheet.getCellByPosition(11,11).String
 end function
 
 ' to populate sheets for each of the aristocrats, put your cursor
@@ -92,7 +98,8 @@ sub populateSheet(ticker as string)
   dim dispatcher as object
   document   = ThisComponent.CurrentController.Frame
   dispatcher = createUnoService("com.sun.star.frame.DispatchHelper")
-
+  ticker = Trim( ticker )	' avoid 'WMT ' problem
+  
   if IsNull( document ) then
     MsgBox("populateSheet sub could not get a live document to work on")
   end if
@@ -102,6 +109,11 @@ sub populateSheet(ticker as string)
   
   ' must get focus on correct sheet
   sheets = ThisComponent.Sheets
+  
+  ' remember the sheet we were on before we moved the focus
+  fromSheet = document.sheet.getName()
+  MsgBox("fromSheet = " & fromSheet)	' DEBUG
+  
   sheet = sheets.getByName(ticker)
   sheet.getCellByPosition(0, 0).String = ticker
   ' must make this sheet the focus!
@@ -110,45 +122,25 @@ sub populateSheet(ticker as string)
   ' is how we make the sheet active for uno
   Controller = ThisComponent.getcurrentController
   Controller.setActiveSheet(sheet)	' make active
+     
+  rem ----------------------------------------------------------------------
 
-      
-rem ----------------------------------------------------------------------
-'dim args1(0) as new com.sun.star.beans.PropertyValue
-'args1(0).Name = "ToPoint"
-'args1(0).Value = "$A$1"
+  dim args1(0) as new com.sun.star.beans.PropertyValue
+  args1(0).Name = "ToPoint"
+  args1(0).Value = "$A$2"
+  dispatcher.executeDispatch(document, ".uno:GoToCell", "", 0, args1())
 
-'dispatcher.executeDispatch(document, ".uno:GoToCell", "", 0, args1())
+  rem ----------------------------------------------------------------------
+  dim args4(3) as new com.sun.star.beans.PropertyValue
+  args4(0).Name = "FileName"
+  args4(0).Value = "https://finviz.com/quote.ashx?t=" & ticker
+  args4(1).Name = "FilterName"
+  args4(1).Value = "calc_HTML_WebQuery"
+  args4(2).Name = "Options"
+  args4(2).Value = "0 0"
+  args4(3).Name = "Source"
+  args4(3).Value = "HTML_8"
 
-rem ----------------------------------------------------------------------
-'dim args2(0) as new com.sun.star.beans.PropertyValue
-'args2(0).Name = "StringName"
-'args2(0).Value = ticker
-
-'dispatcher.executeDispatch(document, ".uno:EnterString", "", 0, args2())
-
-rem ----------------------------------------------------------------------
-' dispatcher.executeDispatch(document, ".uno:JumpToNextCell", "", 0, Array())
-' all this just to put focus on cell A2
-dim args1(0) as new com.sun.star.beans.PropertyValue
-args1(0).Name = "ToPoint"
-args1(0).Value = "$A$2"
-dispatcher.executeDispatch(document, ".uno:GoToCell", "", 0, args1())
-
-rem ----------------------------------------------------------------------
-dim args4(3) as new com.sun.star.beans.PropertyValue
-args4(0).Name = "FileName"
-args4(0).Value = "https://finviz.com/quote.ashx?t=" & ticker
-args4(1).Name = "FilterName"
-args4(1).Value = "calc_HTML_WebQuery"
-args4(2).Name = "Options"
-args4(2).Value = "0 0"
-args4(3).Name = "Source"
-args4(3).Value = "HTML_8"
-
-dispatcher.executeDispatch(document, ".uno:InsertExternalDataSource", "", 0, args4())
-
-rem ----------------------------------------------------------------------
-rem dispatcher.executeDispatch(document, ".uno:InsertExternalDataSource", "", 0, Array())
-
+  dispatcher.executeDispatch(document, ".uno:InsertExternalDataSource", "", 0, args4())
 
 end sub
