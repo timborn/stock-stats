@@ -1,5 +1,6 @@
 # historical dividends from Yahoo! finance
 # https://query1.finance.yahoo.com/v7/finance/download/T?period1=438220800&period2=1608768000&interval=1d&events=div&includeAdjustedClose=true
+# 210227 - cannonical ordering by date on output, please
 
 SYM=$1
 CACHE=$HOME/.yahoo-cache
@@ -59,7 +60,7 @@ if [ $RETVAL -eq 0 ] ; then
 		echo "OK $SYM `date '+%y%m%d%H%M'`" >> $LOG
 		cat $CACHE/$SYM | 
 			tail -n +2 |	# get rid of column headers
-			sed -e's/,/ /'
+			sed -e's/,/ /' | sort
 	else
 		echo "FAIL($RETVAL) $SYM `date '+%y%m%d%H%M'`" >> $LOG
 		exit $RETVAL
@@ -70,7 +71,7 @@ else
 	echo "CACHE-HIT $SYM `date '+%y%m%d%H%M'`" >> $LOG
 	cat $CACHE/$SYM |
 		tail -n +2 |	# get rid of the column headers
-		sed -e's/,/ /'
+		sed -e's/,/ /' | sort
 fi 
 
 
