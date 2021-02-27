@@ -1,11 +1,17 @@
 # given a ticker symbol, apply heuristics and generate sensible advice
 
+USAGE="$0 <ticker>"
 # ctrl-cmd-space to find emojis
 ALERT="❗️"
 OK="✅"
 
 # get TICKER off cmdline
-TICKER=T
+if [ $# -eq 1 ]; then
+	TICKER=$1
+else
+	echo $USAGE
+	exit 1
+fi
 
 # did this stock actually have any earnings?
 # is the price "fair" (at or below midpoint of past year hi/lo)
