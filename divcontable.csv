@@ -1,0 +1,1247 @@
+Company,Ticker,Sector,Dividend Yield,5Y Ann. DPS Growth,DIVCON Score,Q4 2020,Q3 2020,Q2 2020,Q1 2020,S&P 500
+Apple Inc,AAPL,IT,0.62%,0.97%,67,5,5,5,5,Y
+Microsoft Corp,MSFT,IT,0.17%,0.11%,65,5,5,5,5,Y
+Amazon.com Inc,AMZN,Comm.,0.00%,0.00%,,,,,,Y
+Alphabet Inc,GOOG,Disc.,0.00%,0.00%,,,,,,Y
+Alphabet Inc,GOOGL,Disc.,0.00%,0.00%,,,,,,Y
+Facebook Inc,FB,Disc.,0.00%,0.00%,,,,,,Y
+Tesla Inc,TSLA,Comm.,0.00%,0.00%,,,,,,Y
+Berkshire Hathaway Inc,BRK/A,Fin.,0.00%,0.00%,,,,,,Y
+Berkshire Hathaway Inc,BRK/B,Fin.,0.00%,0.00%,,,,,,Y
+Visa Inc,V,IT,0.59%,0.20%,62.25,4,4,5,5,Y
+Walmart Inc,WMT,Stap.,0.15%,0.20%,61.5,4,4,4,4,Y
+Johnson & Johnson,JNJ,Health,0.26%,0.62%,62,4,4,4,4,Y
+JPMorgan Chase & Co,JPM,Fin.,0.28%,0.16%,47.5,3,3,3,4,Y
+Procter & Gamble Co/The,PG,Stap.,0.23%,0.34%,65.75,5,4,4,4,Y
+Mastercard Inc,MA,IT,0.49%,0.21%,6.75,4,5,5,5,Y
+NVIDIA Corp,NVDA,IT,0.12%,0.11%,62,4,5,4,4,Y
+UnitedHealth Group Inc,UNH,Health,0.14%,0.28%,64.25,5,5,4,5,Y
+Home Depot Inc/The,HD,Comm.,0.23%,0.25%,65,5,4,4,5,Y
+Walt Disney Co/The,DIS,Disc.,0.00%,0.00%,,,,,2,Y
+PayPal Holdings Inc,PYPL,IT,0.00%,0.00%,,,,,,Y
+Verizon Communications Inc,VZ,Disc.,0.43%,0.22%,57,4,4,4,4,Y
+Bank of America Corp,BAC,Fin.,0.24%,0.29%,49.25,3,3,4,4,Y
+Comcast Corp,CMCSA,Disc.,0.18%,0.13%,57.25,4,4,4,4,Y
+Adobe Inc,ADBE,IT,0.00%,0.00%,,,,,,Y
+Pfizer Inc,PFE,Health,0.42%,0.63%,58.25,4,5,4,4,Y
+Netflix Inc,NFLX,Disc.,0.00%,0.00%,,,,,,Y
+Coca-Cola Co/The,KO,Stap.,0.30%,0.44%,61,4,4,4,4,Y
+NIKE Inc,NKE,Comm.,0.78%,0.12%,6.75,4,4,4,5,Y
+AT&T Inc,T,Disc.,0.72%,0.24%,49.25,3,3,3,3,Y
+Merck & Co Inc,MRK,Health,0.32%,0.65%,64.5,5,5,4,5,Y
+salesforce.com Inc,CRM,IT,0.00%,0.00%,,,,,,Y
+Intel Corp,INTC,IT,0.26%,0.66%,64.5,5,5,4,4,Y
+PepsiCo Inc,PEP,Stap.,0.28%,0.79%,6.75,4,4,4,4,Y
+Abbott Laboratories,ABT,Health,0.16%,0.84%,59,4,4,4,5,Y
+Thermo Fisher Scientific Inc,TMO,Health,0.19%,0.80%,63.5,4,4,4,4,Y
+Cisco Systems Inc,CSCO,IT,0.32%,0.12%,56.75,4,4,4,4,N
+AbbVie Inc,ABBV,Health,0.49%,0.18%,6.25,4,4,4,4,Y
+Oracle Corp,ORCL,IT,0.15%,0.20%,48.25,3,3,3,3,Y
+QUALCOMM Inc,QCOM,IT,0.18%,0.67%,52.5,3,3,4,4,Y
+Chevron Corp,CVX,Energy,0.61%,0.38%,55,3,3,3,3,Y
+Exxon Mobil Corp,XOM,Energy,0.84%,0.39%,49,3,2,2,3,Y
+Broadcom Inc,AVGO,IT,0.33%,0.53%,56.5,4,3,3,3,Y
+T-Mobile US Inc,TMUS,Disc.,0.00%,0.00%,,,,,,Y
+Costco Wholesale Corp,COST,Stap.,0.74%,0.14%,66.25,5,4,4,4,Y
+Danaher Corp,DHR,Health,0.32%,0.59%,41.25,2,5,4,4,Y
+Charter Communications Inc,CHTR,Disc.,0.00%,0.00%,,,,,,Y
+McDonald's Corp,MCD,Comm.,0.24%,0.79%,54,3,3,4,4,Y
+Texas Instruments Inc,TXN,IT,0.25%,0.22%,65.25,5,4,4,5,Y
+Honeywell International Inc,HON,Ind.,0.17%,0.12%,57.5,4,4,4,4,Y
+United Parcel Service Inc,UPS,Ind.,0.24%,0.68%,58.25,4,4,4,3,Y
+NextEra Energy Inc,NEE,Utilities,0.18%,0.13%,57.25,4,3,4,4,Y
+Eli Lilly and Co,LLY,Health,0.21%,0.82%,64,4,4,4,5,Y
+Bristol-Myers Squibb Co,BMY,Health,0.32%,0.43%,55.75,4,3,4,4,Y
+Union Pacific Corp,UNP,Ind.,0.19%,0.12%,57.25,4,3,4,4,Y
+Boeing Co/The,BA,Ind.,0.00%,0.25%,,,,,,Y
+Amgen Inc,AMGN,Health,0.36%,0.15%,58.75,4,4,4,4,Y
+Philip Morris International In,PM,Stap.,0.58%,0.32%,57.5,4,4,4,4,N
+Wells Fargo & Co,WFC,Fin.,0.13%,-0.37%,2.75,1,1,2,4,Y
+Citigroup Inc,C,Fin.,0.34%,0.66%,47.5,3,3,3,4,Y
+Starbucks Corp,SBUX,Comm.,0.17%,0.20%,54.25,3,3,4,4,Y
+Zoom Video Communications Inc,ZM,IT,0.00%,0.00%,,,,,,N
+Morgan Stanley,MS,Fin.,0.24%,0.25%,56.25,4,4,3,4,Y
+Advanced Micro Devices Inc,AMD,IT,0.00%,0.00%,,,,,,Y
+Lowe's Cos Inc,LOW,Comm.,0.15%,0.17%,66.5,5,4,4,4,Y
+International Business Machine,IBM,IT,0.52%,0.54%,55.25,4,3,4,4,N
+Raytheon Technologies Corp,RTX,Ind.,0.27%,-0.33%,2.75,1,,,,Y
+Snowflake Inc,SNOW,IT,0.00%,0.00%,,,,,,N
+BlackRock Inc,BLK,Fin.,0.21%,0.17%,62,4,4,4,4,Y
+ServiceNow Inc,NOW,IT,0.00%,0.00%,,,,,,Y
+Lockheed Martin Corp,LMT,Ind.,0.29%,0.98%,63.75,4,4,4,4,Y
+American Express Co,AXP,Fin.,0.14%,0.94%,45,2,2,3,4,Y
+3M Co,MMM,Ind.,0.34%,0.75%,57.5,4,4,4,4,Y
+Intuit Inc,INTU,IT,0.62%,0.16%,68.25,5,5,4,5,Y
+Caterpillar Inc,CAT,Ind.,0.23%,0.70%,44,2,2,3,4,Y
+CVS Health Corp,CVS,Health,0.29%,0.74%,46.5,3,2,2,2,Y
+Square Inc,SQ,IT,0.00%,0.00%,,,,,,N
+Charles Schwab Corp/The,SCHW,Fin.,0.14%,0.25%,51.5,3,4,4,4,Y
+General Electric Co,GE,Ind.,0.37%,-0.47%,16.25,1,1,1,1,Y
+Uber Technologies Inc,UBER,Ind.,0.00%,0.00%,,,,,,N
+Fidelity National Information,FIS,IT,0.99%,0.61%,45.5,2,2,2,3,N
+Intuitive Surgical Inc,ISRG,Health,0.00%,0.00%,,,,,,Y
+Stryker Corp,SYK,Health,0.13%,0.17%,6.25,4,4,4,4,Y
+Estee Lauder Cos Inc/The,EL,Stap.,0.80%,0.15%,61,4,4,,5,Y
+Booking Holdings Inc,BKNG,Comm.,0.00%,0.00%,,,,,,Y
+Target Corp,TGT,Comm.,0.15%,0.45%,61.75,4,4,4,4,Y
+Goldman Sachs Group Inc/The,GS,Fin.,0.19%,0.14%,49.25,3,2,3,3,Y
+Mondelez International Inc,MDLZ,Stap.,0.22%,0.13%,58.25,4,4,4,4,Y
+Applied Materials Inc,AMAT,IT,0.12%,0.17%,59.75,4,4,3,3,Y
+Micron Technology Inc,MU,IT,0.00%,0.00%,,,,,,Y
+S&P Global Inc,SPGI,Fin.,0.82%,0.15%,7.25,5,5,5,4,Y
+Anthem Inc,ANTM,Health,0.12%,0.87%,63.75,4,4,4,5,Y
+TJX Cos Inc/The,TJX,Comm.,0.15%,-0.16%,55,3,,,4,Y
+Deere & Co,DE,Ind.,0.11%,0.48%,39.25,2,2,2,2,Y
+Cigna Corp,CI,Health,0.19%,0.00%,39.5,2,2,2,2,Y
+Fiserv Inc,FISV,IT,0.00%,0.00%,,,,,,Y
+FedEx Corp,FDX,Ind.,0.12%,0.22%,46.75,3,2,2,2,Y
+Altria Group Inc,MO,Stap.,0.84%,0.94%,55.25,4,4,4,4,Y
+Gilead Sciences Inc,GILD,Health,0.47%,0.17%,53.75,3,3,4,4,Y
+Zoetis Inc,ZTS,Health,0.64%,0.19%,69.25,5,4,5,5,Y
+Automatic Data Processing Inc,ADP,IT,0.21%,0.13%,58.5,4,4,4,4,Y
+Blackstone Group Inc/The,BX,Fin.,0.33%,-0.81%,26.75,1,,,,N
+Snap Inc,SNAP,Disc.,0.00%,0.00%,,,,,,N
+Lam Research Corp,LRCX,IT,0.11%,0.35%,67.75,5,4,3,4,Y
+Colgate-Palmolive Co,CL,Stap.,0.26%,0.31%,64,4,5,4,4,Y
+CSX Corp,CSX,Ind.,0.11%,0.82%,51,3,4,4,3,Y
+Becton Dickinson and Co,BDX,Health,0.13%,0.55%,58.5,4,4,4,4,Y
+Duke Energy Corp,DUK,Utilities,0.42%,0.33%,5.5,3,3,3,3,Y
+US Bancorp,USB,Fin.,0.37%,0.17%,46.75,3,3,3,4,Y
+CME Group Inc,CME,Fin.,0.19%,0.38%,57.25,4,4,5,4,Y
+Southern Co/The,SO,Utilities,0.42%,0.34%,5.75,3,3,3,3,Y
+Truist Financial Corp,TFC,Fin.,0.38%,0.11%,5.25,3,,,,Y
+Sherwin-Williams Co/The,SHW,Mat.,0.73%,0.15%,68.25,5,5,5,5,Y
+Illinois Tool Works Inc,ITW,Ind.,0.22%,0.16%,6.75,4,4,5,5,Y
+Activision Blizzard Inc,ATVI,Disc.,0.44%,0.12%,64.75,5,4,4,4,Y
+Ecolab Inc,ECL,Mat.,0.89%,0.71%,54.75,3,4,4,4,Y
+General Motors Co,GM,Comm.,0.00%,-0.11%,,,,,1,Y
+Moderna Inc,MRNA,Health,0.00%,0.00%,,,,,,N
+Dominion Energy Inc,D,Utilities,0.34%,0.59%,25.5,1,3,3,3,Y
+Intercontinental Exchange Inc,ICE,Fin.,0.15%,0.16%,62.5,4,4,4,4,Y
+Autodesk Inc,ADSK,IT,0.00%,0.00%,,,,,,Y
+Norfolk Southern Corp,NSC,Ind.,0.16%,0.98%,51,3,3,4,4,Y
+PNC Financial Services Group I,PNC,Fin.,0.39%,0.19%,48.5,3,3,4,4,N
+Global Payments Inc,GPN,IT,0.36%,0.81%,4.5,2,2,2,3,Y
+Air Products and Chemicals Inc,APD,Mat.,0.20%,0.16%,62,4,4,4,4,Y
+Vertex Pharmaceuticals Inc,VRTX,Health,0.00%,0.00%,,,,,,Y
+Marsh & McLennan Cos Inc,MMC,Fin.,0.16%,0.93%,58.25,4,4,4,4,Y
+VMware Inc,VMW,IT,0.00%,0.00%,,,,,,N
+Workday Inc,WDAY,IT,0.00%,0.00%,,,,,,N
+Edwards Lifesciences Corp,EW,Health,0.00%,0.00%,,,,,,Y
+Humana Inc,HUM,Health,0.69%,0.17%,62.5,4,5,5,5,Y
+Moody's Corp,MCO,Fin.,0.77%,0.15%,63.75,4,5,5,5,Y
+Analog Devices Inc,ADI,IT,0.17%,0.92%,6.75,4,4,4,4,Y
+Regeneron Pharmaceuticals Inc,REGN,Health,0.00%,0.00%,,,,,,Y
+Progressive Corp/The,PGR,Fin.,0.45%,0.31%,36.75,2,1,1,1,Y
+Dell Technologies Inc,DELL,IT,0.00%,0.00%,,,,,,N
+HCA Healthcare Inc,HCA,Health,0.16%,0.00%,31.25,1,,,3,Y
+Dollar General Corp,DG,Comm.,0.68%,0.97%,65.75,5,5,5,5,Y
+Palantir Technologies Inc,PLTR,IT,0.00%,0.00%,,,,,,N
+Northrop Grumman Corp,NOC,Ind.,0.19%,0.13%,6.75,4,4,4,4,Y
+Illumina Inc,ILMN,Health,0.00%,0.00%,,,,,,Y
+Newmont Corp,NEM,Mat.,0.27%,0.60%,7.25,5,4,4,3,Y
+Waste Management Inc,WM,Ind.,0.18%,0.72%,57.5,4,4,4,4,Y
+Boston Scientific Corp,BSX,Health,0.00%,0.00%,,,,,,Y
+DuPont de Nemours Inc,DD,Mat.,0.17%,-0.25%,19.5,1,,,,Y
+Aon PLC,AON,Fin.,0.88%,0.91%,63.75,4,,,5,Y
+Emerson Electric Co,EMR,Ind.,0.25%,0.12%,57.5,4,4,4,4,Y
+Eaton Corp PLC,ETN,Ind.,0.24%,0.58%,53.5,3,3,4,4,Y
+Twilio Inc,TWLO,IT,0.00%,0.00%,,,,,,N
+Kimberly-Clark Corp,KMB,Stap.,0.32%,0.40%,62,4,4,4,4,Y
+Monster Beverage Corp,MNST,Stap.,0.00%,0.00%,,,,,,Y
+ConocoPhillips,COP,Energy,0.43%,-0.15%,26.5,1,1,1,2,Y
+Las Vegas Sands Corp,LVS,Comm.,0.00%,-0.97%,,,,,4,Y
+Roper Technologies Inc,ROP,Ind.,0.52%,0.15%,64.5,5,5,5,5,Y
+General Dynamics Corp,GD,Ind.,0.30%,0.99%,57.75,4,4,4,4,Y
+Pinterest Inc,PINS,Disc.,0.00%,0.00%,,,,,,N
+DocuSign Inc,DOCU,IT,0.00%,0.00%,,,,,,N
+Keurig Dr Pepper Inc,KDP,Stap.,0.19%,-0.28%,33,2,2,2,2,N
+Marriott International Inc/MD,MAR,Comm.,0.00%,0.30%,,,,,,Y
+Cognizant Technology Solutions,CTSH,IT,0.17%,0.00%,49.5,3,3,3,3,N
+Trade Desk Inc/The,TTD,IT,0.00%,0.00%,,,,,,N
+MetLife Inc,MET,Fin.,0.39%,0.43%,5,3,3,4,4,Y
+Capital One Financial Corp,COF,Fin.,0.45%,-0.78%,23.25,1,1,1,2,Y
+Unity Software Inc,U,IT,0.00%,0.00%,,,,,,N
+American Electric Power Co Inc,AEP,Utilities,0.36%,0.57%,5.5,3,3,3,3,Y
+Carvana Co,CVNA,Comm.,0.00%,0.00%,,,,,,N
+KLA Corp,KLAC,IT,0.14%,0.11%,63.25,4,4,4,4,Y
+Kraft Heinz Co/The,KHC,Stap.,0.46%,-0.13%,22.25,1,1,1,1,Y
+Constellation Brands Inc,STZ,Stap.,0.14%,0.26%,56,4,3,3,2,Y
+Constellation Brands Inc,STZ/B,Stap.,0.12%,0.26%,58.5,4,,,3,Y
+Align Technology Inc,ALGN,Health,0.00%,0.00%,,,,,,Y
+Veeva Systems Inc,VEEV,Health,0.00%,0.00%,,,,,,N
+Ross Stores Inc,ROST,Comm.,0.00%,0.28%,,,,,5,Y
+L3Harris Technologies Inc,LHX,Ind.,0.18%,0.12%,65.75,5,4,5,5,Y
+Exelon Corp,EXC,Utilities,0.36%,0.43%,53,3,4,4,3,Y
+Baxter International Inc,BAX,Health,0.12%,-0.55%,62.75,4,4,4,5,Y
+Amphenol Corp,APH,IT,0.89%,0.14%,64.25,5,3,4,4,Y
+Dow Inc,DOW,Mat.,0.55%,0.00%,28.5,1,,,,Y
+IDEXX Laboratories Inc,IDXX,Health,0.00%,0.00%,,,,,,Y
+Rocket Cos Inc,RKT,Fin.,0.00%,0.00%,,,,,,N
+Match Group Inc,MTCH,Disc.,0.00%,0.00%,,,,,,N
+Sysco Corp,SYY,Stap.,0.24%,0.84%,46.75,3,3,4,5,Y
+Twitter Inc,TWTR,Disc.,0.00%,0.00%,,,,,,Y
+Roku Inc,ROKU,Disc.,0.00%,0.00%,,,,,,N
+Brown-Forman Corp,BF/A,Stap.,0.98%,0.64%,64.25,5,,,5,Y
+Brown-Forman Corp,BF/B,Stap.,0.94%,0.64%,6.5,4,4,4,4,Y
+Electronic Arts Inc,EA,Disc.,0.47%,0.00%,39.5,2,,,,Y
+Crowdstrike Holdings Inc,CRWD,IT,0.00%,0.00%,,,,,,N
+Microchip Technology Inc,MCHP,IT,0.17%,0.55%,59.5,4,4,3,3,Y
+Chipotle Mexican Grill Inc,CMG,Comm.,0.00%,0.00%,,,,,,Y
+Biogen Inc,BIIB,Health,0.00%,0.00%,,,,,,Y
+Centene Corp,CNC,Health,0.00%,0.00%,,,,,,Y
+Sempra Energy,SRE,Utilities,0.33%,0.83%,51.5,3,3,3,3,Y
+Cintas Corp,CTAS,Ind.,0.99%,0.27%,66.25,5,4,5,5,Y
+Walgreens Boots Alliance Inc,WBA,Stap.,0.47%,0.59%,52.25,3,3,3,4,Y
+Ford Motor Co,F,Comm.,0.00%,-0.24%,,,,,,Y
+General Mills Inc,GIS,Stap.,0.35%,0.27%,51.5,3,3,3,3,Y
+Synopsys Inc,SNPS,IT,0.00%,0.00%,,,,,,Y
+Xilinx Inc,XLNX,IT,0.17%,0.44%,55.75,4,4,4,4,Y
+Bank of New York Mellon Corp/T,BK,Fin.,0.29%,0.13%,56.25,4,4,4,4,N
+Freeport-McMoRan Inc,FCX,Mat.,0.00%,0.00%,,,,,,Y
+MSCI Inc,MSCI,Fin.,0.70%,0.30%,67,5,5,5,5,Y
+Agilent Technologies Inc,A,Health,0.65%,0.12%,61,4,4,4,4,Y
+Xcel Energy Inc,XEL,Utilities,0.26%,0.69%,57,4,4,3,4,Y
+Parker-Hannifin Corp,PH,Ind.,0.13%,0.69%,51,3,3,3,3,Y
+CoStar Group Inc,CSGP,Ind.,0.00%,0.00%,,,,,,N
+eBay Inc,EBAY,Comm.,0.13%,0.00%,49.25,3,3,3,3,Y
+VF Corp,VFC,Comm.,0.23%,0.77%,29.5,1,3,3,4,Y
+American International Group I,AIG,Fin.,0.34%,0.96%,41.5,2,2,2,2,N
+KKR & Co Inc,KKR,Fin.,0.13%,-0.20%,24.25,1,,,,N
+T Rowe Price Group Inc,TROW,Fin.,0.24%,-0.25%,64.5,5,5,5,5,Y
+PPG Industries Inc,PPG,Mat.,0.15%,0.82%,56.5,4,4,4,4,Y
+Peloton Interactive Inc,PTON,Comm.,0.00%,0.00%,,,,,,N
+Travelers Cos Inc/The,TRV,Fin.,0.24%,0.72%,58.25,4,4,4,4,Y
+Paychex Inc,PAYX,IT,0.27%,0.92%,51,3,4,3,4,Y
+Kinder Morgan Inc,KMI,Energy,0.77%,-0.12%,26.25,1,1,1,2,Y
+Cadence Design Systems Inc,CDNS,IT,0.00%,0.00%,,,,,,Y
+Johnson Controls International,JCI,Ind.,0.22%,0.46%,46.5,3,3,3,3,N
+TransDigm Group Inc,TDG,Ind.,0.00%,0.00%,,,,,,Y
+IQVIA Holdings Inc,IQV,Health,0.00%,0.00%,,,,,,Y
+HP Inc,HPQ,IT,0.32%,0.26%,55.25,4,4,3,3,Y
+O'Reilly Automotive Inc,ORLY,Comm.,0.00%,0.00%,,,,,,Y
+Cummins Inc,CMI,Ind.,0.24%,0.85%,52.5,3,3,4,5,Y
+DexCom Inc,DXCM,Health,0.00%,0.00%,,,,,,Y
+Seagen Inc,SGEN,Health,0.00%,0.00%,,,,,,N
+Carrier Global Corp,CARR,Ind.,0.13%,0.00%,3.5,1,,,,Y
+Okta Inc,OKTA,IT,0.00%,0.00%,,,,,,N
+Schlumberger NV,SLB,Energy,0.23%,-0.15%,2.25,1,1,1,1,Y
+Yum! Brands Inc,YUM,Comm.,0.17%,0.22%,32.5,2,4,4,4,Y
+Aflac Inc,AFL,Fin.,0.30%,0.72%,65.25,5,4,4,4,Y
+Prudential Financial Inc,PRU,Fin.,0.56%,0.13%,54.5,3,3,4,4,Y
+Verisk Analytics Inc,VRSK,Ind.,0.52%,0.00%,51.5,3,3,3,2,Y
+Allstate Corp/The,ALL,Fin.,0.20%,0.12%,65.25,5,5,4,4,Y
+Ball Corp,BLL,Mat.,0.64%,0.18%,47.25,3,3,2,3,Y
+Hershey Co/The,HSY,Stap.,0.21%,0.71%,61.5,4,4,4,4,Y
+RingCentral Inc,RNG,IT,0.00%,0.00%,,,,,,N
+Chewy Inc,CHWY,Comm.,0.00%,0.00%,,,,,,N
+Hilton Worldwide Holdings Inc,HLT,Comm.,0.00%,-0.66%,,,,,,Y
+ResMed Inc,RMD,Health,0.73%,0.61%,63.25,4,4,5,4,Y
+Republic Services Inc,RSG,Ind.,0.18%,0.74%,58.75,4,4,4,4,Y
+Datadog Inc,DDOG,IT,0.00%,0.00%,,,,,,N
+Zimmer Biomet Holdings Inc,ZBH,Health,0.62%,0.18%,35.75,2,2,2,2,Y
+EOG Resources Inc,EOG,Energy,0.38%,0.17%,43.5,2,3,3,3,Y
+PACCAR Inc,PCAR,Ind.,0.15%,-0.31%,36.75,2,2,3,3,Y
+Eversource Energy,ES,Utilities,0.26%,0.63%,57,4,4,3,3,Y
+Marvell Technology Group Ltd,MRVL,IT,0.55%,0.00%,38,2,2,2,2,N
+WEC Energy Group Inc,WEC,Utilities,0.29%,0.14%,54,3,4,4,4,Y
+ANSYS Inc,ANSS,IT,0.00%,0.00%,,,,,,Y
+Liberty Broadband Corp,LBRDA,Disc.,0.00%,0.00%,,,,,,N
+Liberty Broadband Corp,LBRDB,Disc.,0.00%,0.00%,,,,,,N
+Liberty Broadband Corp,LBRDK,Disc.,0.00%,0.00%,,,,,,N
+Phillips 66,PSX,Energy,0.51%,0.16%,43.25,2,2,3,3,Y
+Public Service Enterprise Grou,PEG,Utilities,0.34%,0.47%,56,4,4,3,3,N
+LyondellBasell Industries NV,LYB,Mat.,0.46%,0.67%,46,2,3,3,3,Y
+Motorola Solutions Inc,MSI,IT,0.17%,0.13%,57.75,4,4,4,4,Y
+Palo Alto Networks Inc,PANW,IT,0.00%,0.00%,,,,,,N
+Corning Inc,GLW,IT,0.24%,0.13%,56.75,4,3,3,4,Y
+McKesson Corp,MCK,Health,0.97%,0.98%,61.75,4,4,4,4,Y
+Teladoc Health Inc,TDOC,Health,0.00%,0.00%,,,,,,N
+Stanley Black & Decker Inc,SWK,Ind.,0.16%,0.54%,58.5,4,4,4,4,Y
+Rockwell Automation Inc,ROK,Ind.,0.18%,0.98%,6.5,4,4,4,4,Y
+Corteva Inc,CTVA,Mat.,0.13%,0.00%,41,2,2,2,2,Y
+Southwest Airlines Co,LUV,Ind.,0.00%,0.48%,,,,,4,Y
+Otis Worldwide Corp,OTIS,Ind.,0.12%,0.00%,31.5,1,,,,Y
+Fastenal Co,FAST,Ind.,0.25%,0.21%,66.75,5,5,5,5,Y
+Archer-Daniels-Midland Co,ADM,Stap.,0.29%,0.52%,57.5,4,4,3,3,Y
+Sirius XM Holdings Inc,SIRI,Disc.,0.92%,0.00%,63.75,4,3,3,3,N
+Marathon Petroleum Corp,MPC,Energy,0.57%,0.15%,58.5,4,4,3,4,Y
+American Water Works Co Inc,AWK,Utilities,0.14%,0.18%,59.25,4,4,4,4,Y
+Copart Inc,CPRT,Ind.,0.00%,0.00%,,,,,,Y
+AMETEK Inc,AME,Ind.,0.60%,0.15%,52.25,3,3,3,3,Y
+Delta Air Lines Inc,DAL,Ind.,0.00%,-0.23%,,,,,,Y
+Waste Connections Inc,WCN,Ind.,0.80%,0.16%,35.25,2,2,2,2,N
+DR Horton Inc,DHI,Comm.,0.12%,0.23%,68.25,5,5,4,5,Y
+AutoZone Inc,AZO,Comm.,0.00%,0.00%,,,,,,Y
+State Street Corp,STT,Fin.,0.29%,0.95%,57.25,4,4,4,4,Y
+Mettler-Toledo International I,MTD,Health,0.00%,0.00%,,,,,,N
+Best Buy Co Inc,BBY,Comm.,0.22%,0.90%,62.25,4,4,4,5,Y
+Royalty Pharma PLC,RPRX,Health,0.12%,0.00%,41.5,2,,,,N
+Dollar Tree Inc,DLTR,Comm.,0.00%,0.00%,,,,,,Y
+Zillow Group Inc,Z,Disc.,0.00%,0.00%,,,,,,N
+Zillow Group Inc,ZG,Disc.,0.00%,0.00%,,,,,,N
+Williams Cos Inc/The,WMB,Energy,0.80%,-0.82%,27.5,1,3,1,1,Y
+Alexion Pharmaceuticals Inc,ALXN,Health,0.00%,0.00%,,,,,,Y
+Consolidated Edison Inc,ED,Utilities,0.42%,0.33%,52,3,3,3,3,Y
+Paycom Software Inc,PAYC,IT,0.00%,0.00%,,,,,,Y
+Skyworks Solutions Inc,SWKS,IT,0.14%,0.19%,66,5,4,4,4,Y
+Hormel Foods Corp,HRL,Stap.,0.21%,0.13%,61.75,4,4,4,4,Y
+Clorox Co/The,CLX,Stap.,0.22%,0.75%,65.25,5,4,4,4,Y
+Discover Financial Services,DFS,Fin.,0.19%,0.13%,46,2,3,3,4,Y
+Cloudflare Inc,NET,IT,0.00%,0.00%,,,,,,N
+Tyson Foods Inc,TSN,Stap.,0.28%,0.35%,57,4,3,4,4,Y
+Splunk Inc,SPLK,IT,0.00%,0.00%,,,,,,N
+PG&E Corp,PCG,Utilities,0.00%,0.00%,,,,,,N
+McCormick & Co Inc/MD,MKC,Stap.,0.14%,0.93%,67.5,5,4,4,4,Y
+McCormick & Co Inc/MD,MKC/V,Stap.,0.14%,0.93%,63.75,4,4,,4,Y
+Carnival Corp,CCL,Comm.,0.00%,-0.19%,,,,,2,Y
+Carnival PLC,CUKPF,Comm.,0.00%,-0.19%,,,,,3,N
+Slack Technologies Inc,WORK,IT,0.00%,0.00%,,,,,,N
+Old Dominion Freight Line Inc,ODFL,Ind.,0.37%,0.00%,61.5,4,4,4,4,Y
+Valero Energy Corp,VLO,Energy,0.69%,0.18%,52,3,3,3,3,Y
+DTE Energy Co,DTE,Utilities,0.36%,0.77%,57,4,4,3,4,Y
+Kroger Co/The,KR,Stap.,0.23%,0.11%,68.25,5,5,4,4,Y
+Zscaler Inc,ZS,IT,0.00%,0.00%,,,,,,N
+Wayfair Inc,W,Comm.,0.00%,0.00%,,,,,,N
+Edison International,EIX,Utilities,0.42%,0.82%,52.5,3,3,3,3,Y
+VeriSign Inc,VRSN,IT,0.00%,0.00%,,,,,,Y
+Fortive Corp,FTV,Ind.,0.40%,0.00%,36.75,2,2,2,2,Y
+Lennar Corp,LEN,Comm.,0.13%,0.32%,57.75,4,3,3,3,Y
+Lennar Corp,LEN/B,Comm.,0.16%,0.32%,55.25,4,3,,4,Y
+Keysight Technologies Inc,KEYS,IT,0.00%,0.00%,,,,,,Y
+Maxim Integrated Products Inc,MXIM,IT,0.00%,0.44%,,,,4,4,Y
+Interactive Brokers Group Inc,IBKR,Fin.,0.66%,0.00%,35.75,2,2,2,2,N
+Ameriprise Financial Inc,AMP,Fin.,0.21%,0.96%,58.5,4,4,4,4,Y
+FleetCor Technologies Inc,FLT,IT,0.00%,0.00%,,,,,,Y
+Baker Hughes Co,BKR,Energy,0.35%,0.11%,27.75,1,1,1,2,Y
+ViacomCBS Inc,VIAC,Disc.,0.26%,0.99%,38.25,2,,,,Y
+ViacomCBS Inc,VIACA,Disc.,0.25%,0.99%,37,2,,,,Y
+First Republic Bank/CA,FRC,Fin.,0.54%,0.61%,59,4,4,4,4,Y
+Cerner Corp,CERN,Health,0.11%,0.00%,5.25,3,3,3,2,Y
+Arthur J Gallagher & Co,AJG,Fin.,0.15%,0.40%,59.75,4,4,4,4,Y
+Coupa Software Inc,COUP,IT,0.00%,0.00%,,,,,,N
+CBRE Group Inc,CBRE,RE,0.00%,0.00%,,,,,,Y
+PPL Corp,PPL,Utilities,0.59%,0.25%,49.25,3,3,3,3,Y
+WW Grainger Inc,GWW,Ind.,0.15%,0.53%,62,4,4,4,5,Y
+MarketAxess Holdings Inc,MKTX,Fin.,0.43%,0.25%,69.5,5,5,5,5,Y
+Church & Dwight Co Inc,CHD,Stap.,0.12%,0.75%,65.25,5,5,4,5,Y
+Exact Sciences Corp,EXAS,Health,0.00%,0.00%,,,,,,N
+Viatris Inc,VTRS,Health,0.00%,0.00%,,,,,,Y
+Entergy Corp,ETR,Utilities,0.39%,0.23%,53.75,3,3,3,3,Y
+Kellogg Co,K,Stap.,0.37%,0.29%,55.25,4,4,3,3,Y
+Take-Two Interactive Software,TTWO,Disc.,0.00%,0.00%,,,,,,N
+Nasdaq Inc,NDAQ,Fin.,0.15%,0.17%,61.75,4,4,4,4,Y
+Apollo Global Management Inc,APO,Fin.,0.42%,0.33%,48.25,3,1,1,,N
+Arista Networks Inc,ANET,IT,0.00%,0.00%,,,,,,Y
+Fortinet Inc,FTNT,IT,0.00%,0.00%,,,,,,Y
+Equifax Inc,EFX,Ind.,0.89%,0.61%,46.25,3,3,2,2,Y
+AmerisourceBergen Corp,ABC,Health,0.18%,0.74%,59.75,4,5,5,4,Y
+Zebra Technologies Corp,ZBRA,IT,0.00%,0.00%,,,,,,Y
+West Pharmaceutical Services I,WST,Health,0.24%,0.76%,67.75,5,5,5,5,N
+Etsy Inc,ETSY,Comm.,0.00%,0.00%,,,,,,Y
+Altice USA Inc,ATUS,Disc.,0.00%,0.00%,,,,,,N
+Northern Trust Corp,NTRS,Fin.,0.36%,0.15%,5.25,3,3,4,4,Y
+Fifth Third Bancorp,FITB,Fin.,0.39%,0.16%,48,3,3,3,4,Y
+Teradyne Inc,TER,IT,0.33%,0.18%,65.5,5,4,4,4,Y
+Vulcan Materials Co,VMC,Mat.,0.92%,0.28%,56.5,4,4,4,4,Y
+DISH Network Corp,DISH,Disc.,0.00%,0.00%,,,,,,Y
+Ameren Corp,AEE,Utilities,0.26%,0.39%,54,3,4,3,3,Y
+Laboratory Corp of America Hol,LH,Health,0.00%,0.00%,,,,,,N
+International Paper Co,IP,Mat.,0.41%,0.46%,44.75,2,3,3,3,Y
+Qorvo Inc,QRVO,IT,0.00%,0.00%,,,,,,Y
+Synchrony Financial,SYF,Fin.,0.25%,0.00%,42.75,2,2,3,4,Y
+CDW Corp/DE,CDW,IT,0.12%,0.38%,61,4,5,5,5,Y
+Hologic Inc,HOLX,Health,0.00%,0.00%,,,,,,Y
+DraftKings Inc,DKNG,Comm.,0.00%,0.00%,,,,,,N
+SS&C Technologies Holdings Inc,SSNC,IT,0.77%,0.16%,62.75,4,4,4,4,N
+Ingersoll Rand Inc,IR,Ind.,0.00%,0.00%,,,,,,Y
+SVB Financial Group,SIVB,Fin.,0.00%,0.00%,,,,,,Y
+Rollins Inc,ROL,Ind.,0.55%,0.12%,33.75,2,2,2,4,Y
+Royal Caribbean Cruises Ltd,RCL,Comm.,0.00%,0.29%,,,,,3,Y
+Kansas City Southern,KSU,Ind.,0.86%,0.44%,53,3,3,3,3,Y
+Cooper Cos Inc/The,COO,Health,0.17%,0.00%,33.5,2,2,2,3,Y
+Incyte Corp,INCY,Health,0.00%,0.00%,,,,,,Y
+Pioneer Natural Resources Co,PXD,Energy,0.19%,0.94%,39,2,2,3,3,Y
+EPAM Systems Inc,EPAM,IT,0.00%,0.00%,,,,,,N
+TransUnion,TRU,Ind.,0.32%,0.00%,4.25,2,2,2,2,N
+Discovery Inc,DISCA,Disc.,0.00%,0.00%,,,,,,Y
+Discovery Inc,DISCB,Disc.,0.00%,0.00%,,,,,,Y
+Discovery Inc,DISCK,Disc.,0.00%,0.00%,,,,,,Y
+ONEOK Inc,OKE,Energy,0.97%,0.97%,44.5,2,3,2,3,Y
+Expedia Group Inc,EXPE,Comm.,0.00%,-0.41%,,,,,4,Y
+Teleflex Inc,TFX,Health,0.33%,0.00%,35.25,2,2,2,2,Y
+United Rentals Inc,URI,Ind.,0.00%,0.00%,,,,,,Y
+Martin Marietta Materials Inc,MLM,Mat.,0.83%,0.70%,58.5,4,4,4,4,Y
+Xylem Inc/NY,XYL,Ind.,0.12%,0.14%,52.75,3,3,4,4,Y
+HubSpot Inc,HUBS,IT,0.00%,0.00%,,,,,,N
+Dover Corp,DOV,Ind.,0.16%,0.37%,6.75,4,4,4,5,Y
+Tyler Technologies Inc,TYL,IT,0.00%,0.00%,,,,,,Y
+Fox Corp,FOX,Disc.,0.16%,0.00%,44.5,2,2,2,1,Y
+Fox Corp,FOXA,Disc.,0.16%,0.00%,38.25,2,2,,2,Y
+CMS Energy Corp,CMS,Utilities,0.27%,0.74%,57.5,4,4,4,3,Y
+Conagra Brands Inc,CAG,Stap.,0.33%,-0.18%,39.5,2,2,2,1,Y
+HEICO Corp,HEI,Ind.,0.13%,0.16%,56.75,4,5,5,5,N
+HEICO Corp,HEI/A,Ind.,0.14%,0.16%,63,4,,,5,N
+ZoomInfo Technologies Inc,ZI,Disc.,0.00%,0.00%,,,,,,N
+Occidental Petroleum Corp,OXY,Energy,0.23%,-0.23%,16.5,1,1,1,1,Y
+Broadridge Financial Solutions,BR,IT,0.15%,0.14%,58.75,4,4,4,4,N
+Nucor Corp,NUE,Mat.,0.35%,0.16%,47.5,3,3,3,3,Y
+Halliburton Co,HAL,Energy,0.95%,-0.15%,21.25,1,1,1,1,Y
+Akamai Technologies Inc,AKAM,IT,0.00%,0.00%,,,,,,Y
+Bio-Rad Laboratories Inc,BIO,Health,0.00%,0.00%,,,,,,Y
+Bio-Rad Laboratories Inc,BIO/B,Health,0.00%,0.00%,,,,,,Y
+QuantumScape Corp,QS,#N/A,0.00%,0.00%,,,,,,N
+Quest Diagnostics Inc,DGX,Health,0.19%,0.85%,55.5,4,4,4,4,Y
+Ubiquiti Inc,UI,IT,0.57%,0.00%,61.5,4,3,2,2,N
+MongoDB Inc,MDB,IT,0.00%,0.00%,,,,,,N
+Insulet Corp,PODD,Health,0.00%,0.00%,,,,,,N
+Enphase Energy Inc,ENPH,IT,0.00%,0.00%,,,,,,Y
+M&T Bank Corp,MTB,Fin.,0.35%,0.95%,41.75,2,2,3,3,Y
+Hartford Financial Services Gr,HIG,Fin.,0.27%,0.18%,56.75,4,3,4,4,N
+Cardinal Health Inc,CAH,Health,0.36%,0.52%,59.25,4,4,4,4,Y
+Seagate Technology PLC,STX,IT,0.43%,0.39%,42.75,2,2,2,2,Y
+Citrix Systems Inc,CTXS,IT,0.18%,0.00%,39.25,2,2,2,2,Y
+Hess Corp,HES,Energy,0.19%,0.00%,2.25,1,1,1,1,Y
+PerkinElmer Inc,PKI,Health,0.20%,0.00%,4.75,2,2,2,2,Y
+10X Genomics Inc,TXG,Health,0.00%,0.00%,,,,,,N
+STERIS PLC,STE,Health,0.84%,0.99%,66.25,5,5,5,5,Y
+FirstEnergy Corp,FE,Utilities,0.60%,0.16%,31,1,2,2,2,Y
+Tractor Supply Co,TSCO,Comm.,0.11%,0.15%,68.75,5,5,4,4,Y
+Varian Medical Systems Inc,VAR,Health,0.00%,0.00%,,,,,,Y
+Tiffany & Co,TIF,Comm.,0.18%,0.80%,46.25,3,2,3,4,N
+Avantor Inc,AVTR,Health,0.00%,0.00%,,,,,,N
+Federal National Mortgage Asso,FNMA,Fin.,0.00%,0.00%,,,,,,N
+Warner Music Group Corp,WMG,Disc.,0.13%,0.00%,36,2,,,,N
+Trimble Inc,TRMB,IT,0.00%,0.00%,,,,,,Y
+CarMax Inc,KMX,Comm.,0.00%,0.00%,,,,,,Y
+Zendesk Inc,ZEN,IT,0.00%,0.00%,,,,,,N
+Caesars Entertainment Inc,CZR,Comm.,0.00%,0.00%,,,,,,N
+Western Digital Corp,WDC,IT,0.00%,-0.13%,,,,,1,Y
+Hewlett Packard Enterprise Co,HPE,IT,0.46%,0.54%,47,3,2,2,3,Y
+KeyCorp,KEY,Fin.,0.46%,0.27%,44.5,2,2,3,4,Y
+Horizon Therapeutics Plc,HZNP,Health,0.00%,0.00%,,,,,,N
+FMC Corp,FMC,Mat.,0.17%,0.22%,48.75,3,2,2,3,Y
+Ulta Beauty Inc,ULTA,Comm.,0.00%,0.00%,,,,,,Y
+Catalent Inc,CTLT,Health,0.00%,0.00%,,,,,,Y
+Regions Financial Corp,RF,Fin.,0.38%,0.22%,45.25,2,3,4,4,Y
+Burlington Stores Inc,BURL,Comm.,0.00%,0.00%,,,,,,N
+Expeditors International of Wa,EXPD,Ind.,0.19%,0.76%,63.75,4,4,4,4,N
+Live Nation Entertainment Inc,LYV,Disc.,0.00%,0.00%,,,,,,Y
+Celanese Corp,CE,Mat.,0.20%,0.17%,49,3,3,3,4,Y
+Domino's Pizza Inc,DPZ,Comm.,0.81%,0.23%,66.5,5,5,5,5,Y
+Cheniere Energy Inc,LNG,Energy,0.00%,0.00%,,,,,,N
+Citizens Financial Group Inc,CFG,Fin.,0.44%,0.31%,46.75,3,3,3,4,Y
+Albemarle Corp,ALB,Mat.,0.14%,0.58%,5.25,3,3,3,3,Y
+NVR Inc,NVR,Comm.,0.00%,0.00%,,,,,,Y
+GoodRx Holdings Inc,GDRX,Health,0.00%,0.00%,,,,,,N
+Lyft Inc,LYFT,Ind.,0.00%,0.00%,,,,,,N
+MGM Resorts International,MGM,Comm.,0.32%,0.00%,41.25,2,1,1,2,Y
+Alnylam Pharmaceuticals Inc,ALNY,Health,0.00%,0.00%,,,,,,N
+Leidos Holdings Inc,LDOS,IT,0.13%,0.12%,4.75,2,2,2,3,Y
+Masimo Corp,MASI,Health,0.00%,0.00%,,,,,,N
+Waters Corp,WAT,Health,0.00%,0.00%,,,,,,Y
+JB Hunt Transport Services Inc,JBHT,Ind.,0.79%,0.52%,66.25,5,5,5,4,Y
+Campbell Soup Co,CPB,Stap.,0.36%,0.23%,49.75,3,2,2,2,Y
+Darden Restaurants Inc,DRI,Comm.,0.12%,-0.12%,2.25,1,1,,,Y
+Fair Isaac Corp,FICO,IT,0.00%,0.00%,,,,,,N
+Monolithic Power Systems Inc,MPWR,IT,0.55%,0.21%,63.5,4,4,4,4,N
+United Airlines Holdings Inc,UAL,Ind.,0.00%,0.00%,,,,,,Y
+IDEX Corp,IEX,Ind.,0.14%,0.13%,58.5,4,3,4,4,Y
+Teledyne Technologies Inc,TDY,Ind.,0.00%,0.00%,,,,,,Y
+Westinghouse Air Brake Technol,WAB,Ind.,0.66%,0.11%,4.5,2,2,3,3,N
+GoDaddy Inc,GDDY,IT,0.00%,0.00%,,,,,,N
+Avangrid Inc,AGR,Utilities,0.39%,0.00%,32.5,2,2,2,2,N
+Tradeweb Markets Inc,TW,Fin.,0.51%,0.00%,41.5,2,2,2,2,N
+Ceridian HCM Holding Inc,CDAY,IT,0.00%,0.00%,,,,,,N
+Jacobs Engineering Group Inc,J,Ind.,0.70%,0.00%,52.25,3,3,3,3,Y
+BioMarin Pharmaceutical Inc,BMRN,Health,0.00%,0.00%,,,,,,N
+Genuine Parts Co,GPC,Comm.,0.31%,0.51%,55.75,4,3,3,3,Y
+Avalara Inc,AVLR,IT,0.00%,0.00%,,,,,,N
+Principal Financial Group Inc,PFG,Fin.,0.45%,0.84%,53.5,3,3,3,4,Y
+Gartner Inc,IT,IT,0.00%,0.00%,,,,,,Y
+AES Corp/The,AES,Utilities,0.26%,0.75%,5,3,3,3,3,Y
+Elanco Animal Health Inc,ELAN,Health,0.00%,0.00%,,,,,,N
+Black Knight Inc,BKI,IT,0.00%,0.00%,,,,,,N
+Omnicom Group Inc,OMC,Disc.,0.42%,0.54%,45.75,2,2,3,3,Y
+Eastman Chemical Co,EMN,Mat.,0.28%,1.00%,51.25,3,3,3,3,Y
+Masco Corp,MAS,Ind.,0.12%,0.83%,64.5,5,4,5,5,Y
+Markel Corp,MKL,Fin.,0.00%,0.00%,,,,,,N
+NetApp Inc,NTAP,IT,0.29%,0.23%,57.75,4,4,3,4,Y
+Cognex Corp,CGNX,IT,0.30%,0.84%,59.25,4,4,4,4,N
+FactSet Research Systems Inc,FDS,Fin.,0.93%,0.12%,65.5,5,5,5,5,N
+Pool Corp,POOL,Comm.,0.62%,0.18%,63,4,4,4,4,Y
+J M Smucker Co/The,SJM,Stap.,0.31%,0.63%,62.25,4,4,4,3,Y
+Alliant Energy Corp,LNT,Utilities,0.29%,0.67%,57.25,4,4,4,4,Y
+Crown Holdings Inc,CCK,Mat.,0.00%,0.00%,,,,,,N
+Huntington Bancshares Inc/OH,HBAN,Fin.,0.48%,0.19%,48.25,3,2,3,4,Y
+Entegris Inc,ENTG,IT,0.33%,0.00%,48,3,2,2,2,N
+Generac Holdings Inc,GNRC,Ind.,0.00%,0.00%,,,,,,N
+PTC Inc,PTC,IT,0.00%,0.00%,,,,,,N
+Raymond James Financial Inc,RJF,Fin.,0.16%,0.15%,53.75,3,4,4,4,Y
+Cincinnati Financial Corp,CINF,Fin.,0.27%,0.85%,61,4,4,3,4,Y
+Oak Street Health Inc,OSH,Health,0.00%,0.00%,,,,,,N
+Avery Dennison Corp,AVY,Mat.,0.16%,0.19%,62.5,4,4,4,4,Y
+Packaging Corp of America,PKG,Mat.,0.29%,0.89%,42.25,2,2,2,2,Y
+CH Robinson Worldwide Inc,CHRW,Ind.,0.22%,0.54%,5.75,3,3,4,4,Y
+Brown & Brown Inc,BRO,Fin.,0.78%,0.90%,65.75,5,4,4,4,N
+Cable One Inc,CABO,Disc.,0.45%,0.45%,63.25,4,4,4,3,N
+CenterPoint Energy Inc,CNP,Utilities,0.30%,-0.57%,25.25,1,1,1,3,Y
+ON Semiconductor Corp,ON,IT,0.00%,0.00%,,,,,,N
+Molina Healthcare Inc,MOH,Health,0.00%,0.00%,,,,,,N
+Evergy Inc,EVRG,Utilities,0.39%,0.73%,53.25,3,4,4,4,Y
+Guardant Health Inc,GH,Health,0.00%,0.00%,,,,,,N
+Elastic NV,ESTC,IT,0.00%,0.00%,,,,,,N
+PPD Inc,PPD,Health,0.00%,0.00%,,,,,,N
+International Flavors & Fragra,IFF,Mat.,0.28%,0.89%,54.75,3,4,4,3,N
+ABIOMED Inc,ABMD,Health,0.00%,0.00%,,,,,,Y
+Ares Management Corp,ARES,Fin.,0.35%,0.13%,33.75,2,2,3,2,N
+Hasbro Inc,HAS,Comm.,0.30%,0.85%,48,3,3,3,3,Y
+Atmos Energy Corp,ATO,Utilities,0.26%,0.81%,57.25,4,4,4,4,Y
+Concho Resources Inc,CXO,Energy,0.14%,0.00%,42.75,2,2,2,2,N
+Booz Allen Hamilton Holding Co,BAH,IT,0.14%,0.19%,67.75,5,5,5,4,N
+IAC/InterActiveCorp,IAC,Disc.,0.00%,0.00%,,,,,,N
+DaVita Inc,DVA,Health,0.00%,0.00%,,,,,,Y
+Jack Henry & Associates Inc,JKHY,IT,0.16%,0.11%,64.25,5,5,5,4,Y
+Wynn Resorts Ltd,WYNN,Comm.,0.00%,-0.78%,,,,,1,Y
+Ally Financial Inc,ALLY,Fin.,0.21%,0.00%,46.25,3,3,2,3,N
+Sarepta Therapeutics Inc,SRPT,Health,0.00%,0.00%,,,,,,N
+Mirati Therapeutics Inc,MRTX,Health,0.00%,0.00%,,,,,,N
+Franklin Resources Inc,BEN,Fin.,0.45%,0.12%,54,3,3,3,4,Y
+Bio-Techne Corp,TECH,Health,0.43%,0.00%,43,2,2,3,2,N
+Whirlpool Corp,WHR,Comm.,0.28%,0.75%,55.75,4,3,3,4,Y
+Equitable Holdings Inc,EQH,Fin.,0.27%,0.00%,46.5,3,,,,N
+Charles River Laboratories Int,CRL,Health,0.00%,0.00%,,,,,,N
+Loews Corp,L,Fin.,0.56%,0.00%,38.25,2,2,2,3,Y
+Nuance Communications Inc,NUAN,IT,0.00%,0.00%,,,,,,N
+DENTSPLY SIRONA Inc,XRAY,Health,0.76%,0.66%,45.75,2,2,3,4,Y
+PulteGroup Inc,PHM,Comm.,0.13%,0.87%,56.25,4,3,3,3,Y
+Westrock Co,WRK,Mat.,0.18%,0.73%,19.75,1,1,1,3,Y
+NortonLifeLock Inc,NLOK,IT,0.25%,0.84%,3.25,1,1,1,2,Y
+W R Berkley Corp,WRB,Fin.,0.72%,0.84%,51.75,3,4,4,4,Y
+Essential Utilities Inc,WTRG,Utilities,0.21%,0.72%,54.5,3,,,,N
+Sunrun Inc,RUN,Ind.,0.00%,0.00%,,,,,,N
+Erie Indemnity Co,ERIE,Fin.,0.17%,0.16%,58.75,4,4,4,4,N
+Nordson Corp,NDSN,Ind.,0.78%,0.19%,6.5,4,5,4,5,N
+Fortune Brands Home & Security,FBHS,Ind.,0.12%,0.11%,59,4,4,4,4,N
+Boston Beer Co Inc/The,SAM,Stap.,0.00%,0.00%,,,,,,N
+Dun & Bradstreet Holdings Inc,DNB,Ind.,0.00%,0.00%,,,,,,N
+IPG Photonics Corp,IPGP,IT,0.00%,0.00%,,,,,,Y
+LKQ Corp,LKQ,Comm.,0.00%,0.00%,,,,,,Y
+Vail Resorts Inc,MTN,Comm.,0.00%,0.72%,,,,,3,N
+RPM International Inc,RPM,Mat.,0.17%,0.67%,61.25,4,4,4,4,N
+Graco Inc,GGG,Ind.,0.14%,0.12%,6.75,4,4,4,4,N
+Penn National Gaming Inc,PENN,Comm.,0.00%,0.00%,,,,,,N
+Lamb Weston Holdings Inc,LW,Stap.,0.12%,0.00%,49.75,3,3,3,3,Y
+Universal Display Corp,OLED,IT,0.26%,0.00%,53.5,3,3,4,5,N
+L Brands Inc,LB,Comm.,0.00%,-0.32%,,,,,1,Y
+Dynatrace Inc,DT,IT,0.00%,0.00%,,,,,,N
+Howmet Aerospace Inc,HWM,Ind.,0.00%,0.00%,,,,,,Y
+Universal Health Services Inc,UHID,Health,0.00%,0.00%,,,,,,Y
+Universal Health Services Inc,UHS,Health,0.00%,0.00%,,,,,3,Y
+Appian Corp,APPN,IT,0.00%,0.00%,,,,,,N
+XPO Logistics Inc,XPO,Ind.,0.00%,0.00%,,,,,,N
+Plug Power Inc,PLUG,Ind.,0.00%,0.00%,,,,,,N
+News Corp,NWS,Disc.,0.11%,0.15%,36,2,2,,1,Y
+News Corp,NWSA,Disc.,0.11%,0.15%,44.75,2,2,2,1,Y
+Textron Inc,TXT,Ind.,0.17%,0.00%,29.25,1,1,2,2,Y
+CenturyLink Inc,LUMN,Disc.,0.13%,-0.14%,25.25,1,,,,N
+Fidelity National Financial In,FNF,Fin.,0.37%,0.11%,61,4,3,4,4,N
+Lennox International Inc,LII,Ind.,0.11%,0.17%,53.5,3,3,3,5,N
+Bill.com Holdings Inc,BILL,IT,0.00%,0.00%,,,,,,N
+Paylocity Holding Corp,PCTY,IT,0.00%,0.00%,,,,,,N
+Guidewire Software Inc,GWRE,IT,0.00%,0.00%,,,,,,N
+Advance Auto Parts Inc,AAP,Comm.,0.63%,0.33%,39.75,2,3,2,2,Y
+American Airlines Group Inc,AAL,Ind.,0.00%,-0.13%,,,,,1,Y
+Molson Coors Beverage Co,TAP,Stap.,0.00%,-0.72%,,,,,2,Y
+Molson Coors Beverage Co,TAP/A,Stap.,0.00%,-0.72%,,,,,2,Y
+F5 Networks Inc,FFIV,IT,0.00%,0.00%,,,,,,Y
+Carlyle Group Inc/The,CG,Fin.,0.32%,-0.22%,2.25,1,,,,N
+Pegasystems Inc,PEGA,IT,0.90%,0.00%,36.75,2,1,1,2,N
+Lincoln National Corp,LNC,Fin.,0.33%,0.15%,56.25,4,3,3,3,Y
+Westlake Chemical Corp,WLK,Mat.,0.13%,0.90%,47.25,3,3,3,3,N
+Chegg Inc,CHGG,Comm.,0.00%,0.00%,,,,,,N
+Cboe Global Markets Inc,CBOE,Fin.,0.18%,0.12%,67.5,5,5,5,4,Y
+Anaplan Inc,PLAN,IT,0.00%,0.00%,,,,,,N
+Bright Horizons Family Solutio,BFAM,Comm.,0.00%,0.00%,,,,,,N
+Five9 Inc,FIVN,IT,0.00%,0.00%,,,,,,N
+GCI Liberty Inc,GLIBA,Disc.,0.00%,0.00%,,,,,,N
+GCI Liberty Inc,GLIBB,Disc.,0.00%,0.00%,,,,,,N
+Cree Inc,CREE,IT,0.00%,0.00%,,,,,,N
+Globe Life Inc,GL,Fin.,0.79%,0.67%,61.5,4,4,4,4,Y
+Quanta Services Inc,PWR,Ind.,0.33%,0.00%,47.5,3,3,2,3,Y
+Henry Schein Inc,HSIC,Health,0.00%,0.00%,,,,,,Y
+CNA Financial Corp,CNA,Fin.,0.38%,0.31%,54,3,2,3,3,N
+Repligen Corp,RGEN,Health,0.00%,0.00%,,,,,,N
+Snap-on Inc,SNA,Ind.,0.29%,0.15%,59,4,4,4,5,Y
+Fastly Inc,FSLY,IT,0.00%,0.00%,,,,,,N
+Toro Co/The,TTC,Ind.,0.12%,0.14%,58.5,4,4,4,4,N
+Scotts Miracle-Gro Co/The,SMG,Mat.,0.12%,0.33%,56,4,3,3,4,N
+BorgWarner Inc,BWA,Comm.,0.18%,0.55%,38,2,2,2,2,Y
+Aramark,ARMK,Comm.,0.11%,0.45%,44.25,2,2,2,3,N
+Mohawk Industries Inc,MHK,Comm.,0.00%,0.00%,,,,,,Y
+Invitae Corp,NVTA,Health,0.00%,0.00%,,,,,,N
+Zynga Inc,ZNGA,Disc.,0.00%,0.00%,,,,,,N
+Lear Corp,LEA,Comm.,0.63%,0.13%,22,1,,,4,N
+First Solar Inc,FSLR,IT,0.00%,0.00%,,,,,,N
+Aspen Technology Inc,AZPN,IT,0.00%,0.00%,,,,,,N
+Interpublic Group of Cos Inc/T,IPG,Disc.,0.43%,0.16%,52.5,3,3,4,4,N
+Pinnacle West Capital Corp,PNW,Utilities,0.42%,0.57%,55.75,4,4,3,3,Y
+Vistra Corp,VST,Utilities,0.27%,0.00%,5.25,3,2,3,3,N
+Bentley Systems Inc,BSY,IT,0.74%,0.00%,37.25,2,,,,N
+NiSource Inc,NI,Utilities,0.37%,0.24%,55,3,3,4,3,Y
+Newell Brands Inc,NWL,Comm.,0.43%,0.39%,27.25,1,1,1,1,Y
+RH,RH,Comm.,0.00%,0.00%,,,,,,N
+Dolby Laboratories Inc,DLB,IT,0.96%,0.16%,6.5,4,5,5,5,N
+Five Below Inc,FIVE,Comm.,0.00%,0.00%,,,,,,N
+Western Union Co/The,WU,IT,0.41%,0.77%,56.5,4,4,4,4,Y
+A O Smith Corp,AOS,Ind.,0.19%,0.29%,6,4,4,4,4,Y
+Amdocs Ltd,DOX,IT,0.18%,0.14%,62.75,4,4,5,5,N
+Floor & Decor Holdings Inc,FND,Comm.,0.00%,0.00%,,,,,,N
+Dunkin' Brands Group Inc,DNKN,Comm.,0.00%,0.22%,56,4,3,,4,N
+Trex Co Inc,TREX,Ind.,0.00%,0.00%,,,,,,N
+HD Supply Holdings Inc,HDS,Ind.,0.00%,0.00%,,,,,,N
+Denali Therapeutics Inc,DNLI,Health,0.00%,0.00%,,,,,,N
+Hubbell Inc,HUBB,Ind.,0.25%,0.99%,6.75,4,4,4,4,N
+Morningstar Inc,MORN,Fin.,0.54%,0.98%,65.75,5,4,4,4,N
+Beyond Meat Inc,BYND,Stap.,0.00%,0.00%,,,,,,N
+Ultragenyx Pharmaceutical Inc,RARE,Health,0.00%,0.00%,,,,,,N
+MKS Instruments Inc,MKSI,IT,0.53%,0.35%,51.25,3,3,2,3,N
+Federal Home Loan Mortgage Cor,FMCC,Fin.,0.00%,0.00%,,,,,,N
+Service Corp International/US,SCI,Comm.,0.17%,0.12%,55.75,4,4,4,3,N
+Watsco Inc,WSO,Ind.,0.31%,0.20%,6.25,4,4,4,4,N
+Watsco Inc,WSO/B,Ind.,0.00%,0.20%,6.25,4,4,,4,N
+Neurocrine Biosciences Inc,NBIX,Health,0.00%,0.00%,,,,,,N
+Alleghany Corp,Y,Fin.,0.00%,0.00%,,,,,,N
+Virgin Galactic Holdings Inc,SPCE,Ind.,0.00%,0.00%,,,,,,N
+Bunge Ltd,BG,Stap.,0.35%,0.68%,48.25,3,3,2,3,N
+ACADIA Pharmaceuticals Inc,ACAD,Health,0.00%,0.00%,,,,,,N
+Dropbox Inc,DBX,IT,0.00%,0.00%,,,,,,N
+WEX Inc,WEX,IT,0.00%,0.00%,,,,,,N
+Flex Ltd,FLEX,IT,0.00%,0.00%,,,,,,N
+Amedisys Inc,AMED,Health,0.00%,0.00%,,,,,,N
+AMERCO,UHAL,Ind.,0.00%,-0.13%,,,,,,N
+Norwegian Cruise Line Holdings,NCLH,Comm.,0.00%,0.00%,,,,,,N
+Mosaic Co/The,MOS,Mat.,0.87%,-0.29%,26.75,1,1,1,1,Y
+AptarGroup Inc,ATR,Mat.,0.15%,0.48%,47.5,3,3,3,4,N
+Bruker Corp,BRKR,Health,0.30%,0.00%,3.5,1,2,2,2,N
+Owens Corning,OC,Ind.,0.14%,0.71%,52.75,3,4,4,3,N
+Invesco Ltd,IVZ,Fin.,0.36%,-0.67%,25.5,1,1,1,3,Y
+NRG Energy Inc,NRG,Utilities,0.32%,0.16%,46.5,3,2,2,2,Y
+Tapestry Inc,TPR,Comm.,0.00%,-0.13%,,,,,,Y
+Gentex Corp,GNTX,Comm.,0.14%,0.76%,57.5,4,4,5,5,N
+CF Industries Holdings Inc,CF,Mat.,0.31%,0.00%,27.5,1,2,2,2,Y
+Brookfield Renewable Corp,BEPC,Utilities,0.20%,0.00%,37,2,,,,N
+Quidel Corp,QDEL,Health,0.00%,0.00%,,,,,,N
+Williams-Sonoma Inc,WSM,Comm.,0.28%,0.74%,64.25,5,3,3,4,N
+Penumbra Inc,PEN,Health,0.00%,0.00%,,,,,,N
+Reinsurance Group of America I,RGA,Fin.,0.24%,0.15%,49.25,3,3,4,4,N
+Deckers Outdoor Corp,DECK,Comm.,0.00%,0.00%,,,,,,N
+IAA Inc,IAA,Ind.,0.00%,0.00%,,,,,,N
+Steel Dynamics Inc,STLD,Mat.,0.27%,0.13%,49.5,3,3,3,3,N
+SEI Investments Co,SEIC,Fin.,0.13%,0.76%,63.25,4,4,5,5,N
+nCino Inc,NCNO,IT,0.00%,0.00%,,,,,,N
+Carlisle Cos Inc,CSL,Ind.,0.13%,0.13%,59.75,4,4,5,5,N
+Encompass Health Corp,EHC,Health,0.14%,0.49%,44.75,2,3,3,4,N
+Gap Inc/The,GPS,Comm.,0.48%,-0.23%,42.5,2,2,2,1,Y
+Darling Ingredients Inc,DAR,Stap.,0.00%,0.00%,,,,,,N
+Inphi Corp,IPHI,IT,0.00%,0.00%,,,,,,N
+LPL Financial Holdings Inc,LPLA,Fin.,0.96%,0.00%,38.75,2,2,2,3,N
+Alteryx Inc,AYX,IT,0.00%,0.00%,,,,,,N
+Novavax Inc,NVAX,Health,0.00%,0.00%,,,,,,N
+New York Times Co/The,NYT,Disc.,0.46%,0.75%,56.25,4,3,3,3,N
+Curaleaf Holdings Inc,CURLF,Health,0.00%,0.00%,,,,,,N
+Axon Enterprise Inc,AAXN,Ind.,0.00%,0.00%,,,,,,N
+Lithia Motors Inc,LAD,Comm.,0.42%,0.99%,64,4,4,3,4,N
+New Fortress Energy Inc,NFE,Energy,0.75%,0.00%,39.25,2,2,,,N
+Sensata Technologies Holding P,ST,Ind.,0.00%,0.00%,,,,,,N
+Assurant Inc,AIZ,Fin.,0.19%,0.13%,59.25,4,4,4,4,Y
+Natera Inc,NTRA,Health,0.00%,0.00%,,,,,,N
+Levi Strauss & Co,LEVI,Comm.,0.00%,0.00%,,,,2,2,N
+AECOM,ACM,Ind.,0.00%,0.00%,,,,,,N
+Genpact Ltd,G,IT,0.94%,0.00%,56,4,4,3,3,N
+Reliance Steel & Aluminum Co,RS,Mat.,0.29%,0.93%,61,4,4,4,4,N
+Middleby Corp/The,MIDD,Ind.,0.00%,0.00%,,,,,,N
+Smartsheet Inc,SMAR,IT,0.00%,0.00%,,,,,,N
+American Financial Group Inc/O,AFG,Fin.,0.23%,0.14%,59,4,3,3,3,N
+Jones Lang LaSalle Inc,JLL,RE,0.00%,-0.51%,,,,,4,N
+Churchill Downs Inc,CHDN,Comm.,0.32%,0.12%,56.25,4,2,3,4,N
+Chemed Corp,CHE,Health,0.26%,0.75%,69.25,5,5,5,5,N
+II-VI Inc,IIVI,IT,0.00%,0.00%,,,,,,N
+Sotera Health Co,SHC,Health,0.00%,0.00%,,,,,,N
+Eaton Vance Corp,EV,Fin.,0.23%,0.41%,55.25,4,4,4,4,N
+Ciena Corp,CIEN,IT,0.00%,0.00%,,,,,,N
+Hyatt Hotels Corp,H,Comm.,0.00%,0.00%,,,,,2,N
+Commerce Bancshares Inc/MO,CBSH,Fin.,0.16%,0.89%,56.25,4,3,4,4,N
+Comerica Inc,CMA,Fin.,0.49%,0.27%,48.25,3,3,3,4,Y
+UGI Corp,UGI,Utilities,0.38%,0.79%,57.5,4,4,3,4,N
+Royal Gold Inc,RGLD,Mat.,0.11%,0.49%,66.5,5,5,5,4,N
+Robert Half International Inc,RHI,Ind.,0.22%,0.11%,55.25,4,4,4,5,Y
+SolarWinds Corp,SWI,IT,0.00%,0.00%,,,,,,N
+Voya Financial Inc,VOYA,Fin.,0.12%,0.72%,42.5,2,2,2,3,N
+Arrow Electronics Inc,ARW,IT,0.00%,0.00%,,,,,,N
+Woodward Inc,WWD,Ind.,0.27%,0.55%,32,1,1,2,4,N
+Fate Therapeutics Inc,FATE,Health,0.00%,0.00%,,,,,,N
+Adaptive Biotechnologies Corp,ADPT,Health,0.00%,0.00%,,,,,,N
+Ares Capital Corp,ARCC,Fin.,0.95%,0.38%,41.25,2,2,2,2,N
+Juniper Networks Inc,JNPR,IT,0.36%,0.15%,45.75,2,2,2,2,Y
+First Horizon Corp,FHN,Fin.,0.47%,0.21%,47.5,3,3,3,4,N
+US Foods Holding Corp,USFD,Stap.,0.00%,0.00%,,,,,,N
+Under Armour Inc,UA,Comm.,0.00%,0.00%,,,,,,Y
+Under Armour Inc,UAA,Comm.,0.00%,0.00%,,,,,,Y
+Berry Global Group Inc,BERY,Mat.,0.00%,0.00%,,,,,,N
+PRA Health Sciences Inc,PRAH,Health,0.00%,0.00%,,,,,,N
+Diamondback Energy Inc,FANG,Energy,0.40%,0.00%,4.25,2,2,2,2,Y
+Acceleron Pharma Inc,XLRN,Health,0.00%,0.00%,,,,,,N
+Bausch Health Cos Inc,BHC,Health,0.00%,0.00%,,,,,,N
+Blackline Inc,BL,IT,0.00%,0.00%,,,,,,N
+Knight-Swift Transportation Ho,KNX,Ind.,0.77%,0.00%,4,2,2,2,2,N
+Nikola Corp,NKLA,Ind.,0.00%,0.00%,,,,,,N
+RealPage Inc,RP,IT,0.00%,0.00%,,,,,,N
+Santander Consumer USA Holding,SC,Fin.,0.00%,0.00%,,,1,2,2,N
+Zions Bancorp NA,ZION,Fin.,0.31%,0.44%,44.75,2,2,3,4,Y
+Ionis Pharmaceuticals Inc,IONS,Health,0.00%,0.00%,,,,,,N
+Lincoln Electric Holdings Inc,LECO,Ind.,0.18%,0.17%,55.5,4,4,4,4,N
+Albertsons Cos Inc,ACI,Stap.,0.23%,0.00%,36.75,2,,,,N
+Euronet Worldwide Inc,EEFT,IT,0.00%,0.00%,,,,,,N
+Ralph Lauren Corp,RL,Comm.,0.00%,-0.72%,,,,,3,Y
+Sealed Air Corp,SEE,Mat.,0.14%,0.42%,42.75,2,2,2,2,Y
+Casey's General Stores Inc,CASY,Stap.,0.76%,0.88%,66.5,5,4,4,4,N
+Lumentum Holdings Inc,LITE,IT,0.00%,0.00%,,,,,,N
+Huntington Ingalls Industries,HII,Ind.,0.27%,0.20%,61.5,4,4,4,4,N
+Donaldson Co Inc,DCI,Ind.,0.15%,0.45%,6.25,4,3,3,4,N
+Axalta Coating Systems Ltd,AXTA,Mat.,0.00%,0.00%,,,,,,N
+Iovance Biotherapeutics Inc,IOVA,Health,0.00%,0.00%,,,,,,N
+American Well Corp,AMWL,Health,0.00%,0.00%,,,,,,N
+Arrowhead Pharmaceuticals Inc,ARWR,Health,0.00%,0.00%,,,,,,N
+Maravai LifeSciences Holdings,MRVI,Health,0.00%,0.00%,,,,,,N
+Terminix Global Holdings Inc,TMX,Comm.,0.00%,0.00%,,,,,,N
+AGCO Corp,AGCO,Ind.,0.63%,0.59%,56.5,4,3,3,3,N
+Signature Bank/New York NY,SBNY,Fin.,0.17%,0.00%,29.75,1,1,1,2,N
+Syneos Health Inc,SYNH,Health,0.00%,0.00%,,,,,,N
+East West Bancorp Inc,EWBC,Fin.,0.22%,0.66%,42.75,2,2,3,2,N
+Cabot Oil & Gas Corp,COG,Energy,0.25%,0.38%,43.5,2,3,3,4,Y
+ITT Inc,ITT,Ind.,0.88%,0.74%,59.75,4,4,4,4,N
+OGE Energy Corp,OGE,Utilities,0.55%,0.88%,51.5,3,3,3,3,N
+Proofpoint Inc,PFPT,IT,0.00%,0.00%,,,,,,N
+Herbalife Nutrition Ltd,HLF,Stap.,0.00%,0.00%,,,,,,N
+PVH Corp,PVH,Comm.,0.00%,-0.13%,,,,,2,Y
+Continental Resources Inc/OK,CLR,Energy,0.00%,0.00%,,,,,1,N
+Bridgebio Pharma Inc,BBIO,Health,0.00%,0.00%,,,,,,N
+Manhattan Associates Inc,MANH,IT,0.00%,0.00%,,,,,,N
+Planet Fitness Inc,PLNT,Comm.,0.00%,0.00%,,,,,,N
+Hill-Rom Holdings Inc,HRC,Health,0.90%,0.66%,63.5,4,4,4,4,N
+Tetra Tech Inc,TTEK,Ind.,0.59%,0.16%,66.75,5,4,4,5,N
+Stericycle Inc,SRCL,Ind.,0.00%,0.00%,,,,,,N
+Kohl's Corp,KSS,Comm.,0.00%,-0.53%,,,,,3,N
+Vertiv Holdings Co,VRT,Ind.,0.54%,0.00%,38,2,,,,N
+LHC Group Inc,LHCG,Health,0.00%,0.00%,,,,,,N
+Grubhub Inc,GRUB,Comm.,0.00%,0.00%,,,,,,N
+Kodiak Sciences Inc,KOD,Health,0.00%,0.00%,,,,,,N
+Alaska Air Group Inc,ALK,Ind.,0.00%,-0.19%,,,,,,Y
+Reynolds Consumer Products Inc,REYN,Stap.,0.29%,0.00%,33.75,2,,,,N
+Twist Bioscience Corp,TWST,Health,0.00%,0.00%,,,,,,N
+Performance Food Group Co,PFGC,Stap.,0.00%,0.00%,,,,,,N
+CACI International Inc,CACI,IT,0.00%,0.00%,,,,,,N
+Toll Brothers Inc,TOL,Comm.,0.11%,0.00%,37.75,2,2,2,2,N
+ADT Inc,ADT,Ind.,0.18%,0.00%,28.75,1,1,1,2,N
+SiteOne Landscape Supply Inc,SITE,Ind.,0.00%,0.00%,,,,,,N
+Prosperity Bancshares Inc,PB,Fin.,0.28%,0.18%,59.75,4,4,4,4,N
+Nielsen Holdings PLC,NLSN,Ind.,0.12%,-0.26%,2.25,1,3,2,2,Y
+DXC Technology Co,DXC,IT,0.00%,0.00%,,,,,2,Y
+Q2 Holdings Inc,QTWO,IT,0.00%,0.00%,,,,,,N
+Post Holdings Inc,POST,Stap.,0.00%,0.00%,,,,,,N
+Devon Energy Corp,DVN,Energy,0.28%,-0.67%,26.5,1,1,2,2,Y
+Jabil Inc,JBL,IT,0.75%,0.00%,34.5,2,1,2,2,N
+Sonoco Products Co,SON,Mat.,0.29%,0.47%,51,3,3,3,4,N
+CoreLogic Inc/United States,CLGX,Ind.,0.18%,0.00%,5,3,2,2,2,N
+Littelfuse Inc,LFUS,IT,0.75%,0.12%,51.75,3,3,4,4,N
+Clearway Energy Inc,CWEN,Utilities,0.40%,0.19%,28.75,1,1,1,1,N
+Clearway Energy Inc,CWEN/A,Utilities,0.43%,0.58%,22.5,1,,,,N
+Harley-Davidson Inc,HOG,Comm.,0.22%,-0.19%,22,1,1,1,3,N
+Amicus Therapeutics Inc,FOLD,Health,0.00%,0.00%,,,,,,N
+CDK Global Inc,CDK,IT,0.12%,0.39%,44.5,2,3,3,3,N
+Lattice Semiconductor Corp,LSCC,IT,0.00%,0.00%,,,,,,N
+Jefferies Financial Group Inc,JEF,Fin.,0.24%,0.19%,55.75,4,3,4,3,N
+Concentrix Corp,CNXC,IT,0.00%,0.00%,,,,,,N
+First Citizens BancShares Inc/,FCNCA,Fin.,0.33%,0.68%,58.75,4,3,,4,N
+First Citizens BancShares Inc/,FCNCB,Fin.,0.36%,0.68%,58.75,4,3,3,4,N
+Globus Medical Inc,GMED,Health,0.00%,0.00%,,,,,,N
+AutoNation Inc,AN,Comm.,0.00%,0.00%,,,,,,N
+Polaris Inc,PII,Comm.,0.26%,0.32%,53.25,3,3,3,4,N
+ANGI Homeservices Inc,ANGI,Disc.,0.00%,0.00%,,,,,,N
+Targa Resources Corp,TRGP,Energy,0.15%,-0.19%,31.25,1,1,1,1,N
+MSA Safety Inc,MSA,Ind.,0.12%,0.61%,64.75,5,5,5,5,N
+Blueprint Medicines Corp,BPMC,Health,0.00%,0.00%,,,,,,N
+Skechers USA Inc,SKX,Comm.,0.00%,0.00%,,,,,,N
+Allakos Inc,ALLK,Health,0.00%,0.00%,,,,,,N
+Haemonetics Corp,HAE,Health,0.00%,0.00%,,,,,,N
+Exelixis Inc,EXEL,Health,0.00%,0.00%,,,,,,N
+Leggett & Platt Inc,LEG,Comm.,0.36%,0.49%,46.75,3,3,3,4,Y
+Choice Hotels International In,CHH,Comm.,0.00%,-0.16%,,,,,4,N
+Brunswick Corp/DE,BC,Comm.,0.14%,0.14%,66.75,5,3,4,4,N
+Credit Acceptance Corp,CACC,Fin.,0.00%,0.00%,,,,,,N
+Appfolio Inc,APPF,IT,0.00%,0.00%,,,,,,N
+Marriott Vacations Worldwide C,VAC,Comm.,0.00%,0.57%,,,,,4,N
+United Therapeutics Corp,UTHR,Health,0.00%,0.00%,,,,,,N
+Columbia Sportswear Co,COLM,Comm.,0.00%,-0.42%,,,,,5,N
+Nutanix Inc,NTNX,IT,0.00%,0.00%,,,,,,N
+BigCommerce Holdings Inc,BIGC,IT,0.00%,0.00%,,,,,,N
+Multiplan Corp,MPLN,Health,0.00%,0.00%,,,,,,N
+Pure Storage Inc,PSTG,IT,0.00%,0.00%,,,,,,N
+Coty Inc,COTY,Stap.,0.00%,0.00%,,,,,2,N
+Oshkosh Corp,OSK,Ind.,0.15%,0.12%,52.5,3,3,4,4,N
+People's United Financial Inc,PBCT,Fin.,0.56%,0.15%,53.75,3,3,3,4,Y
+Parsley Energy Inc,PE,Energy,0.15%,0.00%,44.75,2,2,2,1,N
+Tandem Diabetes Care Inc,TNDM,Health,0.00%,0.00%,,,,,,N
+Western Alliance Bancorp,WAL,Fin.,0.17%,0.00%,33,2,2,2,2,N
+Science Applications Internati,SAIC,IT,0.16%,0.46%,44.75,2,2,3,3,N
+Old Republic International Cor,ORI,Fin.,0.43%,0.26%,49.5,3,3,3,5,N
+Nevro Corp,NVRO,Health,0.00%,0.00%,,,,,,N
+BWX Technologies Inc,BWXT,Ind.,0.13%,0.19%,62,4,3,4,3,N
+Huntsman Corp,HUN,Mat.,0.26%,0.54%,33.25,2,2,2,2,N
+Hess Midstream LP,HESM,Energy,0.93%,0.00%,5.25,3,,,,N
+YETI Holdings Inc,YETI,Comm.,0.00%,0.00%,,,,,,N
+Brooks Automation Inc,BRKS,IT,0.59%,0.00%,45,2,2,2,1,N
+Texas Roadhouse Inc,TXRH,Comm.,0.00%,-0.60%,,,,,5,N
+Timken Co/The,TKR,Ind.,0.15%,0.19%,5.25,3,2,3,3,N
+Kinsale Capital Group Inc,KNSL,Fin.,0.18%,0.00%,63,4,4,4,4,N
+Apache Corp,APA,Energy,0.75%,-0.21%,17.75,1,1,1,1,Y
+Cullen/Frost Bankers Inc,CFR,Fin.,0.33%,0.63%,49.75,3,3,3,4,N
+Berkeley Lights Inc,BLI,Health,0.00%,0.00%,,,,,,N
+TopBuild Corp,BLD,Comm.,0.00%,0.00%,,,,,,N
+Freshpet Inc,FRPT,Stap.,0.00%,0.00%,,,,,,N
+Vontier Corp,VNT,IT,0.00%,0.00%,,,,,,Y
+OneMain Holdings Inc,OMF,Fin.,0.37%,0.00%,39.75,2,2,2,2,N
+Primerica Inc,PRI,Fin.,0.12%,0.21%,65.5,5,5,5,5,N
+Halozyme Therapeutics Inc,HALO,Health,0.00%,0.00%,,,,,,N
+NeoGenomics Inc,NEO,Health,0.00%,0.00%,,,,,,N
+Thor Industries Inc,THO,Comm.,0.18%,0.73%,63.25,4,4,4,4,N
+NOV Inc,NOV,Energy,0.00%,0.00%,,,,,1,Y
+TCF Financial Corp,TCF,Fin.,0.38%,0.70%,42.5,2,2,3,3,N
+Wyndham Hotels & Resorts Inc,WH,Comm.,0.54%,0.00%,21.25,1,1,1,2,N
+Ingredion Inc,INGR,Stap.,0.33%,0.79%,54,3,4,4,3,N
+Biohaven Pharmaceutical Holdin,BHVN,Health,0.00%,0.00%,,,,,,N
+Inspire Medical Systems Inc,INSP,Health,0.00%,0.00%,,,,,,N
+First American Financial Corp,FAF,Fin.,0.36%,0.12%,55,3,4,4,4,N
+Redfin Corp,RDFN,RE,0.00%,0.00%,,,,,,N
+Mattel Inc,MAT,Comm.,0.00%,0.00%,,,,,,N
+Helen of Troy Ltd,HELE,Comm.,0.00%,0.00%,,,,,,N
+FLIR Systems Inc,FLIR,IT,0.16%,1.00%,55.5,4,4,3,4,Y
+Silicon Laboratories Inc,SLAB,IT,0.00%,0.00%,,,,,,N
+Advanced Drainage Systems Inc,WMS,Ind.,0.44%,0.14%,49.25,3,,,,N
+AZEK Co Inc/The,AZEK,Ind.,0.00%,0.00%,,,,,,N
+Change Healthcare Inc,CHNG,Health,0.00%,0.00%,,,,,,N
+iRhythm Technologies Inc,IRTC,Health,0.00%,0.00%,,,,,,N
+BJ's Wholesale Club Holdings I,BJ,Stap.,0.00%,0.00%,,,,,,N
+HealthEquity Inc,HQY,Health,0.00%,0.00%,,,,,,N
+South State Corp,SSB,Fin.,0.26%,0.14%,47.75,3,3,4,4,N
+Marathon Oil Corp,MRO,Energy,0.18%,-0.28%,26.25,1,,,1,Y
+Allegro MicroSystems Inc,ALGM,IT,0.00%,0.00%,,,,,,N
+Tempur Sealy International Inc,TPX,Comm.,0.00%,0.00%,,,,,,N
+Pershing Square Tontine Holdin,PSTH,#N/A,0.00%,0.00%,,,,,,N
+Lemonade Inc,LMND,Fin.,0.00%,0.00%,,,,,,N
+National Instruments Corp,NATI,IT,0.24%,0.65%,55.75,4,4,4,4,N
+Landstar System Inc,LSTR,Ind.,0.62%,0.17%,59.5,4,3,4,4,N
+ManpowerGroup Inc,MAN,Ind.,0.26%,0.72%,55.75,4,3,4,4,N
+Ollie's Bargain Outlet Holding,OLLI,Comm.,0.00%,0.00%,,,,,,N
+TriNet Group Inc,TNET,Ind.,0.00%,0.00%,,,,,,N
+Owl Rock Capital Corp,ORCC,Fin.,0.98%,0.00%,33.75,2,,1,2,N
+Stifel Financial Corp,SF,Fin.,0.90%,0.00%,56.25,4,4,3,3,N
+Duck Creek Technologies Inc,DCT,IT,0.00%,0.00%,,,,,,N
+Essent Group Ltd,ESNT,Fin.,0.15%,0.00%,38.5,2,3,2,2,N
+Envista Holdings Corp,NVST,Health,0.00%,0.00%,,,,,,N
+Cleveland-Cliffs Inc,CLF,Mat.,0.00%,0.00%,,,,,,N
+Pilgrim's Pride Corp,PPC,Stap.,0.00%,0.00%,,,,,,N
+Kemper Corp,KMPR,Fin.,0.16%,0.46%,53,3,3,3,3,N
+First Financial Bankshares Inc,FFIN,Fin.,0.14%,0.15%,59,4,4,4,4,N
+MDU Resources Group Inc,MDU,Utilities,0.32%,0.26%,54.5,3,4,3,4,N
+Turning Point Therapeutics Inc,TPTX,Health,0.00%,0.00%,,,,,,N
+Dick's Sporting Goods Inc,DKS,Comm.,0.22%,0.11%,64,4,4,3,4,N
+BOK Financial Corp,BOKF,Fin.,0.34%,0.39%,48.25,3,2,3,4,N
+Wendy's Co/The,WEN,Comm.,0.13%,0.53%,22,1,1,1,3,N
+Curtiss-Wright Corp,CW,Ind.,0.58%,0.55%,48.5,3,3,3,3,N
+Medpace Holdings Inc,MEDP,Health,0.00%,0.00%,,,,,,N
+Nexstar Media Group Inc,NXST,Disc.,0.25%,0.24%,66,5,4,3,3,N
+TFS Financial Corp,TFSL,Fin.,0.64%,0.27%,51.75,3,3,3,3,N
+Shift4 Payments Inc,FOUR,IT,0.00%,0.00%,,,,,,N
+Nordstrom Inc,JWN,Comm.,0.00%,-0.35%,,,,,,N
+Synovus Financial Corp,SNV,Fin.,0.48%,0.26%,44,2,3,4,4,N
+Hanesbrands Inc,HBI,Comm.,0.41%,0.84%,42,2,2,2,2,Y
+Saia Inc,SAIA,Ind.,0.00%,0.00%,,,,,,N
+JetBlue Airways Corp,JBLU,Ind.,0.00%,0.00%,,,,,,N
+Reata Pharmaceuticals Inc,RETA,Health,0.00%,0.00%,,,,,,N
+Unum Group,UNM,Fin.,0.50%,0.12%,51.25,3,3,4,4,Y
+WillScot Mobile Mini Holdings,WSC,Ind.,0.00%,0.00%,,,,,,N
+Cirrus Logic Inc,CRUS,IT,0.00%,0.00%,,,,,,N
+EMCOR Group Inc,EME,Ind.,0.57%,0.00%,41,2,2,2,2,N
+Fisker Inc,FSR,Comm.,0.00%,0.00%,,,,,,N
+Lancaster Colony Corp,LANC,Stap.,0.16%,-0.16%,61.5,4,4,4,5,N
+New York Community Bancorp Inc,NYCB,Fin.,0.64%,-0.74%,27.75,1,1,1,1,N
+Flowers Foods Inc,FLO,Stap.,0.35%,0.68%,56.75,4,4,4,4,N
+Immunovant Inc,IMVT,Health,0.00%,0.00%,,,,,,N
+Houlihan Lokey Inc,HLI,Fin.,0.20%,0.54%,63.25,4,4,3,3,N
+Regal Beloit Corp,RBC,Ind.,0.98%,0.57%,57.5,4,3,4,4,N
+Schrodinger Inc/United States,SDGR,Health,0.00%,0.00%,,,,,,N
+1Life Healthcare Inc,ONEM,Health,0.00%,0.00%,,,,,,N
+Boyd Gaming Corp,BYD,Comm.,0.00%,0.00%,,,,,,N
+Air Lease Corp,AL,Ind.,0.14%,0.29%,51.25,3,4,3,3,N
+IDACORP Inc,IDA,Utilities,0.30%,0.72%,54.25,3,4,3,4,N
+MSC Industrial Direct Co Inc,MSM,Ind.,0.36%,0.48%,5.75,3,4,4,4,N
+Rexnord Corp,RXN,Ind.,0.81%,0.00%,43.75,2,2,2,2,N
+Green Thumb Industries Inc,GTBIF,Health,0.00%,0.00%,,,,,,N
+Integra LifeSciences Holdings,IART,Health,0.00%,0.00%,,,,,,N
+Allison Transmission Holdings,ALSN,Ind.,0.16%,0.25%,34.75,2,2,2,2,N
+MasTec Inc,MTZ,Ind.,0.00%,0.00%,,,,,,N
+Medallia Inc,MDLA,IT,0.00%,0.00%,,,,,,N
+Vroom Inc,VRM,Comm.,0.00%,0.00%,,,,,,N
+Semtech Corp,SMTC,IT,0.00%,0.00%,,,,,,N
+Flowserve Corp,FLS,Ind.,0.22%,0.21%,4,2,2,3,3,Y
+Bloom Energy Corp,BE,Ind.,0.00%,0.00%,,,,,,N
+Asana Inc,ASAN,IT,0.00%,0.00%,,,,,,N
+Everbridge Inc,EVBG,IT,0.00%,0.00%,,,,,,N
+Iridium Communications Inc,IRDM,Disc.,0.00%,0.00%,,,,,,N
+Penske Automotive Group Inc,PAG,Comm.,0.28%,0.59%,54.75,3,,,4,N
+WPX Energy Inc,WPX,Energy,0.00%,0.00%,,,,,,N
+Xerox Holdings Corp,XRX,IT,0.43%,-0.22%,23.75,1,2,2,2,Y
+Hexcel Corp,HXL,Ind.,0.00%,-0.16%,,,,,4,N
+Omnicell Inc,OMCL,Health,0.00%,0.00%,,,,,,N
+Pinnacle Financial Partners In,PNFP,Fin.,0.99%,0.59%,4,2,2,2,3,N
+Virtu Financial Inc,VIRT,Fin.,0.38%,0.15%,4,2,2,2,1,N
+NextEra Energy Partners LP,NEP,Utilities,0.35%,0.21%,58.5,4,3,3,3,N
+Power Integrations Inc,POWI,IT,0.54%,0.12%,7,5,5,5,5,N
+ACI Worldwide Inc,ACIW,IT,0.00%,0.00%,,,,,,N
+CMC Materials Inc,CCMP,IT,0.12%,0.00%,63.25,4,4,3,3,N
+Ashland Global Holdings Inc,ASH,Mat.,0.14%,-0.61%,24.5,1,3,3,4,N
+RLI Corp,RLI,Fin.,0.92%,-0.66%,58.25,4,4,4,5,N
+Array Technologies Inc,ARRY,Ind.,0.00%,0.00%,,,,,,N
+Vivint Smart Home Inc,VVNT,Comm.,0.00%,0.00%,,,,,,N
+Relay Therapeutics Inc,RLAY,Health,0.00%,0.00%,,,,,,N
+HollyFrontier Corp,HFC,Energy,0.54%,0.13%,32.25,2,2,2,2,Y
+Colfax Corp,CFX,Ind.,0.00%,0.00%,,,,,,N
+LiveRamp Holdings Inc,RAMP,IT,0.00%,0.00%,,,,,,N
+Navistar International Corp,NAV,Ind.,0.00%,0.00%,,,,,,N
+National Beverage Corp,FIZZ,Stap.,0.00%,0.00%,,,,,,N
+RBC Bearings Inc,ROLL,Ind.,0.00%,0.00%,,,,,,N
+Envestnet Inc,ENV,IT,0.00%,0.00%,,,,,,N
+Acuity Brands Inc,AYI,Ind.,0.43%,0.00%,36.5,2,2,2,2,N
+MAXIMUS Inc,MMS,IT,0.15%,0.44%,51.5,3,3,3,3,N
+ASGN Inc,ASGN,Ind.,0.00%,0.00%,,,,,,N
+Graphic Packaging Holding Co,GPK,Mat.,0.18%,0.84%,37.5,2,2,2,2,N
+Emergent BioSolutions Inc,EBS,Health,0.00%,0.00%,,,,,,N
+Sailpoint Technologies Holding,SAIL,IT,0.00%,0.00%,,,,,,N
+Alcoa Corp,AA,Mat.,0.00%,0.00%,,,,,,N
+Quaker Chemical Corp,KWR,Mat.,0.62%,0.46%,52.75,3,3,3,3,N
+Premier Inc,PINC,Health,0.22%,0.00%,31.5,1,2,,,N
+Affiliated Managers Group Inc,AMG,Fin.,0.39%,0.00%,4.5,2,2,2,2,N
+Chemours Co/The,CC,Mat.,0.43%,0.12%,34.25,2,1,1,2,N
+Mercury Systems Inc,MRCY,Ind.,0.00%,0.00%,,,,,,N
+Builders FirstSource Inc,BLDR,Ind.,0.00%,0.00%,,,,,,N
+Foot Locker Inc,FL,Comm.,0.15%,-0.84%,28.75,1,1,,4,N
+Exponent Inc,EXPO,Ind.,0.84%,0.24%,67,5,4,4,5,N
+MP Materials Corp,MP,Mat.,0.00%,0.00%,,,,,,N
+Crocs Inc,CROX,Comm.,0.00%,0.00%,,,,,,N
+NCR Corp,NCR,IT,0.00%,0.00%,,,,,,N
+J2 Global Inc,JCOM,IT,0.00%,0.00%,,,,,,N
+Datto Holding Corp,MSP,IT,0.00%,0.00%,,,,,,N
+Hanover Insurance Group Inc/Th,THG,Fin.,0.24%,0.94%,6.5,4,4,4,4,N
+SLM Corp,SLM,Fin.,0.97%,0.00%,36.5,2,2,2,2,N
+Madison Square Garden Sports C,MSGS,Disc.,0.00%,0.00%,,,,,,N
+Valvoline Inc,VVV,Mat.,0.22%,0.00%,58.25,4,3,3,3,N
+Qurate Retail Inc,QRTEA,Comm.,0.00%,0.00%,,,,,,N
+Qurate Retail Inc,QRTEB,Comm.,0.00%,0.00%,,,,,,N
+Howard Hughes Corp/The,HHC,RE,0.00%,0.00%,,,,,,N
+Ormat Technologies Inc,ORA,Utilities,0.49%,0.12%,5.5,3,3,3,1,N
+Lazard Ltd,LAZ,Fin.,0.44%,-0.44%,52.25,3,3,3,3,N
+Crane Co,CR,Ind.,0.22%,0.54%,44.75,2,3,3,3,N
+ONE Gas Inc,OGS,Utilities,0.28%,0.12%,54.75,3,3,3,4,N
+PennyMac Financial Services In,PFSI,Fin.,0.91%,0.00%,52.25,3,2,2,2,N
+SYNNEX Corp,SNX,IT,0.00%,-0.71%,,,,,,N
+Novanta Inc,NOVT,IT,0.00%,0.00%,,,,,,N
+SmileDirectClub Inc,SDC,Health,0.00%,0.00%,,,,,,N
+NewMarket Corp,NEU,Mat.,0.20%,0.56%,5.75,3,3,4,4,N
+MGIC Investment Corp,MTG,Fin.,0.19%,0.00%,33.25,2,2,2,2,N
+Goosehead Insurance Inc,GSHD,Fin.,0.00%,0.00%,,,,,,N
+eXp World Holdings Inc,EXPI,RE,0.00%,0.00%,,,,,,N
+ICU Medical Inc,ICUI,Health,0.00%,0.00%,,,,,,N
+frontdoor Inc,FTDR,Comm.,0.00%,0.00%,,,,,,N
+Clean Harbors Inc,CLH,Ind.,0.00%,0.00%,,,,,,N
+KBR Inc,KBR,IT,0.13%,0.46%,39.25,2,2,2,2,N
+Neogen Corp,NEOG,Health,0.00%,0.00%,,,,,,N
+Glacier Bancorp Inc,GBCI,Fin.,0.27%,0.56%,66.75,5,3,4,4,N
+Spirit AeroSystems Holdings In,SPR,Ind.,0.12%,0.00%,21.75,1,1,1,1,N
+Grand Canyon Education Inc,LOPE,Comm.,0.00%,0.00%,,,,,,N
+Allogene Therapeutics Inc,ALLO,Health,0.00%,0.00%,,,,,,N
+Carter's Inc,CRI,Comm.,0.00%,0.46%,,,,,4,N
+Eagle Materials Inc,EXP,Mat.,0.00%,-0.13%,,,,,2,N
+Louisiana-Pacific Corp,LPX,Mat.,0.16%,0.00%,54,3,2,2,2,N
+Varonis Systems Inc,VRNS,IT,0.00%,0.00%,,,,,,N
+TripAdvisor Inc,TRIP,Disc.,0.00%,0.00%,,,,,,N
+PTC Therapeutics Inc,PTCT,Health,0.00%,0.00%,,,,,,N
+Alliance Data Systems Corp,ADS,IT,0.11%,0.00%,19.25,1,1,1,2,N
+Upwork Inc,UPWK,Ind.,0.00%,0.00%,,,,,,N
+Altair Engineering Inc,ALTR,IT,0.00%,0.00%,,,,,,N
+Ensign Group Inc/The,ENSG,Health,0.29%,0.58%,68.5,5,5,5,4,N
+Pacific Biosciences of Califor,PACB,Health,0.00%,0.00%,,,,,,N
+Insmed Inc,INSM,Health,0.00%,0.00%,,,,,,N
+United Bankshares Inc/WV,UBSI,Fin.,0.43%,0.17%,39.5,2,2,2,3,N
+John Bean Technologies Corp,JBT,Ind.,0.35%,0.16%,33.75,2,2,2,2,N
+Fox Factory Holding Corp,FOXF,Comm.,0.00%,0.00%,,,,,,N
+Bandwidth Inc,BAND,Disc.,0.00%,0.00%,,,,,,N
+Hawaiian Electric Industries I,HE,Utilities,0.37%,0.13%,39.75,2,2,2,2,N
+ChemoCentryx Inc,CCXI,Health,0.00%,0.00%,,,,,,N
+Vir Biotechnology Inc,VIR,Health,0.00%,0.00%,,,,,,N
+Valley National Bancorp,VLY,Fin.,0.45%,0.00%,3.5,1,1,1,2,N
+Switch Inc,SWCH,IT,0.12%,0.00%,52,3,3,2,3,N
+Simpson Manufacturing Co Inc,SSD,Ind.,0.98%,0.89%,67.5,5,4,4,4,N
+Beam Therapeutics Inc,BEAM,Health,0.00%,0.00%,,,,,,N
+Watts Water Technologies Inc,WTS,Ind.,0.76%,0.69%,55.25,4,3,4,4,N
+PNM Resources Inc,PNM,Utilities,0.27%,0.90%,56,4,4,3,3,N
+Chart Industries Inc,GTLS,Ind.,0.00%,0.00%,,,,,,N
+Alarm.com Holdings Inc,ALRM,IT,0.00%,0.00%,,,,,,N
+Bank OZK,OZK,Fin.,0.35%,0.14%,5.75,3,3,3,4,N
+Rapid7 Inc,RPD,IT,0.00%,0.00%,,,,,,N
+Root Inc/OH,ROOT,Fin.,0.00%,0.00%,,,,,,N
+Tenable Holdings Inc,TENB,IT,0.00%,0.00%,,,,,,N
+Apellis Pharmaceuticals Inc,APLS,Health,0.00%,0.00%,,,,,,N
+Wyndham Destinations Inc,WYND,Comm.,0.27%,-0.97%,21,1,3,3,4,N
+Cannae Holdings Inc,CNNE,Fin.,0.00%,0.00%,,,,,,N
+Arena Pharmaceuticals Inc,ARNA,Health,0.00%,0.00%,,,,,,N
+Hamilton Lane Inc,HLNE,Fin.,0.16%,0.00%,55.25,4,3,3,3,N
+National General Holdings Corp,NGHC,Fin.,0.59%,0.17%,49,3,3,4,4,N
+Silgan Holdings Inc,SLGN,Mat.,0.13%,0.84%,63.75,4,4,4,4,N
+GoHealth Inc,GOCO,Fin.,0.00%,0.00%,,,,,,N
+EQT Corp,EQT,Energy,0.00%,-0.13%,,,,,,N
+Evercore Inc,EVR,Fin.,0.22%,0.15%,55.25,4,3,3,4,N
+Armstrong World Industries Inc,AWI,Ind.,0.11%,0.00%,48.25,3,2,3,3,N
+PROG Holdings Inc,PRG,Fin.,0.33%,0.12%,64.25,5,,,,N
+Hain Celestial Group Inc/The,HAIN,Stap.,0.00%,0.00%,,,,,,N
+Sabre Corp,SABR,IT,0.00%,-0.49%,,,,,,N
+Selective Insurance Group Inc,SIGI,Fin.,0.15%,0.15%,57.5,4,4,4,5,N
+New Relic Inc,NEWR,IT,0.00%,0.00%,,,,,,N
+Selectquote Inc,SLQT,Fin.,0.00%,0.00%,,,,,,N
+Digital Turbine Inc,APPS,IT,0.00%,0.00%,,,,,,N
+Cimarex Energy Co,XEC,Energy,0.23%,0.69%,23,1,1,1,1,N
+Advanced Energy Industries Inc,AEIS,IT,0.00%,0.00%,,,,,,N
+Artisan Partners Asset Managem,APAM,Fin.,0.66%,0.24%,53.25,3,,,,N
+Cresco Labs Inc,CRLBF,Health,0.00%,0.00%,,,,,,N
+Seaboard Corp,SEB,Stap.,0.30%,0.00%,49,3,2,2,3,N
+CIT Group Inc,CIT,Fin.,0.39%,0.18%,44.75,2,2,2,3,N
+FibroGen Inc,FGEN,Health,0.00%,0.00%,,,,,,N
+Gates Industrial Corp PLC,GTES,Ind.,0.00%,0.00%,,,,,,N
+Sunnova Energy International I,NOVA,Utilities,0.00%,0.00%,,,,,,N
+FTI Consulting Inc,FCN,Ind.,0.00%,0.00%,,,,,,N
+Vertex Inc,VERX,IT,0.00%,0.00%,,,,,,N
+United States Steel Corp,X,Mat.,0.24%,-0.28%,24.75,1,,,,N
+Trulieve Cannabis Corp,TCNNF,Health,0.00%,0.00%,,,,,,N
+Eidos Therapeutics Inc,EIDX,Health,0.00%,0.00%,,,,,,N
+Ovintiv Inc,OVV,Energy,0.26%,-0.23%,48.25,3,,,,N
+National Fuel Gas Co,NFG,Utilities,0.43%,0.24%,47.25,3,3,3,3,N
+W R Grace & Co,GRA,Mat.,0.22%,0.00%,49.5,3,3,3,3,N
+Leslie's Inc,LESL,Comm.,0.00%,0.00%,,,,,,N
+Acadia Healthcare Co Inc,ACHC,Health,0.00%,0.00%,,,,,,N
+Schneider National Inc,SNDR,Ind.,0.13%,0.00%,48.75,3,2,2,2,N
+Proto Labs Inc,PRLB,Ind.,0.00%,0.00%,,,,,,N
+Amkor Technology Inc,AMKR,IT,0.16%,0.00%,41.75,2,,,,N
+Portland General Electric Co,POR,Utilities,0.38%,0.68%,49.5,3,4,3,4,N
+Workiva Inc,WK,IT,0.00%,0.00%,,,,,,N
+Radian Group Inc,RDN,Fin.,0.25%,1.19%,35,2,2,3,4,N
+Sage Therapeutics Inc,SAGE,Health,0.00%,0.00%,,,,,,N
+Black Hills Corp,BKH,Utilities,0.37%,0.62%,56.25,4,3,3,3,N
+Stitch Fix Inc,SFIX,Comm.,0.00%,0.00%,,,,,,N
+Verint Systems Inc,VRNT,IT,0.00%,0.00%,,,,,,N
+Scientific Games Corp,SGMS,Comm.,0.00%,0.00%,,,,,,N
+Diodes Inc,DIOD,IT,0.00%,0.00%,,,,,,N
+Rackspace Technology Inc,RXT,IT,0.00%,0.00%,,,,,,N
+Southwest Gas Holdings Inc,SWX,Utilities,0.38%,0.74%,54.75,3,3,3,3,N
+Perspecta Inc,PRSP,IT,0.12%,0.00%,38,2,2,2,2,N
+Jamf Holding Corp,JAMF,IT,0.00%,0.00%,,,,,,N
+LivePerson Inc,LPSN,IT,0.00%,0.00%,,,,,,N
+Cloudera Inc,CLDR,IT,0.00%,0.00%,,,,,,N
+Vicor Corp,VICR,Ind.,0.00%,0.00%,,,,,,N
+TG Therapeutics Inc,TGTX,Health,0.00%,0.00%,,,,,,N
+Wingstop Inc,WING,Comm.,0.42%,0.00%,63.25,4,4,2,3,N
+Element Solutions Inc,ESI,Mat.,0.11%,0.00%,37.25,2,,,,N
+Cushman & Wakefield PLC,CWK,RE,0.00%,0.00%,,,,,,N
+Webster Financial Corp,WBS,Fin.,0.38%,0.12%,43.75,2,2,3,4,N
+fuboTV Inc,FUBO,IT,0.00%,0.00%,,,,,,N
+Cohen & Steers Inc,CNS,Fin.,0.30%,0.11%,59.75,4,4,4,4,N
+Open Lending Corp,LPRO,Fin.,0.00%,0.00%,,,,,,N
+Macy's Inc,M,Comm.,0.00%,-0.12%,,,,,,N
+Seer Inc,SEER,Health,0.00%,0.00%,,,,,,N
+Parsons Corp,PSN,Ind.,0.00%,0.00%,,,,,,N
+STAAR Surgical Co,STAA,Health,0.00%,0.00%,,,,,,N
+Veracyte Inc,VCYT,Health,0.00%,0.00%,,,,,,N
+SunPower Corp,SPWR,IT,0.00%,0.00%,,,,,,N
+Qualys Inc,QLYS,IT,0.00%,0.00%,,,,,,N
+Covetrus Inc,CVET,Health,0.00%,0.00%,,,,,,N
+Murphy USA Inc,MUSA,Comm.,0.76%,0.00%,43.75,2,,,,N
+Antero Midstream Corp,AM,Energy,0.16%,0.00%,44.25,2,2,2,3,N
+Altra Industrial Motion Corp,AIMC,Ind.,0.43%,-0.11%,26.25,1,,,,N
+Valmont Industries Inc,VMI,Ind.,0.13%,0.37%,44,2,2,3,3,N
+Grocery Outlet Holding Corp,GO,Stap.,0.00%,0.00%,,,,,,N
+Visteon Corp,VC,Comm.,0.00%,0.00%,,,,,,N
+EnerSys,ENS,Ind.,0.84%,0.00%,3.75,1,2,2,2,N
+UniFirst Corp/MA,UNF,Ind.,0.47%,0.46%,51,3,3,4,4,N
+Olin Corp,OLN,Mat.,0.33%,0.00%,3,1,1,2,1,N
+AdaptHealth Corp,AHCO,Health,0.00%,0.00%,,,,,,N
+Equitrans Midstream Corp,ETRN,Energy,0.75%,0.00%,19,1,1,1,1,N
+Tenet Healthcare Corp,THC,Health,0.00%,0.00%,,,,,,N
+First National of Nebraska Inc,FINN,#N/A,0.00%,0.12%,,,,,,N
+Advantage Solutions Inc,ADV,Disc.,0.00%,0.00%,,,,,,N
+Trupanion Inc,TRUP,Fin.,0.00%,0.00%,,,,,,N
+Avient Corp,AVNT,Mat.,0.21%,0.14%,57,4,,,,N
+Shake Shack Inc,SHAK,Comm.,0.00%,0.00%,,,,,,N
+FireEye Inc,FEYE,IT,0.00%,0.00%,,,,,,N
+National Vision Holdings Inc,EYE,Comm.,0.00%,0.00%,,,,,,N
+SPS Commerce Inc,SPSC,IT,0.00%,0.00%,,,,,,N
+Stamps.com Inc,STMP,Comm.,0.00%,0.00%,,,,,,N
+WD-40 Co,WDFC,Stap.,0.19%,0.12%,63,4,4,4,4,N
+Corsair Gaming Inc,CRSR,IT,0.00%,0.00%,,,,,,N
+Wintrust Financial Corp,WTFC,Fin.,0.18%,0.25%,51.5,3,3,3,4,N
+Brink's Co/The,BCO,Ind.,0.83%,0.84%,4.25,2,2,2,2,N
+WESCO International Inc,WCC,Ind.,0.00%,0.00%,,,,,,N
+Community Bank System Inc,CBU,Fin.,0.27%,0.64%,54,3,4,4,4,N
+Balchem Corp,BCPC,Mat.,0.53%,0.11%,66.25,5,5,5,5,N
+World Wrestling Entertainment,WWE,Disc.,1.00%,0.00%,44.75,2,2,2,1,N
+FormFactor Inc,FORM,IT,0.00%,0.00%,,,,,,N
+Meritage Homes Corp,MTH,Comm.,0.00%,0.00%,,,,,,N
+Adient PLC,ADNT,Comm.,0.00%,0.00%,,,,,,N
+H&R Block Inc,HRB,Comm.,0.66%,0.54%,47.25,3,3,2,3,N
+Taylor Morrison Home Corp,TMHC,Comm.,0.00%,0.00%,,,,,,N
+Itron Inc,ITRI,IT,0.00%,0.00%,,,,,,N
+LendingTree Inc,TREE,Fin.,0.00%,0.00%,,,,,,N
+MACOM Technology Solutions Hol,MTSI,IT,0.00%,0.00%,,,,,,N
+Select Medical Holdings Corp,SEM,Health,0.00%,0.00%,,,,,,N
+Vonage Holdings Corp,VG,Disc.,0.00%,0.00%,,,,,,N
+TTEC Holdings Inc,TTEC,IT,0.20%,0.52%,66.25,5,,,,N
+Coherent Inc,COHR,IT,0.00%,0.00%,,,,,,N
+Insperity Inc,NSP,Ind.,0.20%,0.34%,63,4,5,4,5,N
+PagerDuty Inc,PD,IT,0.00%,0.00%,,,,,,N
+SpringWorks Therapeutics Inc,SWTX,Health,0.00%,0.00%,,,,,,N
+Sterling Bancorp/DE,STL,Fin.,0.16%,0.00%,25,1,1,1,2,N
+Spire Inc,SR,Utilities,0.46%,0.61%,52.75,3,3,3,4,N
+CareDx Inc,CDNA,Health,0.00%,0.00%,,,,,,N
+UMB Financial Corp,UMBF,Fin.,0.19%,0.56%,56.5,4,3,3,4,N
+Lordstown Motors Corp,RIDE,Comm.,0.00%,0.00%,,,,,,N
+LCI Industries,LCII,Comm.,0.23%,0.70%,55.25,4,3,4,4,N
+Ryder System Inc,R,Ind.,0.36%,0.75%,47.5,3,3,3,3,N
+UFP Industries Inc,UFPI,Ind.,0.91%,0.13%,66.25,5,,,5,N
+Sanderson Farms Inc,SAFM,Stap.,0.13%,0.29%,54,3,2,2,3,N
+BMC Stock Holdings Inc,BMCH,Ind.,0.00%,0.00%,,,,,,N
+Cardlytics Inc,CDLX,Disc.,0.00%,0.00%,,,,,,N
+AAON Inc,AAON,Ind.,0.57%,0.12%,64.75,5,4,4,4,N
+Progyny Inc,PGNY,Health,0.00%,0.00%,,,,,,N
+KB Home,KBH,Comm.,0.18%,0.33%,54,3,2,2,2,N
+Avnet Inc,AVT,IT,0.24%,0.49%,4,2,2,3,3,N
+Umpqua Holdings Corp,UMPQ,Fin.,0.55%,0.63%,4.5,2,2,2,2,N
+American Eagle Outfitters Inc,AEO,Comm.,0.27%,-0.11%,41.25,2,2,2,2,N
+TEGNA Inc,TGNA,Disc.,0.27%,-0.16%,3.25,1,2,2,2,N
+Franklin Electric Co Inc,FELE,Ind.,0.90%,0.11%,59.5,4,,,,N
+Home BancShares Inc/AR,HOMB,Fin.,0.29%,0.14%,52.25,3,3,3,4,N
+Kirby Corp,KEX,Ind.,0.00%,0.00%,,,,,,N
+MDC Holdings Inc,MDC,Comm.,0.33%,0.11%,56,4,4,3,3,N
+ManTech International Corp/VA,MANT,IT,0.14%,0.88%,59.5,4,4,4,4,N
+Shockwave Medical Inc,SWAV,Health,0.00%,0.00%,,,,,,N
+Merit Medical Systems Inc,MMSI,Health,0.00%,0.00%,,,,,,N
+New Jersey Resources Corp,NJR,Utilities,0.37%,0.68%,6.25,4,4,4,3,N
+Brighthouse Financial Inc,BHF,Fin.,0.00%,0.00%,,,,,,N
+Focus Financial Partners Inc,FOCS,Fin.,0.00%,0.00%,,,,,,N
+Cerence Inc,CRNC,IT,0.00%,0.00%,,,,,,N
+Bank of Hawaii Corp,BOH,Fin.,0.35%,0.83%,46.5,3,3,4,4,N
+Aerojet Rocketdyne Holdings In,AJRD,Ind.,0.00%,0.00%,,,,,,N
+Deciphera Pharmaceuticals Inc,DCPH,Health,0.00%,0.00%,,,,,,N
+CNO Financial Group Inc,CNO,Fin.,0.22%,0.12%,61.25,4,4,4,4,N
+Viavi Solutions Inc,VIAV,IT,0.00%,0.00%,,,,,,N
+Velodyne Lidar Inc,VLDR,IT,0.00%,0.00%,,,,,,N
+Inari Medical Inc,NARI,Health,0.00%,0.00%,,,,,,N
+Arconic Corp,ARNC,Mat.,0.00%,0.00%,,,,,1,N
+Ambarella Inc,AMBA,IT,0.00%,0.00%,,,,,,N
+Sensient Technologies Corp,SXT,Mat.,0.21%,0.84%,51.75,3,3,4,3,N
+Univar Solutions Inc,UNVR,Ind.,0.00%,0.00%,,,,,,N
+BellRing Brands Inc,BRBR,Stap.,0.00%,0.00%,,,,,,N
+Cracker Barrel Old Country Sto,CBRL,Comm.,0.00%,-0.18%,,,,,4,N
+MicroStrategy Inc,MSTR,IT,0.00%,0.00%,,,,,,N
+Nektar Therapeutics,NKTR,Health,0.00%,0.00%,,,,,,N
+Dorman Products Inc,DORM,Comm.,0.00%,0.00%,,,,,,N
+Patterson Cos Inc,PDCO,Health,0.35%,0.39%,41.25,2,,,,N
+Glaukos Corp,GKOS,Health,0.00%,0.00%,,,,,,N
+Pactiv Evergreen Inc,PTVE,Mat.,0.00%,0.00%,,,,,,N
+FNB Corp/PA,FNB,Fin.,0.55%,0.00%,34.5,2,2,1,2,N
+OPKO Health Inc,OPK,Health,0.00%,0.00%,,,,,,N
+AMN Healthcare Services Inc,AMN,Health,0.00%,0.00%,,,,,,N
+Kennametal Inc,KMT,Ind.,0.23%,0.13%,25.25,1,1,1,1,N
+Laureate Education Inc,LAUR,Comm.,0.00%,0.00%,,,,,,N
+ALLETE Inc,ALE,Utilities,0.40%,0.41%,48.75,3,3,3,3,N
+Mimecast Ltd,MIME,IT,0.00%,0.00%,,,,,,N
+Casella Waste Systems Inc,CWST,Ind.,0.00%,0.00%,,,,,,N
+FS KKR Capital Corp II,FSKR,Fin.,0.13%,0.00%,34.25,2,,,,N
+Agios Pharmaceuticals Inc,AGIO,Health,0.00%,0.00%,,,,,,N
+Arcturus Therapeutics Holdings,ARCT,Health,0.00%,0.00%,,,,,,N
+GATX Corp,GATX,Ind.,0.24%,0.48%,51.75,3,3,4,4,N
+Axsome Therapeutics Inc,AXSM,Health,0.00%,0.00%,,,,,,N
+SVMK Inc,SVMK,IT,0.00%,0.00%,,,,,,N
+First Hawaiian Inc,FHB,Fin.,0.44%,0.00%,38.5,2,2,2,3,N
+Bluebird Bio Inc,BLUE,Health,0.00%,0.00%,,,,,,N
+White Mountains Insurance Grou,WTM,Fin.,1.00%,0.00%,38.5,2,2,2,2,N
+Intellia Therapeutics Inc,NTLA,Health,0.00%,0.00%,,,,,,N
+Applied Industrial Technologie,AIT,Ind.,0.16%,0.35%,53.5,3,,,,N
+Green Dot Corp,GDOT,Fin.,0.00%,0.00%,,,,,,N
+Hyliion Holdings Corp,HYLN,Ind.,0.00%,0.00%,,,,,,N
+Acushnet Holdings Corp,GOLF,Comm.,0.15%,0.00%,47.25,3,,,,N
+Option Care Health Inc,OPCH,Health,0.00%,0.00%,,,,,,N
+Acacia Communications Inc,ACIA,IT,0.00%,0.00%,,,,,,N
+PJT Partners Inc,PJT,Fin.,0.27%,0.00%,51.75,3,,,,N
+Energizer Holdings Inc,ENR,Stap.,0.28%,0.19%,43,2,2,2,2,N
+PacWest Bancorp,PACW,Fin.,0.39%,-0.76%,23.25,1,1,1,2,N
+Rogers Corp,ROG,IT,0.00%,0.00%,,,,,,N
+Allegiant Travel Co,ALGT,Ind.,0.00%,-0.13%,,,,,,N
+Hillenbrand Inc,HI,Ind.,0.22%,0.12%,59.5,4,,,,N
+Moelis & Co,MC,Fin.,0.33%,0.33%,28.75,1,,,,N
+Accolade Inc,ACCD,Health,0.00%,0.00%,,,,,,N
+Eastern Bankshares Inc,EBC,Fin.,0.00%,0.00%,,,,,,N
+Everest Re Group Ltd,RE,Fin.,0.26%,0.92%,55.75,4,4,5,5,Y
+IHS Markit Ltd,INFO,Ind.,0.76%,0.00%,4.25,2,2,2,2,Y
+Chubb Ltd,CB,Fin.,0.23%,0.34%,51.25,3,3,4,4,Y
+TE Connectivity Ltd,TEL,IT,0.17%,0.82%,53.5,3,3,3,4,Y
+Garmin Ltd,GRMN,Comm.,0.24%,0.36%,58.75,4,4,4,4,Y
+TechnipFMC PLC,FTI,Energy,0.14%,0.00%,32.75,2,1,1,1,Y
+Accenture PLC,ACN,IT,0.13%,0.91%,66.5,5,4,5,5,Y
+Willis Towers Watson PLC,WLTW,Fin.,0.13%,-0.35%,62.75,4,4,4,4,Y
+Allegion plc,ALLE,Ind.,0.20%,0.26%,61,4,4,4,4,Y
+Perrigo Co PLC,PRGO,Health,0.21%,0.12%,52.5,3,3,3,2,Y
+Trane Technologies PLC,TT,Ind.,0.15%,0.13%,46.25,3,,,,Y
+Pentair PLC,PNR,Ind.,0.16%,-1.00%,35,2,4,4,4,Y
+Medtronic PLC,MDT,Health,0.20%,0.96%,51.75,3,3,4,4,Y
+Linde PLC,LIN,Mat.,0.15%,0.61%,6.5,4,5,4,5,Y
+Aptiv PLC,APTV,Comm.,0.00%,-0.15%,,,,,,Y
+Amcor PLC,AMCR,Mat.,0.40%,0.00%,46.5,3,2,1,1,Y
+Alexandria Real Estate Equitie,ARE,RE,0.24%,0.68%,61,4,4,3,4,N
+American Tower Corp,AMT,RE,0.22%,0.21%,6.75,4,4,5,5,Y
+Apartment Investment and Manag,AIV,RE,0.00%,0.49%,,,3,4,3,N
+AvalonBay Communities Inc,AVB,RE,0.40%,0.49%,52.25,3,3,3,3,Y
+Boston Properties Inc,BXP,RE,0.41%,0.36%,49.25,3,3,4,3,Y
+Crown Castle International Cor,CCI,RE,0.33%,0.87%,55,3,4,4,4,N
+Digital Realty Trust Inc,DLR,RE,0.32%,0.57%,5.75,3,3,3,4,Y
+Duke Realty Corp,DRE,RE,0.26%,0.15%,53.5,3,4,4,4,Y
+Equinix Inc,EQIX,RE,0.15%,-0.97%,53.5,3,3,4,4,Y
+Equity Residential,EQR,RE,0.47%,0.17%,28,1,2,2,2,Y
+Essex Property Trust Inc,ESS,RE,0.35%,0.77%,55.75,4,4,4,4,Y
+Extra Space Storage Inc,EXR,RE,0.32%,1.00%,47.25,3,3,3,3,Y
+Federal Realty Investment Trus,FRT,RE,0.50%,0.31%,47.5,3,3,4,4,N
+Healthpeak Properties Inc,PEAK,RE,0.49%,-0.81%,25,1,,,,Y
+Host Hotels & Resorts Inc,HST,RE,0.00%,-0.13%,,,,,2,Y
+Iron Mountain Inc,IRM,RE,0.84%,0.53%,43.25,2,3,3,3,Y
+Kimco Realty Corp,KIM,RE,0.43%,-0.11%,31,1,2,,3,Y
+Mid-America Apartment Communit,MAA,RE,0.32%,0.54%,52,3,4,4,4,N
+Prologis Inc,PLD,RE,0.23%,0.88%,53,3,4,4,4,Y
+Public Storage,PSA,RE,0.35%,0.42%,37.75,2,2,2,2,Y
+Realty Income Corp,O,RE,0.45%,0.42%,52,3,3,4,4,Y
+Regency Centers Corp,REG,RE,0.52%,0.42%,45.25,2,2,3,3,Y
+SBA Communications Corp,SBAC,RE,0.66%,0.00%,38,2,2,1,2,Y
+SL Green Realty Corp,SLG,RE,0.62%,0.16%,56,4,4,4,4,Y
+Simon Property Group Inc,SPG,RE,0.70%,-0.17%,21.75,1,1,3,3,Y
+UDR Inc,UDR,RE,0.37%,0.54%,45.5,2,4,4,4,Y
+Ventas Inc,VTR,RE,0.37%,-0.55%,21.75,1,1,1,3,Y
+Vornado Realty Trust,VNO,RE,0.57%,-0.11%,13.75,1,,,,Y
+Welltower Inc,WELL,RE,0.38%,-0.39%,21.5,1,1,1,2,Y
+Weyerhaeuser Co,WY,RE,0.23%,-0.67%,3.25,1,,,2,Y
