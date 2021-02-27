@@ -24,10 +24,14 @@ fi
 
 
 # is this stock an aristocrat or king?  (make sure to dump dfn if you tag it)
-grep ^$TICKER, DividendAristocrats.csv > /dev/null 2>&1
+# grep ^$TICKER, DividendAristocrats.csv > /dev/null 2>&1
+grep ^$TICKER, dividend-aristocrats.csv > /dev/null 2>&1
 ISARISTO=$?
+AORK=`grep ^$TICKER, dividend-aristocrats.csv  | cut -d, -f2` # aristo or king?
 DGR=`grep ^$TICKER, DividendAristocrats.csv  | cut -d, -f12`  # 5-year Dividend Growth Rate
-AORK=`grep ^T, dividend-aristocrats.csv  | cut -d, -f2` # aristo or king?
+if [ ! -n "$DGR" ] ; then
+	DGR=`./5-yr-div-cagr.sh  $TICKER`
+fi
 if [ $ISARISTO -eq 0 ] ; then
 	echo -n $OK
 	echo " This stock is a dividend $AORK"
