@@ -1,3 +1,12 @@
+Sat Feb 13 13:11:56 MST 2021
+----------------------------
+
+divcontable.csv - https://www.realitysharesadvisors.com/divcon/ from Sept 30, 2020
+
+I want to create some sort of analysis program that will evaluate using heuristics.
+One of the heuristics would be divcon >= 3.
+Another might be earnings > 0
+
 Thu Jan  7 07:24:14 MST 2021
 ----------------------------
 BRK-B.csv - I found monthly price data for BRK.B going back to 1996.
