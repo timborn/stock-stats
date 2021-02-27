@@ -17,6 +17,24 @@ TICKER=T
 # divcon >= 3
 
 
+# is this stock an aristocrat or king?  (make sure to dump dfn if you tag it)
+grep ^$TICKER, DividendAristocrats.csv > /dev/null 2>&1
+ISARISTO=$?
+DGR=`grep ^$TICKER, DividendAristocrats.csv  | cut -d, -f12`  # 5-year Dividend Growth Rate
+AORK=`grep ^T, dividend-aristocrats.csv  | cut -d, -f2` # aristo or king?
+if [ $ISARISTO -eq 0 ] ; then
+	echo -n $OK
+	echo " This stock is a dividend $AORK"
+	echo "The 5-year growth rate for dividends is $DGR"
+	echo "An aristocrat has 25+ years of continuous dividend increases (S&P500 index only)"
+	echo "A dividend KING has 50+ years of continuous dividend increases."
+fi
+
+# is the P/E > 16?  (historical avg for all stocks, but not necessarily correct for sectors)  TODO
+# TODO
+
+# say something sensible about free cash flow
+# TODO
 
 
 # quick ratio
