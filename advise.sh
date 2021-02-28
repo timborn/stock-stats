@@ -24,6 +24,7 @@ fi
 # divcon >= 3
 
 # did this stock actually have any earnings?
+# TODO: when EARNINGS is negative, P/E often shows up as '-' which throws errors on my output.  Fix
 PE=`./stock-stats $TICKER | jq '."P/E"|tonumber'`
 YIELD=`echo "scale=2; 100 / $PE" | bc -l`
 EARNINGS=`./stock-stats $TICKER | jq '."EPS (ttm)"|tonumber'`
@@ -51,12 +52,15 @@ DGR=`grep ^$TICKER, DividendAristocrats.csv  | cut -d, -f12`  # 5-year Dividend 
 if [ ! -n "$DGR" ] ; then
 	DGR=`./5-yr-div-cagr.sh  $TICKER`
 fi
+DIVYIELD=`stock-stats $TICKER | jq '."Dividend %"'`
+
 if [ $ISARISTO -eq 0 ] ; then
 	echo -n $OK
 	echo " This stock is a dividend $AORK"
 else
 	echo "$NEUTRAL This stock is not an aristocrat."
 fi
+	echo "The dividend yield is $DIVYIELD"
 	echo "The 5-year growth rate for dividends is $DGR"
 	echo "An aristocrat has 25+ years of continuous dividend increases (S&P500 index only)"
 	echo "A dividend KING has 50+ years of continuous dividend increases."
