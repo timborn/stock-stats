@@ -20,6 +20,7 @@ fi
 # is this stock an aristocrat or king?  (make sure to dump dfn if you tag it)
 # is the P/E > 16?  (historical avg for all stocks, but not necessarily correct for sectors)  TODO
 # say something sensible about free cash flow
+#   say something about payout ratio - how well is the dividend covered
 # quick ratio
 # divcon >= 3
 
@@ -49,7 +50,7 @@ echo The price is $PRICE and the mid-point it traded at during
 echo the past year is $MIDPRICE.  The price you pay is the single biggest 
 echo determinant of your long term value prospects.
 
-# does this stock generate "good" dividends?  (good == > 2.5, assuming inflation of 2%)
+# does this stock generate "good" dividends?  (good == > 2.5%, assuming inflation of 2%)
 # TODO 
 
 # is this stock an aristocrat or king?  (make sure to dump dfn if you tag it)
@@ -78,7 +79,22 @@ fi
 # TODO
 
 # say something sensible about free cash flow
-# TODO
+#   say something about payout ratio - how well is the dividend covered
+PAYOUT=`stock-stats $TICKER | jq '."Payout"' | sed -e's/%//' `
+# looks wierd because PAYOUT really does include those double quotes
+[ "$PAYOUT" = '"-"' ] && PAYOUT="999"
+DIVYIELD=`stock-stats $TICKER | jq '."Dividend %"' | sed -e's/%//' `
+if (( $(echo "$PAYOUT > 90" | bc -l) )); then
+	TAG=$ALERT
+else
+	if (( $(echo "$DIVYIELD >= 4" | bc -l) )); then
+		TAG=$OK
+	else
+		TAG=$NEUTRAL
+	fi
+fi
+echo $TAG Dividend yield of $DIVYIELD% with a payout ratio of $PAYOUT%
+[ $TAG = $ALERT ] && echo "That payout ratio looks unsustainable."
 
 
 # quick ratio
