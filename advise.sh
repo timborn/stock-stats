@@ -80,10 +80,10 @@ fi
 
 # say something sensible about free cash flow
 #   say something about payout ratio - how well is the dividend covered
-PAYOUT=`stock-stats $TICKER | jq '."Payout"' | sed -e's/%//' `
+PAYOUT=`stock-stats $TICKER | jq '."Payout"' | sed -e's/%//; s/\"//g' `
 # looks wierd because PAYOUT really does include those double quotes
 [ "$PAYOUT" = '"-"' ] && PAYOUT="999"
-DIVYIELD=`stock-stats $TICKER | jq '."Dividend %"' | sed -e's/%//' `
+DIVYIELD=`stock-stats $TICKER | jq '."Dividend %"' | sed -e's/%//; s/\"//g' `
 if (( $(echo "$PAYOUT > 90" | bc -l) )); then
 	TAG=$ALERT
 else
