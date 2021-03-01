@@ -7,14 +7,21 @@
 # Sometimes we do not want to filter things out, in which case -n flag is useful.
 #
 # DONE: allow #comments in my input files
+# TODO: allow a ticker on command line
 
-USAGE="USAGE: $0 [-n] [file]"
-NOFILT=0
-while getopts ":n" opt; do
+USAGE="USAGE: $0 [-n] [-t <ticker>] [file]"
+NOFILT=0; TICKER=0
+while getopts ":nt:" opt; do
   case ${opt} in 
     n ) # no filters
       NOFILT=1
-      shift
+      # shift
+      ;;
+    t ) # give me a ticker symbol; mutex w.r.t. input file
+      TICKER=1
+      TMPFILE=$(mktemp /tmp/aristo.XXXXXX)
+      echo $OPTARG > $TMPFILE
+      # shift
       ;;
     \? )
       echo $USAGE
@@ -22,10 +29,16 @@ while getopts ":n" opt; do
       ;;
   esac
 done
+shift $((OPTIND -1))
 
 # OPTIONAL: name of a file to use instead of aristocrats
 # the file is just a list of stock symbols, one per line
-FN="aristocrats"
+# If both a ticker and file are provided, file wins
+if [ $TICKER -eq 1 ] ; then
+	FN=$TMPFILE
+else
+	FN="aristocrats"
+fi
 if [ $# -eq 1 ]; then
 	if [ -r $1 ] ; then 
 		FN=$1
