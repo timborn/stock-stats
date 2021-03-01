@@ -38,7 +38,16 @@ echo "P/E ratio: $PE"
 echo Implies an earnings yield of $YIELD%
 
 # is the price "fair" (at or below midpoint of past year hi/lo)
-# TODO 
+PRICE=$( ./aristo.sh -t $TICKER | jq .price )
+MIDPRICE=$( ./aristo.sh -t $TICKER | jq .midPrice )
+if (( $(echo "$PRICE > $MIDPRICE" | bc -l) )); then
+	echo "$ALERT The price is 'too high' (heuristic)"
+else
+	echo "$OK The price looks 'reasonable' (heuristic)"
+fi
+echo The price is $PRICE and the mid-point it traded at during 
+echo the past year is $MIDPRICE.  The price you pay is the single biggest 
+echo determinant of your long term value prospects.
 
 # does this stock generate "good" dividends?  (good == > 2.5, assuming inflation of 2%)
 # TODO 
