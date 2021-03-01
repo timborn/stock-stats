@@ -107,12 +107,17 @@ echo $TAG Dividend yield of $DIVYIELD% with a payout ratio of $PAYOUT%
 # divcon >= 3
 LASTUPDATE=`head -1 divcontable.csv  | cut -f 7 -d,`
 DIVCON=`grep ,$TICKER, divcontable.csv  | cut -f7 -d,`
-if [ $DIVCON -ge 3 ] ; then
-	echo -n $OK 
+if [ -z "$DIVCON" ] ; then 
+	echo "$NEUTRAL - I have no DIVCON information for $TICKER"
+	DIVCON="unknown"
 else
-	echo -n $ALERT
+	if [ $DIVCON -ge 3 ] ; then
+		echo -n "$OK "
+	else
+		echo -n "$ALERT "
+	fi
 fi
-echo " DIVCON: $DIVCON"
+echo "DIVCON: $DIVCON"
 echo DIVCON uses a five-tier rating, from 1 to 5, to gauge companies\'
 echo dividend health. A DIVCON 5 rating indicates not just a healthy
 echo dividend, but a high likelihood of dividend growth. DIVCON 1 dividend
