@@ -15,13 +15,11 @@ while getopts ":nt:" opt; do
   case ${opt} in 
     n ) # no filters
       NOFILT=1
-      # shift
       ;;
     t ) # give me a ticker symbol; mutex w.r.t. input file
       TICKER=1
       TMPFILE=$(mktemp /tmp/aristo.XXXXXX)
       echo $OPTARG > $TMPFILE
-      # shift
       ;;
     \? )
       echo $USAGE
