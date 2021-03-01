@@ -24,6 +24,10 @@ fi
 # quick ratio
 # divcon >= 3
 
+### header
+COMPANY=`stock-stats $TICKER | jq .Company`
+echo "Advice report for $COMPANY ($TICKER)"
+
 # did this stock actually have any earnings?
 # TODO: when EARNINGS is negative, P/E often shows up as '-' which throws errors on my output.  Fix
 PE=`./stock-stats $TICKER | jq '."P/E"|tonumber'`
@@ -103,6 +107,12 @@ echo $TAG Dividend yield of $DIVYIELD% with a payout ratio of $PAYOUT%
 # Expect a quick ratio of 1.0.  Numbers below this suggest the 
 # company may have trouble paying liabilities without taking on
 # more debt or selling assets.
+QUICK=$( ./stock-stats $TICKER | jq '."Quick Ratio"' | sed -e's/\"//g' )
+echo "$NEUTRAL The Quick ratio is $QUICK"
+echo "This represents the ratio of highly liquid assets to current"
+echo "liabilities (due in the next year).  Expect a quick ratio of 1.0."
+echo "Numbers below this suggest a company under stress may have trouble"
+echo "paying liabilities without taking on more debt or selling assets."
 
 # divcon >= 3
 LASTUPDATE=`head -1 divcontable.csv  | cut -f 7 -d,`
