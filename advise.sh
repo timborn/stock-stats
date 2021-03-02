@@ -24,6 +24,7 @@ fi
 #   say something about payout ratio - how well is the dividend covered
 # quick ratio
 # divcon >= 3
+# Return On Equity (ROE) - a measure of profitability
 
 ### header
 COMPANY=`stock-stats $TICKER | jq .Company`
@@ -158,3 +159,18 @@ echo dividend health. A DIVCON 5 rating indicates not just a healthy
 echo dividend, but a high likelihood of dividend growth. DIVCON 1 dividend
 echo stocks, on the other hand, are the likeliest to cut or suspend their
 echo payouts.
+
+### ROE
+ROE=$( ./stock-stats $TICKER | jq '.ROE' | sed -e's/%//; s/\"//g' )
+echo DEBUG ROE=$ROE
+if (( $(echo "$ROE > 14" | bc -l) )); then
+	TAG=$OK
+elif (( $(echo "$ROE > 10" | bc -l) )); then
+	TAG=$NEUTRAL
+else 
+	TAG=$ALERT
+fi
+echo "$TAG The Return On Equity is $ROE%"
+echo "ROE is considered a measure of the profitability of a corporation"
+echo "in relation to stockholders’ equity."
+echo "The long term average ROE for S&P500 is 14%."
