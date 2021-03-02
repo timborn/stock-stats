@@ -16,6 +16,7 @@ fi
 
 # did this stock actually have any earnings?
 # is the price "fair" (at or below midpoint of past year hi/lo)
+## is the price 'volatile'?
 # does this stock generate "good" dividends?  (good == > 2.5, assuming inflation of 2%)
 # is this stock an aristocrat or king?  (make sure to dump dfn if you tag it)
 # is the P/E > 16?  (historical avg for all stocks, but not necessarily correct for sectors)  TODO
@@ -42,7 +43,7 @@ echo " Earnings over past year: $EARNINGS"
 echo "P/E ratio: $PE"
 echo Implies an earnings yield of $YIELD%
 
-# is the price "fair" (at or below midpoint of past year hi/lo)
+### is the price "fair" (at or below midpoint of past year hi/lo)
 PRICE=$( ./aristo.sh -t $TICKER | jq .price )
 MIDPRICE=$( ./aristo.sh -t $TICKER | jq .midPrice )
 if (( $(echo "$PRICE > $MIDPRICE" | bc -l) )); then
@@ -53,6 +54,17 @@ fi
 echo The price is $PRICE and the mid-point it traded at during 
 echo the past year is $MIDPRICE.  The price you pay is the single biggest 
 echo determinant of your long term value prospects.
+
+### volatility
+VWEEK=$( stock-stats $TICKER | ./volatility.js | jq '.VolatilityWk' )
+VMONTH=$( stock-stats $TICKER | ./volatility.js | jq '.VolatilityMo' )
+if (( $(echo "$VWEEK > 10" | bc -l) )); then
+	echo "$ALERT This stock price looks volatile ($VWEEK% change this week)"
+fi
+if (( $(echo "$VMONTH > 10" | bc -l) )); then
+	echo "$ALERT This stock price looks volatile ($VMONTH% change this week)"
+fi
+
 
 # does this stock generate "good" dividends?  (good == > 2.5%, assuming inflation of 2%)
 # TODO 
@@ -73,7 +85,7 @@ if [ $ISARISTO -eq 0 ] ; then
 	echo -n $OK
 	echo " This stock is a dividend $AORK"
 else
-	echo "$NEUTRAL This stock is not an aristocrat."
+	echo "$ALERT This stock is not an aristocrat."
 fi
 echo "The dividend yield is $DIVYIELD "
 echo "The dividend \$$DIV/yr"
@@ -110,7 +122,16 @@ echo $TAG Dividend yield of $DIVYIELD% with a payout ratio of $PAYOUT%
 # company may have trouble paying liabilities without taking on
 # more debt or selling assets.
 QUICK=$( ./stock-stats $TICKER | jq '."Quick Ratio"' | sed -e's/\"//g' )
-echo "$NEUTRAL The Quick ratio is $QUICK"
+
+if (( $(echo "$QUICK >= 1" | bc -l) )); then
+	TAG=$OK
+elif (( $(echo "$QUICK >= 0.9" | bc -l) )); then
+	TAG=$NEUTRAL
+else 
+	TAG=$ALERT
+fi
+
+echo "$TAG The Quick ratio is $QUICK"
 echo "This represents the ratio of highly liquid assets to current"
 echo "liabilities (due in the next year).  Expect a quick ratio of 1.0."
 echo "Numbers below this suggest a company under stress may have trouble"
