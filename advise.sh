@@ -120,11 +120,13 @@ echo "paying liabilities without taking on more debt or selling assets."
 LASTUPDATE=`head -1 divcontable.csv  | cut -f 7 -d,`
 DIVCON=`grep ,$TICKER, divcontable.csv  | cut -f7 -d,`
 if [ -z "$DIVCON" ] ; then 
-	echo "$NEUTRAL - I have no DIVCON information for $TICKER"
+	echo "$ALERT - I have no DIVCON information for $TICKER"
 	DIVCON="unknown"
 else
-	if [ $DIVCON -ge 3 ] ; then
+	if [ $DIVCON -gt 3 ] ; then
 		echo -n "$OK "
+	elif [ $DIVCON -eq 3 ] ; then 
+		echo -n "$NEUTRAL "
 	else
 		echo -n "$ALERT "
 	fi
