@@ -67,6 +67,7 @@ if [ ! -n "$DGR" ] ; then
 	DGR=`./5-yr-div-cagr.sh  $TICKER`
 fi
 DIVYIELD=`stock-stats $TICKER | jq '."Dividend %"'`
+DIV=`stock-stats $TICKER | jq '."Dividend"' | sed -e's/\"//g' `
 
 if [ $ISARISTO -eq 0 ] ; then
 	echo -n $OK
@@ -74,10 +75,11 @@ if [ $ISARISTO -eq 0 ] ; then
 else
 	echo "$NEUTRAL This stock is not an aristocrat."
 fi
-	echo "The dividend yield is $DIVYIELD"
-	echo "The 5-year growth rate for dividends is $DGR"
-	echo "An aristocrat has 25+ years of continuous dividend increases (S&P500 index only)"
-	echo "A dividend KING has 50+ years of continuous dividend increases."
+echo "The dividend yield is $DIVYIELD "
+echo "The dividend \$$DIV/yr"
+echo "The 5-year growth rate for dividends is $DGR"
+echo "An aristocrat has 25+ years of continuous dividend increases (S&P500 index only)"
+echo "A dividend KING has 50+ years of continuous dividend increases."
 
 # is the P/E > 16?  (historical avg for all stocks, but not necessarily correct for sectors)  TODO
 # TODO
