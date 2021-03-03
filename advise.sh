@@ -159,7 +159,6 @@ echo payouts.
 
 ### ROE
 ROE=$( ./stock-stats $TICKER | jq '.ROE' | sed -e's/%//; s/\"//g' )
-echo DEBUG ROE=$ROE
 if (( $(echo "$ROE > 14" | bc -l) )); then
 	TAG=$OK
 elif (( $(echo "$ROE > 10" | bc -l) )); then
