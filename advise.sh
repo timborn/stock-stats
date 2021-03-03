@@ -97,24 +97,21 @@ echo "A dividend KING has 50+ years of continuous dividend increases."
 # is the P/E > 16?  (historical avg for all stocks, but not necessarily correct for sectors)  TODO
 # TODO
 
-# say something sensible about free cash flow
+# say something sensible about free cash flow(?) TODO
 #   say something about payout ratio - how well is the dividend covered
 PAYOUT=`stock-stats $TICKER | jq '."Payout"' | sed -e's/%//; s/\"//g' `
-# looks wierd because PAYOUT really does include those double quotes
-[ "$PAYOUT" = '"-"' ] && PAYOUT="999"
-DIVYIELD=`stock-stats $TICKER | jq '."Dividend %"' | sed -e's/%//; s/\"//g' `
+[ "$PAYOUT" = '-' ] && PAYOUT="999"
 if (( $(echo "$PAYOUT > 90" | bc -l) )); then
 	TAG=$ALERT
+elif (( $(echo "$PAYOUT >= 50" | bc -l) )); then
+	TAG=$NEUTRAL
 else
-	if (( $(echo "$DIVYIELD >= 4" | bc -l) )); then
-		TAG=$OK
-	else
-		TAG=$NEUTRAL
-	fi
+	TAG=$OK
 fi
+# Oh dear!  Reaching way up (dependency) to get DIVYIELD.
 echo $TAG Dividend yield of $DIVYIELD% with a payout ratio of $PAYOUT%
 [ $TAG = $ALERT ] && echo "That payout ratio looks unsustainable."
-
+[ $TAG = $OK ]    && echo "That payout looks sustainable."
 
 # quick ratio
 # The quick ratio is X.  The represents the ratio of highly liquid 
