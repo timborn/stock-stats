@@ -33,6 +33,7 @@ echo "Advice report for $COMPANY ($TICKER)"
 # did this stock actually have any earnings?
 # TODO: when EARNINGS is negative, P/E often shows up as '-' which throws errors on my output.  Fix
 PE=`./stock-stats $TICKER | jq '."P/E"|tonumber'`
+FPE=`./stock-stats $TICKER | jq '."Forward P/E"|tonumber'`
 YIELD=`echo "scale=2; 100 / $PE" | bc -l`
 EARNINGS=`./stock-stats $TICKER | jq '."EPS (ttm)"|tonumber'`
 if [[ $EARNINGS > 0 ]] ; then
@@ -41,7 +42,7 @@ else
 	echo -n $ALERT
 fi
 echo " Earnings over past year: $EARNINGS"
-echo "P/E ratio: $PE"
+echo "P/E ratio: $PE, Forward P/E ratio: $FPE"
 echo Implies an earnings yield of $YIELD%
 
 ### is the price "fair" (at or below midpoint of past year hi/lo)
