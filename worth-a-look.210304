@@ -1,0 +1,10 @@
+{"symbol":"T","price":28.25,"payout":0,"EPSttm":"-0.76","dividend":"2.08","dividendPct":"7.46%","targetGain":"1.62","divCover":"-0.37","midPrice":32.15}
+{"symbol":"ED","price":67.45,"payout":92.9,"EPSttm":"3.29","dividend":"3.10","dividendPct":"4.60%","targetGain":"3.76","divCover":"1.06","midPrice":78.33}
+{"symbol":"NWN","price":47.95,"payout":96.8,"EPSttm":"2.06","dividend":"1.92","dividendPct":"4.04%","targetGain":"5.68","divCover":"1.07","midPrice":58.03}
+{"symbol":"KMB","price":129.27,"payout":61.4,"EPSttm":"6.86","dividend":"4.56","dividendPct":"3.49%","targetGain":"18.53","divCover":"1.50","midPrice":135.41}
+{"symbol":"ATO","price":89.85,"payout":0,"EPSttm":"5.13","dividend":"2.50","dividendPct":"2.83%","targetGain":"13.26","divCover":"2.05","midPrice":95.53}
+{"symbol":"CLX","price":178.43,"payout":44.7,"EPSttm":"9.54","dividend":"4.44","dividendPct":"2.47%","targetGain":"36.49","divCover":"2.15","midPrice":198.28}
+{"symbol":"AWR","price":71.27,"payout":54.8,"EPSttm":"2.33","dividend":"1.34","dividendPct":"1.89%","targetGain":"7.13","divCover":"1.74","midPrice":80.88}
+{"symbol":"WMT","price":127.2,"payout":33.9,"EPSttm":"4.74","dividend":"2.20","dividendPct":"1.72%","targetGain":"32.64","divCover":"2.15","midPrice":127.83}
+{"symbol":"BDX","price":240.64,"payout":60.9,"EPSttm":"5.20","dividend":"3.32","dividendPct":"1.37%","targetGain":"40.93","divCover":"1.57","midPrice":241.36}
+{"symbol":"TR","price":32.47,"payout":41,"EPSttm":"0.88","dividend":"0.36","dividendPct":"1.10%","targetGain":"NaN","divCover":"2.44","midPrice":42.7}
