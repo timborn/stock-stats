@@ -10,6 +10,6 @@ install:
 	@type brew >/dev/null 2>&1 || { echo you want to install brew; exit 1; }
 	@type jq   >/dev/null 2>&1 || brew install jq
 	@type in2csv >/dev/null 2>&1 || brew install csvkit
-	@npm install mississippi
+	@npm install mississippi xml2json
 test:
 	./test.sh
