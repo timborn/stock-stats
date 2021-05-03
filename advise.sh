@@ -171,3 +171,35 @@ echo "$TAG The Return On Equity is $ROE%"
 echo "ROE is considered a measure of the profitability of a corporation"
 echo "in relation to stockholders’ equity."
 echo "The long term average ROE for S&P500 is 14%."
+
+
+###
+###	What is the real rate of return for risk free?
+###
+# No Inflation Panic Yet, but There Is Concern
+# 
+# The facts that Prof. Blinder doesn’t cite are what worry me. When
+# I studied economics at Princeton in 1981 (using Prof. Blinder’s
+# textbook), the yield on the 10-year Treasury stood at 14% as of the
+# end of December, while the CPI-U inflation rate stood at 8.9%. The
+# real risk-free rate of return was therefore a positive 5.1% or so.
+# In contrast, today the CPI-U stands at 1.7% (March 10), while the
+# yield on the 10-year Treasury stands at 1.71% (March 18), for a
+# real risk-free rate of return of what is effectively zero.
+
+CPI=$( ./CPI-U.sh )
+TREAS=$( ./10YRYield.sh )
+RRR=$( echo "ret=$TREAS - $CPI;scale=4; ret/1" | bc -l )
+
+if (( $(echo "$RRR < 0" | bc -l) )); then
+	TAG=$ALERT
+elif (( $(echo "$RRR <= 2" | bc -l) )); then
+	TAG=$NEUTRAL
+else
+	TAG=$OK
+fi
+
+echo "$TAG Risk Free Rate Of Return"
+echo "10 year Treasury yield: " $TREAS"%"
+echo "CPI-U: " $CPI"%"
+echo "Therefore, real risk-free rate of return: " $RRR"%"
