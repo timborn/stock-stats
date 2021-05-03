@@ -1,0 +1,6 @@
+{"symbol":"T","price":28.25,"payout":0,"EPSttm":"-0.76","dividend":"2.08","dividendPct":"7.46%","targetGain":"1.62","divCover":"-0.37","midPrice":32.15}
+{"symbol":"NWN","price":54.18,"payout":76.1,"EPSttm":"2.29","dividend":"1.92","dividendPct":"3.57%","targetGain":"0.70","divCover":"1.19","midPrice":54.43}
+{"symbol":"KMB","price":132.06,"payout":63.9,"EPSttm":"6.86","dividend":"4.56","dividendPct":"3.52%","targetGain":"14.28","divCover":"1.50","midPrice":144.09}
+{"symbol":"CLX","price":186.91,"payout":44.7,"EPSttm":"9.54","dividend":"4.44","dividendPct":"2.40%","targetGain":"24.01","divCover":"2.15","midPrice":208.3}
+{"symbol":"HRL","price":46.42,"payout":56.5,"EPSttm":"1.62","dividend":"0.98","dividendPct":"2.13%","targetGain":"-0.67","divCover":"1.65","midPrice":48.21}
+{"symbol":"TR","price":32.06,"payout":40.6,"EPSttm":"0.86","dividend":"0.36","dividendPct":"1.14%","targetGain":"NaN","divCover":"2.39","midPrice":42.7}
