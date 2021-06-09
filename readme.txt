@@ -1,3 +1,14 @@
+Sun May 23 10:39:06 MST 2021
+----------------------------
+Stupid error when running curl:
+
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools
+
+Found the fix here: https://ma.ttias.be/mac-os-xcrun-error-invalid-active-developer-path-missing-xcrun/
+
+$ xcode-select --install
+$ sudo xcode-select --reset  # bigger hammer, if the first one doesn't work
+
 Sat Feb 13 13:11:56 MST 2021
 ----------------------------
 
