@@ -13,3 +13,8 @@ install:
 	@npm install mississippi xml2json
 test:
 	./test.sh
+
+refresh:
+	# refresh all the data we depend on 
+	curl -sO https://www.realitysharesadvisors.com/charts/data/DIVCON/divcontable.csv
+	./prepare-dividend-artistocrats.sh
