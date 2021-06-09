@@ -1,10 +1,6 @@
 # prepare-dividend-aristocrats.sh
 set -e
 
-# TODO: where did I get the dividend king list from?  This is not updated by this script.  Fix that.
-# TODO: almost certainly some of the aristocrats also show up as kings.  Double entries in list.  Fix
-# TODO: is a king not an aristocrat?  If they select from different domains it may be possible,
-#       in which case the logic is flawed.  As written it assumes all kings are also aristocrats.
 # NB official site for dividend aristorcrats: 
 #    https://www.spglobal.com/spdji/en/indices/strategy/sp-500-dividend-aristocrats/#overview
 # NB Motley Fool list also includes kings; just not a CSV
@@ -16,24 +12,35 @@ set -e
 # what to do about kings vs aristocrats?
 # report differences, especilly DROPPED and ADDED stocks
 
-FN=3-dividend-aristocrats.csv
 FN1=`mktemp`
 FN2=`mktemp`
-# DO NOT OVERWRITE dividend-aristocrats.csv WHILE TESTING
-# TARGET=dividend-aristocrats.csv
-TARGET=TEST-dividend-aristocrats.csv
+TARGET=dividend-aristocrats.csv
 
 # -L - follow redirects
 curl -sO -L http://www.simplysafedividends.com/intelligent-income/idea_lists/3-dividend-aristocrats.csv
+FN=3-dividend-aristocrats.csv
 cat $FN | grep -v ^Tick | cut -f1 -d, | sed -e'1,$s/$/, aristocrat/' > $FN1
-grep -i king $TARGET | cut -f1 -d, > $FN2
-for i in `cat $FN2`; do 
-	echo "DEBUG: considering king $i"
-	sed -i -e "1,\$s/$i, aristocrat/$i, king/" $FN1
+
+# get the KINGS
+curl -sO -L http://www.simplysafedividends.com/intelligent-income/idea_lists/4-dividend-kings.csv
+FN=4-dividend-kings.csv
+
+# at this point we will be using grep results, so we need to NOT bomb on an error
+set +e
+
+for i in `tail -n +2 $FN | cut -f1 -d, `; do 
+	# if king is already in aristo list, upgrade it
+	# else add king to the list
+	grep -q "$i," $FN1 > /dev/null 2>&1	# returns 0 on match
+	if [ $? -eq 0 ] ; then 
+		sed -i -e "1,\$s/$i, aristocrat/$i, king/" $FN1
+	else
+		echo "$i, king" >> $FN1
+	fi
 done
 
 
 sort $FN1 > $TARGET
 
 # cleanup
-echo rm $FN1 $FN2
+rm $FN1 $FN2
