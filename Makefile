@@ -18,3 +18,9 @@ refresh:
 	# refresh all the data we depend on 
 	curl -sO https://www.realitysharesadvisors.com/charts/data/DIVCON/divcontable.csv
 	./prepare-dividend-artistocrats.sh
+
+# QDIV - S&P500 Quality Div Index (ETF)
+# update QDIV.txt periodically with the list of shares held by this fund
+# https://screener.fidelity.com/ftgw/etf/goto/snapshot/portfolioComposition.jhtml?symbols=QDIV
+QDIV:
+	./aristo.sh QDIV.txt | ./filter-out-losses | ./filter-out-over-midprice  | ./filter-out-payout | ./sort-by-dividendPct.sh
