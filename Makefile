@@ -23,4 +23,5 @@ refresh:
 # update QDIV.txt periodically with the list of shares held by this fund
 # https://screener.fidelity.com/ftgw/etf/goto/snapshot/portfolioComposition.jhtml?symbols=QDIV
 QDIV:
-	./aristo.sh QDIV.txt | ./filter-out-losses | ./filter-out-over-midprice  | ./filter-out-payout | ./sort-by-dividendPct.sh
+	@echo "QDIV is the S&P500 Quality Dividend Index"
+	./aristo.sh QDIV.txt | ./filter-out-losses | ./filter-out-over-midprice  | ./filter-out-payout | jq -s 'sort_by(.dividendPct) | reverse' |  jq -c '.[]' 

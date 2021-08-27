@@ -8,6 +8,8 @@
 #
 # DONE: allow #comments in my input files
 # TODO: allow a ticker on command line
+# DEBUG=1
+[ $DEBUG ] && echo DEBUG PWD=$PWD SHLVL=$SHLVL running $0 >&2
 
 USAGE="USAGE: $0 [-n] [-t <ticker>] [file]"
 NOFILT=0; TICKER=0
@@ -37,9 +39,11 @@ if [ $TICKER -eq 1 ] ; then
 else
 	FN="aristocrats"
 fi
+[ $DEBUG ] && echo DEBUG dollar-hash $# >&2
 if [ $# -eq 1 ]; then
 	if [ -r $1 ] ; then 
 		FN=$1
+		[ $DEBUG ] && echo DEBUG set FN=$FN >&2
 	fi
 fi
 
