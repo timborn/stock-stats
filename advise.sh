@@ -89,6 +89,18 @@ if [ $ISARISTO -eq 0 ] ; then
 else
 	echo "$ALERT This stock is not an aristocrat."
 fi
+
+# is this stock part of S&P500 Quality Dividend Index (QDIV)?
+grep ^$TICKER$ QDIV.txt > /dev/null 2>&1
+QDIV=$?
+if [ $QDIV -eq 0 ] ; then 
+	echo -n $OK
+	echo " This stock is part of the S&P500 Quality Dividend Index (QDIV)"
+else
+	echo -n $NEUTRAL
+	echo " This stock is not part of the S&P500 Quality Dividend Index (QDIV)"
+fi
+
 echo "The dividend yield is $DIVYIELD "
 echo "The dividend \$$DIV/yr"
 echo "The 5-year growth rate for dividends is $DGR"
