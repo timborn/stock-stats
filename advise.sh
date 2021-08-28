@@ -71,6 +71,17 @@ fi
 # does this stock generate "good" dividends?  (good == > 2.5%, assuming inflation of 2%)
 # TODO 
 
+# is this stock part of S&P500 Quality Dividend Index (QDIV)?
+grep ^$TICKER$ QDIV.txt > /dev/null 2>&1
+QDIV=$?
+if [ $QDIV -eq 0 ] ; then 
+	echo -n $OK
+	echo " This stock is part of the S&P500 Quality Dividend Index (QDIV)"
+else
+	echo -n $NEUTRAL
+	echo " This stock is not part of the S&P500 Quality Dividend Index (QDIV)"
+fi
+
 # is this stock an aristocrat or king?  (make sure to dump dfn if you tag it)
 # grep ^$TICKER, DividendAristocrats.csv > /dev/null 2>&1
 grep ^$TICKER, dividend-aristocrats.csv > /dev/null 2>&1
@@ -88,17 +99,6 @@ if [ $ISARISTO -eq 0 ] ; then
 	echo " This stock is a dividend $AORK"
 else
 	echo "$ALERT This stock is not an aristocrat."
-fi
-
-# is this stock part of S&P500 Quality Dividend Index (QDIV)?
-grep ^$TICKER$ QDIV.txt > /dev/null 2>&1
-QDIV=$?
-if [ $QDIV -eq 0 ] ; then 
-	echo -n $OK
-	echo " This stock is part of the S&P500 Quality Dividend Index (QDIV)"
-else
-	echo -n $NEUTRAL
-	echo " This stock is not part of the S&P500 Quality Dividend Index (QDIV)"
 fi
 
 echo "The dividend yield is $DIVYIELD "
