@@ -1,82 +1,83 @@
-ABBV,aristocrat
-ABM,king
-ABT,aristocrat
-ADM,aristocrat
-ADP,aristocrat
-AFL,aristocrat
-ALB,aristocrat
-AMCR,aristocrat
-AOS,aristocrat
-APD,aristocrat
-ATO,aristocrat
-AWR,king
-BDX,aristocrat
-BEN,aristocrat
-BF-B,aristocrat
-CAH,aristocrat
-CARR,aristocrat
-CAT,aristocrat
-CB,aristocrat
-CBSH,king
-CL,king
-CLX,aristocrat
-CINF,aristocrat
-CTAS,aristocrat
-CVS,aristocrat
-CVX,aristocrat
-CWT,king
-DOV,king
-ECL,aristocrat
-ED,aristocrat
-EMR,king
-EPD,aristocrat
-ESS,aristocrat
-EXPD,aristocrat
-FRT,king
-FUL,king
-GD,aristocrat
-GPC,king
-GWW,aristocrat
-HRL,king
-ITW,aristocrat
-JNJ,king
-KMB,aristocrat
-KO,king
-LANC,king
-LEG,aristocrat
-LIN,aristocrat
-LOW,king
-MCD,aristocrat 
-MCK,aristocrat
-MDT,aristocrat
-MMM,king
-MO,king
-NDSN,king
-NFG,king
-NUE,aristocrat
-NWN,king
-O,aristocrat
-OTIS,aristocrat
-PBCT,aristocrat
-PEP,aristocrat
-PG,king 
-PH,king
-PNR,aristocrat
-PPG,aristocrat
-ROP,aristocrat
-RTX,aristocrat
-SCL,king
-SHW,aristocrat
-SJW,king
-SPGI,aristocrat
-SWK,king
-SYY,aristocrat
-T,aristocrat
-TGT,king
-TR,king
-TROW,aristocrat
-UVV,king
-VFC,arisocrat
-WBA,aristocrat
-WMT,aristocrat
-XOM,aristocrat
+ABBV, aristocrat
+ABM, king
+ABT, aristocrat
+ADM, aristocrat
+ADP, aristocrat
+AFL, aristocrat
+ALB, aristocrat
+AMCR, aristocrat
+AOS, aristocrat
+APD, aristocrat
+ATO, aristocrat
+AWR, king
+BDX, aristocrat
+BEN, aristocrat
+BF.B, aristocrat
+BKH, king
+CAH, aristocrat
+CAT, aristocrat
+CB, aristocrat
+CBSH, king
+CINF, king
+CL, king
+CLX, aristocrat
+CTAS, aristocrat
+CVX, aristocrat
+CWT, king
+DOV, king
+ECL, king
+ED, aristocrat
+EMR, king
+ESS, aristocrat
+EXPD, aristocrat
+FMCB, king
+FRT, king
+FUL, king
+GD, aristocrat
+GPC, king
+GWW, aristocrat
+HRL, king
+IBM, aristocrat
+ITW, aristocrat
+JNJ, king
+KMB, aristocrat
+KO, king
+LANC, king
+LEG, aristocrat
+LIN, aristocrat
+LOW, king
+MCD, aristocrat
+MDT, aristocrat
+MKC, aristocrat
+MMM, king
+MO, king
+MSA, king
+NDSN, king
+NEE, aristocrat
+NFG, king
+NUE, aristocrat
+NWN, king
+O, aristocrat
+PBCT, aristocrat
+PEP, aristocrat
+PG, king
+PH, king
+PNR, aristocrat
+PPG, king
+ROP, aristocrat
+SCL, king
+SHW, aristocrat
+SJW, king
+SPGI, aristocrat
+SWK, king
+SYY, king
+T, aristocrat
+TGT, aristocrat
+TR, king
+TROW, aristocrat
+UVV, king
+VFC, aristocrat
+WBA, aristocrat
+WMT, aristocrat
+WST, aristocrat
+XOM, aristocrat
