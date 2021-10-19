@@ -1,4 +1,6 @@
 # given a ticker symbol, apply heuristics and generate sensible advice
+#
+# I would like some of these commands to be on my PATH.  Do I link them to ~/bin?  Add . to PATH?
 
 USAGE="$0 <ticker>"
 # ctrl-cmd-space to find emojis
