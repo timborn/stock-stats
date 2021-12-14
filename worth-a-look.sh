@@ -12,5 +12,5 @@ HN=`hostname -s`
 if [ $HN = "Timex-3" ] ; then
 	/Users/timborn/python/stock-stats/recommend.sh > $OFILE
 else
-	/Volumes/BlueMountain/Users/timborn/bash/stock-stats/recommend.sh > $OFILE
+	/Volumes/BlueMountain/Users/timborn/code/stock-stats/recommend.sh > $OFILE
 fi
