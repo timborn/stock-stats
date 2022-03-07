@@ -150,27 +150,30 @@ echo "liabilities (due in the next year).  Expect a quick ratio of 1.0."
 echo "Numbers below this suggest a company under stress may have trouble"
 echo "paying liabilities without taking on more debt or selling assets."
 
-# divcon >= 3
-LASTUPDATE=`head -1 divcontable.csv  | cut -f 7 -d,`
-DIVCON=`grep ,$TICKER, divcontable.csv  | cut -f7 -d,`
-if [ -z "$DIVCON" ] ; then 
-	echo "$ALERT - I have no DIVCON information for $TICKER"
-	DIVCON="unknown"
-else
-	if [ $DIVCON -gt 3 ] ; then
-		echo -n "$OK "
-	elif [ $DIVCON -eq 3 ] ; then 
-		echo -n "$NEUTRAL "
-	else
-		echo -n "$ALERT "
-	fi
-fi
-echo "DIVCON: $DIVCON"
-echo DIVCON uses a five-tier rating, from 1 to 5, to gauge companies\'
-echo dividend health. A DIVCON 5 rating indicates not just a healthy
-echo dividend, but a high likelihood of dividend growth. DIVCON 1 dividend
-echo stocks, on the other hand, are the likeliest to cut or suspend their
-echo payouts.
+### DIVCON discontinued around September 2020
+### https://www.realitysharesadvisors.com/divcon/
+
+# # divcon >= 3
+# LASTUPDATE=`head -1 divcontable.csv  | cut -f 7 -d,`
+# DIVCON=`grep ,$TICKER, divcontable.csv  | cut -f7 -d,`
+# if [ -z "$DIVCON" ] ; then 
+# 	echo "$ALERT - I have no DIVCON information for $TICKER"
+# 	DIVCON="unknown"
+# else
+# 	if [ $DIVCON -gt 3 ] ; then
+# 		echo -n "$OK "
+# 	elif [ $DIVCON -eq 3 ] ; then 
+# 		echo -n "$NEUTRAL "
+# 	else
+# 		echo -n "$ALERT "
+# 	fi
+# fi
+# echo "DIVCON: $DIVCON"
+# echo DIVCON uses a five-tier rating, from 1 to 5, to gauge companies\'
+# echo dividend health. A DIVCON 5 rating indicates not just a healthy
+# echo dividend, but a high likelihood of dividend growth. DIVCON 1 dividend
+# echo stocks, on the other hand, are the likeliest to cut or suspend their
+# echo payouts.
 
 ### ROE
 ROE=$( ./stock-stats $TICKER | jq '.ROE' | sed -e's/%//; s/\"//g' )
