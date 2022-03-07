@@ -205,6 +205,26 @@ CPI=$( ./CPI-U.sh )
 TREAS=$( ./10YRYield.sh )
 RRR=$( echo "ret=$TREAS - $CPI;scale=4; ret/1" | bc -l )
 
+
+# "Benjamin Graham, Building A Profession", p. 275
+# "The margin of safety is the difference between the perc entage rate of earnings on the
+# stock at the price you pay for it and the rate of interest on bonds"
+#
+
+YIELD=`echo "scale=2; 100 / $PE" | bc -l`
+echo Earnings yield of $YIELD%
+MOS=$( echo "ret=$YIELD - $TREAS;scale=4; ret/1" | bc -l )
+
+if (( $(echo "$MOS < 0" | bc -l) )); then
+	TAG=$ALERT
+else
+	TAG=$OK
+fi
+
+echo "10 year Treasury yield: " $TREAS"%"
+echo "$TAG Margin of Safety: " $MOS"%"
+
+
 if (( $(echo "$RRR < 0" | bc -l) )); then
 	TAG=$ALERT
 elif (( $(echo "$RRR <= 2" | bc -l) )); then
@@ -214,6 +234,6 @@ else
 fi
 
 echo "$TAG Risk Free Rate Of Return"
-echo "10 year Treasury yield: " $TREAS"%"
 echo "CPI-U: " $CPI"%"
+echo "10 year Treasury yield: " $TREAS"%"
 echo "Therefore, real risk-free rate of return: " $RRR"%"
