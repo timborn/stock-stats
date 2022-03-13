@@ -10,6 +10,12 @@
 # associative arrays don't care about order
 
 SYM=$1
+TMP=`mktemp` || exit 1
+TMP2=`mktemp` || exit 1
+
+TMP=/tmp/tmp
+echo DEBUG: TMP=$TMP
+
 if [ $# -ne 1 ] ; then 
 	echo "USAGE: $0 <stockSymbol>" >&2
 	exit 3
@@ -21,7 +27,24 @@ jq -sc |
 in2csv -f json  | 
 tail -n +2 |
 sed -e's/-[0-9][0-9]-[0-9][0-9]//' |  
-awk -F ',' '{a[$1] += $2} END{ delete a[2021]; for (i in a) print i, a[i] }' |
-sort
+sort > $TMP
+
+# TODO: if the last year is only a partial, do something sensible (predict?)
+# if first and last years are partial, toss them
+FIRSTYR=$( head -1 $TMP |cut -f1 -d, )
+LASTYR=$( tail -1 $TMP |cut -f1 -d, )
+cnt=$( grep ^$FIRSTYR $TMP | wc -l )
+if [ $cnt -ne 4 ] ; then  # rip 'em out
+	grep -v  $FIRSTYR $TMP > $TMP2 && mv $TMP2 $TMP
+fi
+cnt=$( grep ^$LASTYR $TMP | wc -l )
+if [ $cnt -ne 4 ] ; then  # rip 'em out
+	grep -v  $LASTYR $TMP > $TMP2 && mv $TMP2 $TMP
+fi
+
+
+### awk -F ',' '{a[$1] += $2} END{ for (i in a) print i, a[i] }' |
+# awk -F ',' '{a[$1] += $2} END{ delete a[2021]; for (i in a) print i, a[i] }' |
 # awk -F ',' '{a[$1] += $2} END{print 2016, a[2016]; print 2017, a[2017]; print 2018, a[2018]; print 2019, a[2019]; print 2020, a[2020] }'
 
+echo rm $TMP
