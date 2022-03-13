@@ -13,9 +13,6 @@ SYM=$1
 TMP=`mktemp` || exit 1
 TMP2=`mktemp` || exit 1
 
-TMP=/tmp/tmp
-echo DEBUG: TMP=$TMP
-
 if [ $# -ne 1 ] ; then 
 	echo "USAGE: $0 <stockSymbol>" >&2
 	exit 3
@@ -43,8 +40,8 @@ if [ $cnt -ne 4 ] ; then  # rip 'em out
 fi
 
 
-### awk -F ',' '{a[$1] += $2} END{ for (i in a) print i, a[i] }' |
+awk -F ',' '{a[$1] += $2} END{ for (i in a) print i, a[i] }' $TMP | sort
 # awk -F ',' '{a[$1] += $2} END{ delete a[2021]; for (i in a) print i, a[i] }' |
 # awk -F ',' '{a[$1] += $2} END{print 2016, a[2016]; print 2017, a[2017]; print 2018, a[2018]; print 2019, a[2019]; print 2020, a[2020] }'
 
-echo rm $TMP
+rm $TMP $TMP2 2>/dev/null || :
