@@ -13,12 +13,13 @@ SYM=$1
 TMP=`mktemp` || exit 1
 TMP2=`mktemp` || exit 1
 
-if [ $# -le 1 ] ; then 
+if [ $# -eq 0 ] ; then 
+	echo DEBUG: ARGCOUNT=$#
 	echo "USAGE: $0 [-d] <stockSymbol>" >&2
 	exit 3
 fi
 
-if [ "$1" != "\-d" ] ; then
+if [ $# -eq 2 ] && [ "$1" != "\-d" ] ; then
 	SYM=$2
 	DEBUG=1
 fi
