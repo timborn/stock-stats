@@ -13,10 +13,16 @@ SYM=$1
 TMP=`mktemp` || exit 1
 TMP2=`mktemp` || exit 1
 
-if [ $# -ne 1 ] ; then 
-	echo "USAGE: $0 <stockSymbol>" >&2
+if [ $# -le 1 ] ; then 
+	echo "USAGE: $0 [-d] <stockSymbol>" >&2
 	exit 3
 fi
+
+if [ "$1" != "\-d" ] ; then
+	SYM=$2
+	DEBUG=1
+fi
+
 
 ./dividend-history2.sh  $SYM |  
 jq '.results[] | { paymentDate: .paymentDate, amount: .amount } ' |  
@@ -39,6 +45,10 @@ if [ $cnt -ne 4 ] ; then  # rip 'em out
 	grep -v  $LASTYR $TMP > $TMP2 && mv $TMP2 $TMP
 fi
 
+echo
+echo DEBUG: here is the intermediate file with partial first/last years trimmed
+cat $TMP
+echo
 
 awk -F ',' '{a[$1] += $2} END{ for (i in a) print i, a[i] }' $TMP | sort
 # awk -F ',' '{a[$1] += $2} END{ delete a[2021]; for (i in a) print i, a[i] }' |
