@@ -3,6 +3,7 @@
 # I would like some of these commands to be on my PATH.  Do I link them to ~/bin?  Add . to PATH?
 
 USAGE="$0 <ticker>"
+ERR=errout; [ -f $ERR ] && rm $ERR
 # ctrl-cmd-space to find emojis
 ALERT="❗️"
 OK="✅"
@@ -34,7 +35,9 @@ echo "Advice report for $COMPANY ($TICKER)"
 
 # did this stock actually have any earnings?
 # TODO: when EARNINGS is negative, P/E often shows up as '-' which throws errors on my output.  Fix
-PE=`./stock-stats $TICKER | jq '."P/E"|tonumber'`
+# jq: error (at <stdin>:1): Invalid numeric literal at EOF at line 1, column 1 (while parsing '-')
+# PE=`./stock-stats $TICKER | jq '."P/E"|tonumber'`
+PE=`./stock-stats $TICKER | jq '."P/E"| try tonumber catch 9999'` 2>>$ERR
 FPE=`./stock-stats $TICKER | jq '."Forward P/E"|tonumber'`
 YIELD=`echo "scale=2; 100 / $PE" | bc -l`
 EARNINGS=`./stock-stats $TICKER | jq '."EPS (ttm)"|tonumber'`
