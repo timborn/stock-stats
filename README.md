@@ -40,3 +40,6 @@ $ aristo.sh | jq -sc | in2csv -f json > arisocrats.csv
 
 # let's look at 5 yrs of dividend history for a stock in LibreCalc
 $ ./dividend-history.sh  BAC | jq '.[] | { paymentDate: .paymentDate, amount: .amount } ' | jq -sc | in2csv -f json > BAC.csv
+
+# look more widely across S&P 1500 high yield dividends w/ at least 20 yrs of div growth
+./SDY.sh
