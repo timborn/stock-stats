@@ -9,7 +9,7 @@ OFILE=`date "+worth-a-look.%y%m%d"`
 
 # this sucks    TODO: fix this
 HN=`hostname -s`
-if [ $HN = "Timex-3" ] ; then
+if [ $HN = "Timex" ] ; then
 	/Users/timborn/python/stock-stats/recommend.sh > $OFILE
 else
 	/Volumes/BlueMountain/Users/timborn/code/stock-stats/recommend.sh > $OFILE
