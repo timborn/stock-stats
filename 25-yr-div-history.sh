@@ -14,8 +14,8 @@ TMP=`mktemp` || exit 1
 TMP2=`mktemp` || exit 1
 
 if [ $# -eq 0 ] ; then 
-	echo DEBUG: ARGCOUNT=$#
 	echo "USAGE: $0 [-d] <stockSymbol>" >&2
+	echo "-d enable debug"
 	exit 3
 fi
 
@@ -47,8 +47,8 @@ if [ $cnt -ne 4 ] ; then  # rip 'em out
 fi
 
 echo
-echo DEBUG: here is the intermediate file with partial first/last years trimmed
-cat $TMP
+[ $DEBUG ] && echo DEBUG: here is the intermediate file with partial first/last years trimmed
+[ $DEBUG ] && cat $TMP
 echo
 
 awk -F ',' '{a[$1] += $2} END{ for (i in a) print i, a[i] }' $TMP | sort
