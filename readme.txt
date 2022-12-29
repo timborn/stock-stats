@@ -1,3 +1,9 @@
+Thu Dec 29 10:42:59 MST 2022
+----------------------------
+finviz missing
+pip3 install finviz results in "ModuleNotFoundError: No module named 'poetry'"
+pip3 install -U poetry && pip3 install finviz gets past this
+
 Sun May 23 10:39:06 MST 2021
 ----------------------------
 Stupid error when running curl:
