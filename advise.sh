@@ -65,6 +65,10 @@ echo determinant of your long term value prospects.
 ### volatility
 VWEEK=$( stock-stats $TICKER | ./volatility.js | jq '.VolatilityWk' )
 VMONTH=$( stock-stats $TICKER | ./volatility.js | jq '.VolatilityMo' )
+# NB the number may or may not have trailing % sign
+# NB the number may or may not be in quotes
+VWEEK=`echo $VWEEK   | tr -d '%' | tr -d '"'`
+VMONTH=`echo $VMONTH | tr -d '%' | tr -d '"'`
 if (( $(echo "$VWEEK > 10" | bc -l) )); then
 	echo "$ALERT This stock price looks volatile ($VWEEK% change this week)"
 fi

@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 // parse the "Volatility":"2.17% 1.58%", inject VolatilityWk and 
 // VolatilityMo into json and drop Volatility from json
+// 221229 - they changed format and there are now two entries for Volatility:
+//    "Volatility (Week)": "2.24%"
+//    "Volatility (Month)": "2.29%"
 
 const concat = require('mississippi').concat;
 const readFile = require('fs').readFile;
@@ -13,6 +16,8 @@ function isNumeric(str) {
          !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
 }
 
+// expecting "Volatility":"2.17% 1.58%" 
+// inject VolatilityWk and VolatilityMo into json and drop Volatility from json
 function parse(str) {
   const json = JSON.parse(str);
   vol = json["Volatility"];
@@ -34,4 +39,21 @@ function parse(str) {
   console.log(JSON.stringify(json));
 }
 
-process.stdin.pipe(concat(parse));
+// Expecting:
+//    "Volatility (Week)": "2.24%"
+//    "Volatility (Month)": "2.29%"
+// Transform into 
+// 	VolatilityWk
+//	VolatilityMo
+// with the same numbers, and delete original entries
+function parse2(str) {
+  const json = JSON.parse(str);
+  json.VolatilityWk = json["Volatility (Week)"];
+  delete json["Volatility (Week)"];
+  json.VolatilityMo = json["Volatility (Month)"];
+  delete json["Volatility (Month)"];
+  console.log(JSON.stringify(json));
+}
+
+
+process.stdin.pipe(concat(parse2));
