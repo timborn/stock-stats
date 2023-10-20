@@ -9,8 +9,11 @@
 # Example: filtering out one field.  jq is the answer.
 # ./stock-stats  T | jq '."Oper. Margin"'
 #
+# 231020 - finviz stopped working; try yfinance
+# https://github.com/ranaroussi/yfinance
 
-import finviz,sys
+import sys
+import yfinance as yf
 
 if len(sys.argv) != 2 :
 	print("USAGE: ", sys.argv[0], " <stockSymbol>")
@@ -18,19 +21,17 @@ if len(sys.argv) != 2 :
 SYM = sys.argv[1]
 
 try:
-	foo = finviz.get_stock(SYM)
+	foo2 = yf.Ticker(SYM)
+	foo = foo2.info	
 except:
 	print('ERROR: unknown stock symbol: ', SYM, file=sys.stderr)
 	exit(3)
 
-# canonical JSON uses double quotes; finviz returns single quotes
-# needed to force return from finviz to a string for some reason
-# TODO: how to test for type in python?  curious to know what finviz returns
+# canonical JSON uses double quotes; yfinance returns single quotes
+# needed to force return from yfinance to a string for some reason
 import re
 bar = re.sub(r"'",r'"',str(foo))
-# can I assign to myself like this?  mangled apostrophes
-# baz = re.sub(r'"s',r"'s"',str(bar))	
-baz = re.sub(r'"s',r"'s",bar)
+# SOMETIMES someone uses an apostrophe as a contraction inside a string
+baz = re.sub(r'([a-zA-Z])"s',r"\1's",bar)
 
-# print(foo)
 print(baz)
