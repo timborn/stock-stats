@@ -49,17 +49,28 @@ fi
 
 # read line by line
 # https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/
+# Example: "range":"30.11 - 71.37"
 while IFS= read -r i
 do
 	if [[ "$i" =~ ^\#.*$ ]] ; then continue; fi	# skip comments
+### finviz
+### 	stock-stats $i | jq '{ symbol: "'$i'", 
+### 		price: (.Price) | tonumber, 
+### 		target: ."Target Price",
+### 		range: ."52W Range",
+### 		payout: ."Payout",
+### 		EPSttm: ."EPS (ttm)",
+### 		dividend: .Dividend, 
+### 		dividendPct: ."Dividend %" }' 2>/dev/null |
 	stock-stats $i | jq '{ symbol: "'$i'", 
-		price: (.Price) | tonumber, 
-		target: ."Target Price",
-		range: ."52W Range",
-		payout: ."Payout",
-		EPSttm: ."EPS (ttm)",
-		dividend: .Dividend, 
-		dividendPct: ."Dividend %" }' 2>/dev/null |
+		price: (.currentPrice) | tonumber, 
+		target: ."targetMedianPrice", 
+		W52Low: ."fiftyTwoWeekLow", 
+		W52High: ."fiftyTwoWeekHigh", 
+		payout: ."payoutRatio", 
+		EPSttm: ."trailingEps", 
+		dividend: ."lastDividendValue", 
+		dividendPct: ."dividendYield"  }' 2>/dev/null | 
 	./calculate-target-gains.js |
 	./calculate-div-cover.js |
 	./midprice.js |
