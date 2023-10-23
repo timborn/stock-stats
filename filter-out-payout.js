@@ -23,6 +23,7 @@ function isNumeric(str) {
 function parse(str) {
   const value = JSON.parse(str);
 
+  // TDB 231023 - next two lines for debugging
   // console.log("parseFloat(value['payout']) = "+parseFloat( value["payout"] ));
   // console.log("isNumeric = "+isNumeric(value["payout"]) );
 

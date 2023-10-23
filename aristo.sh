@@ -71,8 +71,8 @@ do
 		EPSttm: ."trailingEps", 
 		dividend: ."lastDividendValue", 
 		dividendPct: ."dividendYield"  }' 2>/dev/null | 
-	./calculate-target-gains.js |
-	./calculate-div-cover.js |
-	./midprice.js |
+#	./calculate-target-gains.js |
+#	./calculate-div-cover.js |
+#	./midprice.js |
 	if [ $NOFILT -eq 0 ] ; then ./filter-out-payout.js; else cat ; fi	# toss anything where payout ratio >= 100% 
 done < $FN
