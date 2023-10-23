@@ -14,18 +14,27 @@ function isNumeric(str) {
 
 function parse(str) {
   const json = JSON.parse(str);
-  range = json["range"];
-  // that regex is digits period digits spaces '-' everything else
-  if (match = range.match(/^(\d+\.\d+\s+)-(.*)$/)) {
-	first = parseFloat(+match[1]);			// float
-	second = parseFloat(match[2]);			// float
-        mid = parseFloat(((second + first)/2.0).toFixed(2));	// back to string to get 2 decimal places, then back to a number
-  	// console.log(JSON.stringify(first));
-  	// console.log(JSON.stringify(second));
-  	// console.log(JSON.stringify(mid));
-	delete json["range"];
-	json["midPrice"] = mid;
-  } 
+//### used when we has finviz
+//  range = json["range"];
+//  // that regex is digits period digits spaces '-' everything else
+//  if (match = range.match(/^(\d+\.\d+\s+)-(.*)$/)) {
+//	first = parseFloat(+match[1]);			// float
+//	second = parseFloat(match[2]);			// float
+//        mid = parseFloat(((second + first)/2.0).toFixed(2));	// back to string to get 2 decimal places, then back to a number
+//  	// console.log(JSON.stringify(first));
+//  	// console.log(JSON.stringify(second));
+//  	// console.log(JSON.stringify(mid));
+//	delete json["range"];
+//	json["midPrice"] = mid;
+//  } 
+
+//### yfinance gives us W52Low and W52High, so we don't need to parse "low - high"
+
+  low = json["W52Low"]; high = json["W52High"];
+  mid = parseFloat(((low + high)/2.0).toFixed(2));	// back to string to get 2 decimal places, then back to a number
+
+  delete json["W52Low"]; delete json["W52High"];
+  json["midPrice"] = mid;
   console.log(JSON.stringify(json));
 }
 
