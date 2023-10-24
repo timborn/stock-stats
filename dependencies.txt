@@ -1,0 +1,18 @@
+' https://www.plantuml.com/plantuml
+@startuml
+"worth-a-look.sh" --> recommend.sh
+recommend.sh --> aristo.sh
+recommend.sh --> filter-out-losses
+recommend.sh --> filter-over-midprice
+recommend.sh --> filter-out-payout.js
+recommend.sh --> sort-by-dividendPct.sh
+
+aristo.sh --> stock-stats
+aristo.sh --> calculate-target-gains.js
+aristo.sh --> calculate-div-cover.js
+aristo.sh --> midprice.js
+aristo.sh --> filter-out-payout.js
+
+"stock-stats" --> stock-stats-nocache
+@enduml
+
