@@ -7,6 +7,7 @@ recommend.sh --> filter-over-midprice
 recommend.sh --> filter-out-payout.js
 recommend.sh --> sort-by-dividendPct.sh
 
+aristo.sh -- aristocrats
 aristo.sh --> stock-stats
 aristo.sh --> calculate-target-gains.js
 aristo.sh --> calculate-div-cover.js
