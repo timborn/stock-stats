@@ -62,6 +62,8 @@ do
 ### 		EPSttm: ."EPS (ttm)",
 ### 		dividend: .Dividend, 
 ### 		dividendPct: ."Dividend %" }' 2>/dev/null |
+
+### now we use yfinance
 	stock-stats $i | jq '{ symbol: "'$i'", 
 		price: (.currentPrice) | tonumber, 
 		target: ."targetMedianPrice", 
